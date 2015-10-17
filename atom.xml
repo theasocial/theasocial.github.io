@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>The Asocial</title>
+    <link href="http://theasocial.com/atom.xml" rel="self" />
+    <link href="http://theasocial.com" />
+    <id>http://theasocial.com/atom.xml</id>
+    <author>
+        <name>The Asocial</name>
+        <email>info@theasocial.com</email>
+    </author>
+    <updated>2015-10-18T00:00:00Z</updated>
+    <entry>
+    <title>A Dark Web survivor</title>
+    <link href="http://theasocial.com/articles/places/a-dark-web-survivor.html" />
+    <id>http://theasocial.com/articles/places/a-dark-web-survivor.html</id>
+    <published>2015-10-18T00:00:00Z</published>
+    <updated>2015-10-18T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/shell-shock.jpg" alt="A Dark Web survivor"/>
+  
+  
+  
+  <p class="abstract">An interview with a Dark Web survivor</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 18, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/places.html">places</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        interview
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>The Asocial staff has happened to pick up a survivor, who has just returned from the <a href="https://en.wikipedia.org/wiki/Dark_Web">Dark Web</a>, and agreed to give us an interview in exchange for warm food, dry clothes, and a phone call.</p>
+<p><strong>The Asocial (A)</strong>: Let’s begin, shall we? How did it all begin?</p>
+<p><strong>The Survior (S)</strong>: Well, I was just curious what that Dark Web thing is, you see. I like discovering new things, and Dark Web seems to gain popularity these days, so I decided that it’s the time to find out what’s in there.</p>
+<p><strong>A</strong>: Sounds reasonable. And how have you joined it?</p>
+<p><strong>S</strong>: Uh, everything has happened so fast. Let’s see… First, I’ve typed “tor” — you know, that thing that usually gets mentioned together with Dark Web — in a search engine. Turned out I was just a few clicks away from the Tor browser.</p>
+<p><strong>A</strong>: So that’s how you got into the Dark Web?</p>
+<p><strong>S</strong>: Not quite, not yet. After running it, I got disoriented, I guess; I have still seen the usual web, though that was slower than usually, and there were captchas everywhere. But I figured that it’s not what they call “Dark Web”, so checked Wikipedia – turned out there is a <a href="https://en.wikipedia.org/wiki/List_of_Tor_hidden_services">list of Tor hidden services</a>.</p>
+<p><strong>A</strong>: Ah-ha, so you have picked a search engine and started your journey?</p>
+<p><strong>S</strong>: I’ve tried to, but it didn’t look like the best way: they were really poor. Ended up using something like <a href="https://en.wikipedia.org/wiki/Web_directory">web directories</a>, mostly <a href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a>.</p>
+<p><strong>A</strong>: Isn’t that vintage?</p>
+<p><strong>S</strong>: I guess you can say so, though it gets worse. Do you remember those web sites from the late 90s and early 00s?</p>
+<p><strong>A</strong>: Sure, it looked like the web was made exclusively by brain-damaged kids. Well, not that it’s very different now, but what about those?</p>
+<p><strong>S</strong>: Yeah, indeed it was. You may get nostalgic after looking around the Dark Web: not only it is slow almost as back in those days, but web site designs do resemble those. It’s like a weird time machine, except for occasional portions of junk from the modern age, brought there for no apparent reason.</p>
+<p><strong>A</strong>: Do they use those background images behind texts, ugly gradients, Comic Sans MS?</p>
+<p><strong>S</strong>: Yes, yes, they do! Well, not certain about Comic Sans, but there was plenty of different inappropriate fonts, and the rest is definitely there. I don’t know how or why it happens, but it’s just so; got used to that after some time though.</p>
+<p><strong>A</strong>: Wait, how long have you been there?</p>
+<p><strong>S</strong>: Oh, it’s hard to tell. I’m quite certain that I didn’t have a beard when it all started, but had a job or something; but, you see, when you have that feeling like you are in the past, the sense of time gets pretty distorted. And all those weird sites, it didn’t help to stay in touch with the regular reality.</p>
+<p><strong>A</strong>: Tell us more about the web sites you’ve seen.</p>
+<p><strong>S</strong>: Where do I start? Well, there is that Hidden Wiki thing – a title page, of sorts, at least was so for me. It served me well as a directory, and there is something to read, too, though it’s often written by crackpots. Plenty of scam and marketing around, some email services, though not much of social things generally – one more thing that makes it to feel like you are back in the past.</p>
+<p><strong>A</strong>: Do you mean those “likes” and all kinds of dependencies on external web sites? It sounds good to not have them.</p>
+<p><strong>S</strong>: Right, those; also “share” buttons, and other social networking things. And yes, in part that’s what made me to stick there for a while. But, you know, the sites still look like they were made by those mentally challenged people, which makes it hard to enjoy: there are even anonymous design studios, <a href="http://nt4f7fzcjoe3f5aj.onion/">one of which</a> literally hurts my eyes, and they offer to make sites exactly like their own.</p>
+<p><strong>A</strong>: That should be a crime, makes sense that they are anonymous. But why would somebody want to pay for that?</p>
+<p><strong>S</strong>: Well, it’s fancier than most of the sites there, I guess. Ah, did I mention ads? There are terrible, ugly, flashing web banners around – I can barely imagine how somebody can make something that bad; makes me to wonder why do they do that. And they advertise some junk, too; just doubling BTC instead of penises. Usual ad blocking won’t work, since they don’t provide lists for <code>.onion</code> sites, so you have to get rid of that manually.</p>
+<p><strong>A</strong>: Sounds appaling. Why didn’t you come back to the regular web at once?</p>
+<p><strong>S</strong>: A few reasons, actually. Firstly, I’m pretty sick of the regular web as well; it is easier around the regular web, since I know a few good sites already, and learned how to avoid the ones I wouldn’t like, but thought that I’ll find good ones there as well. Secondly, it’s all pretty charming: you know, a made-by-a-retarded-person kind of charming, but charming nevertheless. Thirdly… No, that’s all, I think.</p>
+<p><strong>A</strong>: Okay, what else have you seen there? Is it filled with cats and the pictures that were considered funny back in a day?</p>
+<p><strong>S</strong>: Cat pictures were one of the first things I’ve tried to find there, but found pictures of girls killing cats instead. Tried again after some time, and tried different search engines; seen a lot of Russian fraud-looking sites, regular fraud-looking sites, tons of child porn – mostly that kind of thing. Sometimes cat zoophile stories in German. A lot of defunct websites, too. Never before it was so hard to find funny cat photos.</p>
+<p><strong>A</strong>: No cats at all?</p>
+<p><strong>S</strong>: Well, there are <a href="http://2v7ibl5u4pbemwiz.onion/">Anonymous Cat Facts</a>, for instance – another example of a poor site right from the 90s, but with a cat photo and facts. If you are lucky enough, you may find some cat photos on non-CP imageboards. And yes, they distinguish regular sites from child porn ones that way, where default is CP.</p>
+<p><strong>A</strong>: It sounds like Dark Web is made out of child porn in the same way as internet is made out of porn.</p>
+<p><strong>S</strong>: Yes, pretty much, though there’s probably also more of commercialism. So, such general discussion imageboards, as well as forums, are mostly about conspiracy theories, newbie-level privacy, security and hacking, stupid — though probably working, you can never underestimate people — scam schemas, and so on; bitcoins are often involved, too. Also sex and drugs, of course, and music sometimes. It actually makes sense why the sites are so bad there – they are made by the same people. Virtually everything that may seem interesting suffers from being composed by kids, crackpots, et cetera. Because of that, you just stumble around, and not really reading, writing, or doing anything there.</p>
+<p><strong>A</strong>: Sounds like a description of a social network to me, or of any other imageboard – just less restrictive. So you got bored of it and decided to return?</p>
+<p><strong>S</strong>: Not exactly, no. One day I woke up and accidently started my old web browser, while was still sleepy. It restored my old tabs, but even Google didn’t recognize me: the tabs with search queries were filled with some irrelevant information – they looked approximately how I always imagined the last pages, it felt like hitting rock bottom. That’s how I found your magazine, by the way. And that’s when I figured that I should change my life.</p>
+<p><strong>A</strong>: Well, thank you, I guess. Is it all?</p>
+<p><strong>S</strong>: Yes, pretty much. You’re welcome.</p>
+<p><strong>A</strong>: That was kind of boring.</p>
+<p><strong>S</strong>: Screw you.</p>
+<p><strong>A</strong>: Screw you!</p>
+<p>Though this particular survivor turned out to be an asshole, The Asocial decided that its presence in the so-called “Dark Web” is necessary in order to provide a cozy shelter for those who discover such networks.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Tardigrades</title>
+    <link href="http://theasocial.com/articles/nature/tardigrades.html" />
+    <id>http://theasocial.com/articles/nature/tardigrades.html</id>
+    <published>2015-10-16T00:00:00Z</published>
+    <updated>2015-10-16T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/tardigrade.jpg" alt="Tardigrades"/>
+  
+  
+  
+  <p class="abstract">Water bear doesn't care</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 16, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/nature.html">nature</a>
+      </td>
+    </tr>
+    
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://en.wikipedia.org/wiki/Tardigrade">Tardigrades</a>, or water bears, as they call themselves, are awesome micro-animals (i.e., they are tiny, and can only be seen under a microscope, yet they even have <a href="https://en.wikipedia.org/wiki/Ommatidium">basic eyes</a>). It is pretty cool to be a micro-animal already, and even better to look like the one from the illustration, but there’s more!</p>
+<p>Imagine that you walk with a water bear, and feel free to pick your favourite time and place ever. Bring your imaginary friends, too! Now, let’s consider a few scenarios:</p>
+<ol style="list-style-type: decimal">
+<li><p>A nearby nuclear reactor explodes; if you are lucky, you die fast. The water bear continues to walk.</p></li>
+<li><p>Suddenly the air pressure becomes six times of that from the <a href="https://en.wikipedia.org/wiki/Mariana_Trench">deepest</a> <a href="https://en.wikipedia.org/wiki/Oceanic_trench">oceanic trenches</a> – that is, over 6000 times the usual atmospheric pressure. Your lungs would probably explode if you will not collapse before managing to inhale; the water bear will be fine.</p></li>
+<li><p>The air temperature rises above the water boiling point. You get boiled from inside and slightly baked from outside, the tardigrade glances at your remains dismissingly.</p></li>
+<li><p>The air temperature quickly drops to about the absolute zero; you have a few moments to experience a rare sensation (or not that rare – a quick agony, maybe?), and to wonder how the world would look like through your frozen eyes; the tardigrade gets a new ice slide.</p></li>
+<li><p>Food and water supplies disappear for years; the tardigrade will be hungry alone for most of that time.</p></li>
+<li><p>The atmosphere disappears, the Earth becomes more like most of the other rocks in space (alternatively, the Earch disappears together with its atmosphere); guess who <a href="http://www.bbc.co.uk/nature/12855775">survives</a> and forgets that you ever existed.</p></li>
+</ol>
+<p>Basically:</p>
+<div class="figure">
+<img src="/images/articles/water-bear.png" alt="Water bear doesn’t care" />
+<p class="caption">Water bear doesn’t care</p>
+</div>
+<p>(The picture is borrowed, resized, and backed up for future generations from <a href="http://www.beatricebiologist.com">Beatrice the Biologist</a>, and there is <a href="http://www.beatricebiologist.com/wp-content/uploads/2015/04/microbialdynamics.png">more</a> there).</p>
+<p><a href="http://www.youtube.com/watch?v=7W194GQ6fHI">That guy</a> suggests to be more like tardigrades. Well, not to survive anywhere, but along the lines of carpe diem – because tardigrades are also wiser than humans. That’s one of the reasons why they are <a href="https://en.wikipedia.org/wiki/Eutely">eutelic</a> (their bodies consist of a constant number of <a href="https://en.wikipedia.org/wiki/Somatic_cell">cells</a>), so that their perfection doesn’t get loose.</p>
+<p>The next time you will be cold, lonely, bored, in pain, or otherwise unhappy – try to imagine that you are a tardigrade. Sometimes it helps.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Libraries</title>
+    <link href="http://theasocial.com/articles/places/libraries.html" />
+    <id>http://theasocial.com/articles/places/libraries.html</id>
+    <published>2015-10-15T00:00:00Z</published>
+    <updated>2015-10-15T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/library.jpg" alt="Libraries"/>
+  
+  
+  
+  <p class="abstract">A short list of freely available book libraries</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Melk_-_Abbey_-_Library.jpg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        public domain
+      </td>
+    </tr>
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 15, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/places.html">places</a>
+      </td>
+    </tr>
+    
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="introduction">Introduction</h2>
+<p>Never before it was so easy to share knowledge: currently it takes moments and costs approximately nothing to send a book copy to the other side of the planet. You can just get a lot of books on any topic, skim those and look for suitable ones, or pick random ones to read, or find the ones you need – better than any offline library, not only in that you can do it anytime and from any computer connected to the internet.</p>
+<p>Unfortunately, computers are not always connected to the internet, search engines tend to throw fraud and commercial sites instead of books, some governments block libraries, and others do threat to put you into a jail with rape for “piracy”. Not a big deal, but not particularly convenient; better to know where the books are.</p>
+<h2 id="project-gutenberg">Project Gutenberg</h2>
+<p><a href="http://www.gutenberg.org/">Project Gutenberg</a> is a nice library, especially for recreational reading: it is all legal, hence books get there when their copyright expires; a lot of useful information gets outdated by that time. For offline reading (as well as for backup purposes), it provides <a href="http://www.gutenberg.org/wiki/Gutenberg:The_CD_and_DVD_Project#What_the_Discs_Contain">CD images</a>, though even less books are there.</p>
+<p>There are somewhat similar libraries, e.g. <a href="http://onlinebooks.library.upenn.edu/">The Online Books Page</a>, but usually it’s even harder to find anything useful there.</p>
+<h2 id="wikibooks">Wikibooks</h2>
+<p><a href="https://www.wikibooks.org/">Wikibooks</a> is a very promising project, yet there is very few finished books by now – when it comes to maths, at least. Since even those are not guaranteed to be the best for you, it is not the most useful library for now; hopefully, it will be in the future.</p>
+<h2 id="wikipedia">Wikipedia</h2>
+<p>Though <a href="https://www.wikipedia.org/">Wikipedia</a> is not a library, its printed version would consist of <a href="https://en.wikipedia.org/wiki/Wikipedia:Size_in_volumes">a couple of thousands of volumes</a>, which would make a small library. The best part here is that it’s a great encyclopedia, which you can <a href="https://en.wikipedia.org/wiki/Wikipedia:Database_download">download</a> – to be prepared for a zombie apocalypse, <a href="https://en.wikipedia.org/wiki/Censorship_of_Wikipedia">censorship of Wikipedia</a>, internet connection issues; or simply to have lower latency.</p>
+<h2 id="bittorrent-trackers">BitTorrent trackers</h2>
+<p><a href="https://en.wikipedia.org/wiki/The_Pirate_Bay">The Pirate Bay</a> (<a href="https://thepiratebay.se/">thepiratebay.se</a>, <a href="https://thepiratebay.gd/">thepiratebay.gd</a>), <a href="https://kat.cr/">Kickass Torrents</a>, as well as specialized search engines, such as <a href="https://torrentz.eu/">torrentz.eu</a>, may help you to find many books; often it is easier to find a specific book there, than by using a general-purpose web search engine.</p>
+<h2 id="offline-libraries">Offline libraries</h2>
+<p>The thing about offline libraries is that you can pick, skim, and read anything, anytime, and for free; it can also be written onto a device that fits into your pocket. Unfortunately, it is too good to be legal, so we won’t risk to provide the links. But here is a few names of mathematical libraries:</p>
+<ul>
+<li><code>The MYRIAD Mathematical Library</code>: around 11 GB of pure (and applied) awesomeness.</li>
+<li><code>-- mit math</code>: 2 GB of that.</li>
+<li><code>MATH MATHEMATICS BOOK COLLECTION</code>: almost 10 GB.</li>
+</ul>
+<h2 id="tor-network-libraries">Tor network libraries</h2>
+<p><a href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a> has a page for <a href="http://zqktlwi4fecvo6ri.onion/wiki/Libraries">libraries</a>; though one may think that anonymity leads to great libraries, in fact it is not necessarily the case. Yet, there are nice ones, <a href="http://clockwise3rldkgu.onion/">Clockwise Libraries</a> in particular.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Being homeless</title>
+    <link href="http://theasocial.com/articles/life/storage-bum.html" />
+    <id>http://theasocial.com/articles/life/storage-bum.html</id>
+    <published>2015-10-15T00:00:00Z</published>
+    <updated>2015-10-15T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/home-free.jpg" alt="Being homeless"/>
+  
+  
+  
+  <p class="abstract">The Asocial interviews a man who has lived out of his mini-storage unit for half a year</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/Self_storage">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 15, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/life.html">life</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        not recommended, investigation
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Today The Asocial goes to a diner place in one of the city’s most wealthy neighborhoods to meet with a person who’s living situation can technically be classified as homeless. As of what I managed to dig up about that person during my preparations for the interview, I’m aware that he works in the field of software development, is in his mid-20s and been sleeping on the office couch right next to where he works during the day.</p>
+<p>When I walked in, it turned out to be hard to figure out at first, which out of many homeless-looking people was him. Many artists live in this area, they tend to dress in a way which is supposed to make them stand out of the crowd. He flagged me down after recognizing my face and we quickly proceeded to begin the interview.</p>
+<p><strong>The Asocial (A)</strong>: Glad to finally meet with you in person, thank you for taking time to do this. I’ve heard many interesting stories about your unusual lifestyle. <br /> <strong>The Homeless (H)</strong>: There’s nothing unusual in it, believe me. I never planned my life to become this… interesting.</p>
+<p><strong>A</strong>: You sound a little upset about it, why? <br /> <strong>H</strong>: Well, like I said, I had other plans lined up for myself when I was on a plane to this country. They involved drugs, women and non-stop sex. Instead I had to work my ass off and <em>still</em> ended up being homeless.</p>
+<p><strong>A</strong>: Sounds upsetting. Go on. <br /> <strong>H</strong>: I’ve been doing this for half a year, believe it or not. Sleeping in my office, waking up before the building staff comes here, going to my gym every day, taking showers there.</p>
+<p><strong>A</strong>: Doesn’t sound too comfortable, but at the same time seems to be quite healthy! I’m aware that many people complain about the lack of motivation and there you have it: hygiene! Have to say you look quite strong for a homeless person. <br /> <strong>H</strong>: <em>laughs</em> No, I had the same build before. I don’t think that muscles can grow if someone’s homeless. Must have something to do with natural selection. I also prefer the term “home-free”.</p>
+<p><strong>A</strong>: I like it: “home-free”! Well, let me ask you a question that I can expect to come to minds of our readers at some point: since you have a job, why haven’t you just sublet something short-term? They must be paying you something, right? <br /> <strong>H</strong>: Well, believe it or not, I’ve tried. And it’s a waste of money. People want me to pay a fortune to stay in very… non-private conditions. Good deals are hard to get and it takes an enormous amount of personal time to find something, especially in summer. Besides after spending all day at work you just want some peace and quiet, not listen to some weird stories from a person that you barely know.</p>
+<p><strong>A</strong>: After you having lead this lifestyle, people must be paying /you/ to stay with them to hear your stories <em>laughs</em>. <br /> <strong>H</strong>: Well, isn’t it what’s going on here right now? Or am I wrong? You’re going to pay me for this, right?</p>
+<p><strong>A</strong>: So let’s talk about what lead you to this current situation of yours. <br /> <strong>H</strong>: I never thought I would end up being a bum. It looks charming when you watch a movie and see somebody being homeless. There’s definitely a lot of freedom in it. But freedom is having money to enjoy freedom. Simple as that. I’ve trusted certain people and spent too much of my time trying to be a nice guy. You have to be able to help yourself before you’re able to help anyone else.</p>
+<p><strong>A</strong>: Good boys never win, right? <br /> <strong>H</strong>: They do. Right after they stop being good.</p>
+<p><strong>A</strong>: So what about your previous adventures? Have you always been struggling to survive? <br /> <strong>H</strong>: Eventually the place where I lived, I couldn’t stay there any longer. I had a tax debt, very little money and a part-time job which covered only my food. After realizing that my situation was far from great, I decided not to bug my friends and not get help from anyone since I felt like that would be a big mistake. Getting help from others has made me upset and made me unable to live my life as a grown-up adult in the past. After moving out of my place I have rented a mini-storage space in the city, where all of my belongings were residing. Some time later, after sleeping where I was not supposed to be sleeping, taking showers at my gym and keeping my dirty laundry in the storage, I have realized one day that I could live my whole life like this: gym, storage and a place to sleep.</p>
+<p><strong>A</strong>: And let me guess, the latter one was still a problem? I mean, I’m well-aware of the fact that getting a place in the city is hard enough having a job, let alone being jobless <em>and</em> homeless. <br /> <strong>H</strong>: Yes, it was tricky. Believe it or not, I was happy being finally free. Had nowhere to go, had no money, but at least it was my life, without anyone knowing where I was, what I was doing and what my plans were.</p>
+<p><strong>A</strong>: So how did you manage to find a job? <br /> <strong>H</strong>: A recruitment agency. The trick is to not back down and always keep pushing forward, even if you have no money for food. It’s a very shallow world, so what you wear and how you dress is more important to people than what you know or do. Remember those levels in computer games, everyone plays on them, feeling like they’re inside of a building or some facility, but eventually you find out that the walls are transparent from the other side and tall crates have nothing on the top? …it’s all just decorations. Same goes for how people present themselves to each other. Everyone’s fake, nobody’s honest. I’m not implying that being dishonest is good. In fact, don’t lie if you end up being homeless because of the fact that you’re most likely a bad liar since you’ve ended up like that in the first place. A good liar would never end up being homeless. <em>laughs</em></p>
+<p><strong>A</strong>: Good point. So do tell, did you start squatting the office couch right away? Or was it the last resort for you? <br /> <strong>H</strong>: I’ve managed to save up enough money to be renting a room in the city at the time when I got hired. The financial situation I was in, it was pretty bad and I even had to borrow some cash to afford buying food for the first week of working at my new place. I’ve tried renting a room in the city but was shocked to see how little there was on the market during the summer. Worst deals ever for the highest price you can imagine. And even those places were hard to get! After about a month of wasting my time and money on paying for places I didn’t like at all, the realization came that I will not be able to save up enough money for signing a lease anytime soon while renting those rooms, not to mention that I had only a few months left to pay off my debt.</p>
+<p><strong>A</strong>: And that’s when you’ve convinced yourself that it’s just for a a couple of weeks until you pay off your debt, then it dragged on for months and months, am I…? <br /> <strong>H</strong>: Precisely!</p>
+<p>At this point we got interrupted by a waitress and decided to take a small break to finally order something. I have to say that despite me having certain expectations about the interview, I felt like there’s more to learn from this gentleman than I already have. Being poor is truly the only thing that one can’t buy and it was interesting talking to someone who got caught up in between city life and extreme poverty.</p>
+<p><strong>A</strong>: So it must be quite hard to keep it a secret, right? How long has it been, a few months? <br /> <strong>H</strong>: Five months and three weeks! Half of my office knows by now that I’m sleeping on the couch, but nobody is talking about it, which I found to be very nice of them. Most of the staff members at my storage facility do know. I never felt like I was fooling anyone. Having your own place is clearly better.</p>
+<p><strong>A</strong>: And how about your personal life, if you don’t mind me asking? Have you managed to give a tour of your office to any of your dates? <br /> <strong>H</strong>: Almost. <em>laughs</em> I’ve ended up going out many times, not like my life has stopped, right? Promised myself to live as fully as I can, be happy and enjoy the summer. Being stuck somewhere motivates you to find a way to escape your situation anyhow, even if it’s just for a little bit. One of my dates got invited to see the office but she has politely declined the invitation. Wasn’t that kind of a girl.</p>
+<p><strong>A</strong>: Have you ever considered finding a place to stay by getting together with an older lady? <br /> <strong>H</strong>: Not particularly. I would lose all the pride that I have if I became a prostitute. Though I’ve heard of a guy leading a similar lifestyle, yet he replaced working with selling drugs and sleeping on couches with sleeping on fat girls. To each his own.</p>
+<p><strong>A</strong>: It does seem to me that this appeal of… a stray guy who is trying to survive may seem attractive to some women. <br /> <strong>H</strong>: My best bet is to try to make it sound interesting. Keep in mind those old fairy-tales about poor young men rescuing princesses from castles. The truth is that girls want to get together with you right after they find out that you’re a bum. Even if you don’t get to sleep with all women in the world because you’re way too busy being homeless, don’t let that make you upset. It’s enough to know that most girls will be thinking of you while being screwed by their trust fund boyfriends in all possible and a few impossible ways. That’s what counts!</p>
+<p><strong>A</strong>: Sounds quite optimistic. I do agree that the independence is attractive, that must be it. <br /> <strong>H</strong>: Yes. As long as you don’t smell bad and don’t look worse than average, you should be fine. “There’s no need to suspend your life” – I’ve told myself. I knew it was a temporary situation and eventually I would get out of it. The time will be gone no matter what you do on the other hand, so just try to put in as many good moments as possible.</p>
+<p><strong>A</strong>: What would be your words of wisdom for anyone who ends up being homeless having little money? <br /> <strong>H</strong>: Here it goes:</p>
+<ol style="list-style-type: decimal">
+<li>Only move forward, keep pushing until you reach the goal. Then take a breath, recharge your batteries, enjoy the moment and move on.</li>
+<li>Don’t be homeless in your mind.</li>
+<li>Protein bars help. Buy in bulk and keep things like bottled water and snacks in your storage, even if it’s against the policy. Just make sure it’s all sealed and won’t attract critters.</li>
+</ol>
+<p><strong>A</strong>: I’m sure our readers will find it admirable that somebody would not go to a shelter or get on a welfare, but rather would keep fighting to get out of a bad situation. <br /> <strong>H</strong>: Hope my story inspires and helps people who end up in trouble. Give a man a fishing pole and he will learn how to fish, give a man nothing and he will find his own way.</p>
+<p>Here our host had to go take care of his laundry and therefore the interview was over. He didn’t want his name to be mentioned for obvious reasons, but he did tell me that he’s writing a book about surviving the city life while having no money. The Asocial will try to get parts of that book published prior its release.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>The Mosquito</title>
+    <link href="http://theasocial.com/articles/things/the-mosquito.html" />
+    <id>http://theasocial.com/articles/things/the-mosquito.html</id>
+    <published>2015-10-14T00:00:00Z</published>
+    <updated>2015-10-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/the-mosquito.jpg" alt="The Mosquito"/>
+  
+  
+  
+  <p class="abstract">Keeping those damn kids off your lawn</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="http://www.vancouversun.com/life/damn+kids+get+off+my+elementary/6487589/story.html">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 14, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/things.html">things</a>
+      </td>
+    </tr>
+    
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>The Mosquito is a device that helps you to keep all those damn <a href="https://en.wikipedia.org/wiki/Loitering">loitering</a> kids off your lawn by emitting sound at high (17.4 kHz) frequency, which only kids can hear. Its 8 kHz mode helps you to keep everyone off.</p>
+<p>If you feel especially sadistic, there is a “MUSIC” version, which is somehow legal to use in public places (as the <a href="http://www.movingsoundtech.com/">MST</a> site states), and plays the music which nobody likes. With The Mosquito, you’ll become the worst nightmare of those loiters – “the high-frequency overlord”, as they would call you.</p>
+<p>The best part is that it is not just annoying: <a href="https://en.wikipedia.org/wiki/The_Mosquito#Health_effects">as cited</a> in Wikipedia, “with the sound levels that can be reached by the device, the onset of dizziness, headache, nausea and impairment is to be expected”.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>OTR</title>
+    <link href="http://theasocial.com/articles/computing/otr.html" />
+    <id>http://theasocial.com/articles/computing/otr.html</id>
+    <published>2015-10-14T00:00:00Z</published>
+    <updated>2015-10-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  
+  
+  <p class="abstract">Instant messaging encryption and authentication</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 14, 2015
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://otr.cypherpunks.ca/">https://otr.cypherpunks.ca/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security, privacy
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="why-otr">Why OTR?</h2>
+<p>Recently we have covered <a href="/articles/software/gpg.html">data encryption and signing with GPG</a>, which is widely used and is nice for many purposes, yet some of its properties may be not desirable for instant messaging, while some of the properties which it does not possess may be desirable: for instance, a basic signed message provides the means for <a href="https://en.wikipedia.org/wiki/Authentication">authentication</a> (shows who wrote the message), <a href="https://en.wikipedia.org/wiki/Non-repudiation">non-repudiation</a> (the one who wrote it can’t deny that), and <a href="https://en.wikipedia.org/wiki/Data_integrity">data integrity</a> verification (the message can’t be altered by a third party); let’s consider the second property. You are sending a signed and encrypted message to another person – say, complaining about your teachers, parents, job or government to somebody, or sharing books, music or movies; encryption helps to ensure that only that person will receive the message, everything’s fine. The next day you find that the receiver is not a nice person, and now they have a proof of you writing that, which you can’t deny once it’s presented to others (well, you can <a href="https://en.wikipedia.org/wiki/Revocation_list">claim that the key was compromised</a>, but it’s still considerably worse than if such a proof didn’t exist in the first place). If the key really gets compromised, we come to another OpenPGP weakness: all the previously encrypted messages addressed to you also get compromised.</p>
+<p>GPG is good for some purposes, but for others it is far from perfect. Luckily, there are alternatives: <a href="https://otr.cypherpunks.ca/">OTR</a> (<a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging">Off-the-Record Messaging</a>) was <a href="https://otr.cypherpunks.ca/otr-wpes.pdf">designed</a> to get a more appropriate alternative to GPG for <a href="https://en.wikipedia.org/wiki/Secure_instant_messaging">secure</a> <a href="https://en.wikipedia.org/wiki/Instant_messaging">instant messaging</a> – taking human behaviour and various life situations into account.</p>
+<p>There are other alternatives (which we probably will cover in future articles), but after applying the basic rules from <a href="/articles/software/gpg.html">the GPG article</a>, we simply arrive to OTR: it is supported and used relatively widely, it is a serious project, and it provides useful features, such as <a href="https://en.wikipedia.org/wiki/Plausible_deniability">deniability</a> and <a href="https://en.wikipedia.org/wiki/Forward_secrecy">perfect forward secrecy</a>.</p>
+<h2 id="why-im">Why IM?</h2>
+<p>Although mail is not drastically different from IMs, such as XMPP, and one protocol can be used in place of another, their common use cases do differ, particularly in that we normally don’t expect a mail recipient to be online. But OTR establishes a secure channel before messages can be sent, making it rather impractical to use in such a mode. Other differences include the expectation that letters would be written to a disk in plain text (while IM logging may be turned off, reducing the risk of leaks) and delayed letter delivery (slow spam filters and IMAP/POP3); though it all can be avoided, that’s the current state of things: in most cases IMs are just more suitable for low latency message exchange, which is pretty much what makes them IMs, and hence for OTR.</p>
+<h2 id="using-otr">Using OTR</h2>
+<p>Just as GPG, OTR is not limited to any particular network protocol, and various multi-protocol clients do support it: some are listed in the “<a href="https://otr.cypherpunks.ca/software.php">OTR-Enabled Software</a>” section and in the <a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">Wikipedia article</a>; among those are <a href="https://www.bitlbee.org/main.php/news.r.html">BitlBee</a>, <a href="https://adium.im/">Adium</a>, <a href="https://userbase.kde.org/Kopete">Kopete</a> and <a href="https://pidgin.im/">Pidgin</a>.</p>
+<p>Those programs would do pretty much everything automatically, but there are some things that are useful to know about <a href="https://otr.cypherpunks.ca/Protocol-v3-4.0.0.html">the protocol</a>.</p>
+<p>First of all, you should have a <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">key pair</a> – just as with OpenPGP: usually it gets generated by a client when you enable OTR for the first time. But instead of using those keys to encrypt and sign your messages directly, OTR generates a common <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">symmetric key</a> using <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie–Hellman key exchange</a> – as does <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a>, so participants get authenticated to each other, but any of them can encrypt the messages, and make them look like they came from the other side – only the participants will know whether those are real. Cryptography is full of cool tricks!</p>
+<p>To make things fancier, OTR also supports <a href="https://en.wikipedia.org/wiki/Socialist_millionaire">socialist millionaire protocol</a> (<a href="http://twistedoakstudios.com/blog/Post3724_explain-it-like-im-five-the-socialist-millionaire-problem-and-secure-multi-party-computation">how it works</a>), which helps to ensure that the person you are talking to is who you think they are: basically, you provide a question and an expected answer, that person receives the question and answers it, and the protocol checks whether the answers match, but without revealing them. Another (and more reliable) method is to meet in person and exchange your public keys’ fingerprints, but often it is less practical, or to sign them with GPG, if you have exchanged those keys previously.</p>
+<p>One more useful to know thing about OTR is that it can be configured to indicate your willingness to use OTR, but without necessarily visible messages: just by adding whitespace characters to one of your messages. So that OTR won’t be required, and won’t even be visible in most cases, but will be established if both participants are willing to use it when possible.</p>
+<p>There is more guides and explanations around: <a href="http://www.bitcoinnotbombs.com/beginners-guide-to-off-the-record-messaging/">Beginners’ Guide To Off-the-Record Messaging</a> and <a href="https://wiki.bitlbee.org/bitlbee-otr">OTR with bitlbee</a>, for instance, and the specification itself is readable.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>GPG</title>
+    <link href="http://theasocial.com/articles/computing/gpg.html" />
+    <id>http://theasocial.com/articles/computing/gpg.html</id>
+    <published>2015-10-11T00:00:00Z</published>
+    <updated>2015-10-11T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/gpg.svg" alt="GPG"/>
+  
+  
+  
+  <p class="abstract">Data encryption and signing with GPG</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://gnupg.org/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> or <a href="http://www.gnu.org/licenses/">GPLv3+</a>, <a href="https://gnupg.org/copying.html">apparently</a>
+      </td>
+    </tr>
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 11, 2015
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://gnupg.org/">https://gnupg.org/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="introduction">Introduction</h2>
+<p><a href="https://en.wikipedia.org/wiki/Cryptography">Cryptography</a> may help to enforce both <a href="https://en.wikipedia.org/wiki/Information_security">information security</a> and <a href="https://en.wikipedia.org/wiki/Right_to_privacy">the right</a> to <a href="https://en.wikipedia.org/wiki/Privacy">privacy</a>. Unfortunately, most of computer users do not value those things, and even if they do not mind using encryption (which becomes more trendy nowadays, since all that <a href="https://en.wikipedia.org/wiki/Mass_surveillance">mass surveilance</a> is confirmed and is not a conspiracy theory anymore; though a teapot integration would still be picked over both privacy and security by most users), it appears to be hard for them to set everything up. Here is an attempt to explain the basics to the newbie computer users.</p>
+<h2 id="basic-rules">Basic rules</h2>
+<ul>
+<li>Encryption software should be reviewed by multiple security experts and users in order to be more or less trustworthy, hence:
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Proprietary_software">Proprietary software</a> is a security distaster, and proprietary encryption software is even more so.</li>
+<li>Web-based encryption is almost as bad as proprietary software.</li>
+<li>Popular and commonly used software and algorithms are generally more reliable than custom software and algorithms. But do not confuse trendy and actively marketed things with serious ones.</li>
+<li>Pretty much everything that is secure and available to a regular user is also <a href="https://en.wikipedia.org/wiki/Free_software">free</a>.</li>
+</ul></li>
+<li>In many cases you would want <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption</a>.</li>
+<li>There is <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">symmetric</a> cryptography, where messages are encrypted and decrypted with the same key, and <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">asymmetric</a> (public-key) cryptography, where two different keys are used for those purposes. We will mostly focus on the latter here.</li>
+<li>“<a href="https://www.schneier.com/blog/archives/2011/04/schneiers_law.html">Schneier’s Law</a>”: “Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can’t break.”</li>
+</ul>
+<h2 id="warning">Warning</h2>
+<p>If your concern is privacy, it is recommended to take a look at <a href="/articles/software/otr.html">OTR</a> and Tor instead.</p>
+<h2 id="gpg">GPG</h2>
+<p><a href="https://gnupg.org/">The GNU Privacy Guard</a> is a rather useful encryption tool: it can be used to encrypt and/or to sign mail (and mail clients usually can invoke it automatically; <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">OpenPGP</a>, which it implements, is a standard way to encrypt mail, by the way), files, or any other kinds of messages. It is <a href="https://gnupg.org/documentation/index.html">well-documented</a>, and there are <code>man gpg</code> and <code>info gpg</code>, but let’s highlight a few of the common tasks.</p>
+<p>There are various wrappers, including graphical ones, but we will focus on the primary console tool: it is simple enough, and, well, it is the primary tool. It might be a little easier to use with a single key, or at least a default one, but we will aim multiple keys, using ”The Asocial“ as a user name, and setting it explicitly whenever appropriate.</p>
+<h3 id="getting-started">Getting started</h3>
+<p>Once you have GPG installed, you will need a key pair – a public key to share, and a private (or “secret”) key to keep for yourself: <code>gpg --gen-key</code>. It will ask a few questions, but it is fine to use default values if not sure what those mean.</p>
+<p>To list the existing keys, there are <code>gpg --list-public-keys</code> and <code>gpg --list-secret-keys</code> commands.</p>
+<h3 id="encrypting-and-decrypting-messages">Encrypting and decrypting messages</h3>
+<p>Let’s encrypt the first message now: we only need a recipient public key for that, but will write it to ourselves (so we have it already). One way to do that is <code>gpg --encrypt --armor --recipient 'The Asocial'</code> (<code>--armor</code> stands for “ASCII armor”, as opposed to binary data, so you can copy and paste it easily and virtually anywhere): type a message, hit <code>C-d</code> (<code>Ctrl + D</code>, <code>EOT</code>, end of transmission), and that’s it – the output is an encrypted message.</p>
+<p>To decrypt the message, you will need the corresponding private key, and the command is simply <code>gpg</code> (or <code>gpg --decrypt</code>) – after pasting an encrypted message there and hitting <code>C-d</code>, it should show us the original message.</p>
+<h3 id="key-export-and-import">Key export and import</h3>
+<p>To enable someone to set us as an encrypted message recipient, we should share our public key with them. Be careful to not expose your private key here! But that’s pretty simple, too: <code>gpg --armor --export 'The Asocial'</code> (or <code>gpg -o key.asc --export 'The Asocial'</code> to write it into a binary file).</p>
+<p>To import a key, either <code>gpg --import</code> and paste it there, or <code>gpg --import key.asc</code>. Or just <code>gpg</code> to check it.</p>
+<p>Later you can publish your keys on a <a href="https://en.wikipedia.org/wiki/Key_server_%28cryptographic%29">key server</a>, so that others can retrieve the key rather securely (though it is a bigger problem than it may seem to exchange the keys securely), finding it simply by name or email.</p>
+<h3 id="signing-and-verifying-messages">Signing and verifying messages</h3>
+<p>Now you can exchange encrypted messages, but there is one important thing left: you can not be sure who sent you a message when you receive one – even if it is encrypted, that could be anyone who knows your public key (and, since it is public, normally you wouldn’t hide it). To <a href="https://en.wikipedia.org/wiki/Digital_signature">sign</a> a message, one basically encrypts it (or, rather, its <a href="https://en.wikipedia.org/wiki/Hash_function">hash</a>, sometimes together with date and other <a href="https://en.wikipedia.org/wiki/Metadata">metadata</a>) with a private key, so others can try to decrypt it with the public key – and to see whether the corresponding private key belongs to the right person or not.</p>
+<p>In order to sign a message with GnuPG, you do something like <code>gpg --armor --clearsign --local-user 'The Asocial'</code>, and then as usual – writing a message, hitting <code>C-d</code>. To verify, just <code>gpg</code> (or <code>gpg --verify</code>), and paste the message there.</p>
+<p>Now you can sign, encrypt, sign and then encrypt, encrypt and then sign, and even sign and/or encrypt messages and files with multiple keys!</p>
+<h3 id="more-on-gpg">More on GPG</h3>
+<p>As mentioned above, there is good <a href="https://gnupg.org/documentation/index.html">documentation</a>, as well as <code>man</code> and <code>info</code> pages; various <a href="https://duckduckgo.com/?q=gpg+cheat+sheet&amp;ia=cheatsheet&amp;iax=1">cheat sheets</a> can easily be found, too.</p>
+<p>If you are curious how it works, there is a good explanation of one of the core algorithms, <a href="https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29">RSA</a>, in Wikipedia, and there are good introductory books, such as Schneier’s famous <a href="https://www.schneier.com/books/applied_cryptography/">Applied Cryptography</a>.</p>
+<h3 id="related-software">Related software</h3>
+<p>Any decent mail client would support GPG, and most of GNU/Linux distributions are shipped with both GPG and some kind of a graphical wrapper to manage keys, and probably to work with GPG in other ways. So, just look around in your system, and chances are that it is already there.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Star Wars</title>
+    <link href="http://theasocial.com/articles/video/star-wars.html" />
+    <id>http://theasocial.com/articles/video/star-wars.html</id>
+    <published>2015-10-10T00:00:00Z</published>
+    <updated>2015-10-10T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/yoda.png" alt="Star Wars"/>
+  
+  
+  
+  <p class="abstract">We investigate what causes all those Star Wars references to emerge</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Yoda_Empire_Strikes_Back.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 10, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        sci-fi, investigation
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>The Asocial decided to investigate the reason behind an outstanding amount of <a href="https://en.wikipedia.org/wiki/Star_Wars">Star Wars</a> references (<a href="http://starwarsfans.wikia.com/wiki/List_of_references_to_Star_Wars_in_movies">1</a>, <a href="https://duckduckgo.com/?q=star+wars+references">2</a>) in other movies and TV series, conversations. and pretty much any other sources of information.</p>
+<p>A simple explanation would be that it is what was popular back when plot writers, article writers, and other kinds of reference producers were excitable kids, bringing us echoes of what was popular back in a day (early 80s, that is). In such a case, one would expect it to decline, since a 50 years old writer should understand that things have changed since his or her childhood, and target audience of random popular culture references should not always be the same generation, but it doesn’t seem to be the case.</p>
+<p>Another possible explanation is that its plot is really good, characters are interesting and well-played, and so on, which is also suggested by many of those references. Well, let’s finally watch it!</p>
+<p><a href="https://en.wikipedia.org/wiki/Star_Wars#Theatrical_films">There is</a> an original trilogy, a prequel trilogy, and a spin-off; planned movies include a sequel trilogy, and additional stand-alone Star Wars universe movies. Though it may make sense to watch the original trilogy first, the experience will not be the same as for those who watched it before everything was spoiled, so we will watch prequel and original trilogy, in that order.</p>
+<p>The most commonly spoiled parts are:</p>
+<ul>
+<li>Luke is a protagonist, Darth Vader is an antagonist.</li>
+<li>Princess Leia is beautiful, and is especially attractive in a slave outfit.</li>
+<li>«Use the Force, Luke» is a helpful and somehow outstanding reminder.</li>
+<li>Death Star is built by Darth Vader, destroyed by Luke.</li>
+<li>Darth Vader being Luke’s father is a huge plot twist.</li>
+<li>Jedi are good, and they fight with <a href="https://en.wikipedia.org/wiki/Lightsaber">laser sticks</a>.</li>
+<li>Jedi can become bad, by doing bad things, and probably they become more powerful that way.</li>
+<li>There are some robots.</li>
+<li>There are folks (robots?) in white outfits around Darth Vader.</li>
+<li>Yoda is a little green Jedi, and his speech is <a href="https://en.wikipedia.org/wiki/Object–subject–verb">weird</a>.</li>
+<li>The Federation March is cool.</li>
+</ul>
+<p>Let’s also see whether those are correct.</p>
+<p>From the very beginning, we see a clear distinction between good and bad folks: the good ones are pretty, and non-human ones are cute, while the bad ones are ugly, and non-human ones are rather disgusting. If a bad guy pretends to be a good one, he also changes his looks somehow. If a good guy becomes bad, he also becomes ugly.</p>
+<p>Atmosphere and gravitation are the same almost everywhere, and any species are fine with that. Except for open space and asteroids, where only some huge worms are shown to live. The climate is also approximately the same everywhere. And there is a planet inhabited by <a href="https://en.wikipedia.org/wiki/Ewok">teddy bears</a>.</p>
+<p>Lightsabres are said to be traditional Jedi weapons, but they also are good for close combat, as well as to deflect laser rays. Blasters are said to be clumsy and non-reliable, and they indeed are: somehow their rays are extremely slow, so Jedi can reflect them back (to be fair, it is also said that Jedi can predict the future, so one may assume that those rays are not that slow, and are only pictured that way: an ancient version of <a href="https://en.wikipedia.org/wiki/Slow_motion">slow motion</a>). Apparently there is a few kinds of force fields and shields, most of which block blasters and lightsabres, but not regular objects; makes one to wonder why don’t they use powder-based weapons. In big battles, they also use blasters and struggle against force fields: no bombs or rockets, no chemical, biological or nuclear weapons. Some of the robots (<a href="https://en.wikipedia.org/wiki/Battle_droid#Droideka">Destroyer Droids</a>, which are capable of capturing Jedi, and from which Jedi just flee if they can) use such shields as well, but Jedi do not.</p>
+<p>So, the universe does not seem to be elaborate, or to make much sense.</p>
+<p>Regarding the plot: Luke and Leia are twins, but they don’t look even remotely similar, and they don’t suspect that until they are told that it is the case.</p>
+<p>It is clear that Darth Vader is Luke’s father from the prequel, but even in the original trilogy it is uncovered before Darth Vader says that to Luke (while the latter gets cited in references).</p>
+<p>«Use the Force, Luke» sounds among other dull phrases in Luke’s head (dead Obi-Wan communicates with him somehow) while he tries to destroy the Death Star, which is just constructed; apparently it helped, but there was nothing exciting about it. Then there is the second Death Star, which is destroyed right after it is constructed, too – so there is not much action around it.</p>
+<p>On the bright side, Darth Vader being Luke’s father makes more sense than one might expect without watching, The Imperial March is indeed nice, Leia is indeed pretty, and Yoda is cute.</p>
+<p>It probably is a nice movie for children, and supposedly was even more so in early 80s, yet the image built by references may be considerably better than the one you get after actually watching it. As of references, they probably just do nourish themselves now: since even those who have not watched Star Wars would understand them, they would serve as fillers for popular culture references anywhere.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Red Dwarf</title>
+    <link href="http://theasocial.com/articles/video/red-dwarf.html" />
+    <id>http://theasocial.com/articles/video/red-dwarf.html</id>
+    <published>2015-10-10T00:00:00Z</published>
+    <updated>2015-10-10T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/red-dwarf.png" alt="Red Dwarf"/>
+  
+  
+  
+  <p class="abstract">A British sitcom</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Red_Dwarf_logo.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 10, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        tv series, sci-fi
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://en.wikipedia.org/wiki/Red_Dwarf">Red Dwarf</a> is a British sci-fi sitcom. It might seem rather dull, old, low-budget, inconsistent, and trashy overall, yet it manages to be fun and atmospheric, and might be suitable for killing a few days of your life on watching it.</p>
+<p>The story is set in space and in a distant future, with possibly the last human being alive, who lives on a space ship, is lonely, bored, and wants to have fun; easy to relate to, that is. And there also is a hologram of a dead man. Despite that, it manages to be very light-hearted, and is appropriate to watch even with your parents: it should not be awkward – in case if they are alive and you get along with them, at least.</p>
+<p>It also has a pretty nice <a href="http://reddwarf.wikia.com/wiki/Red_Dwarf_theme">theme song</a>, which may be used to get a hang of what it is about.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Existential comics</title>
+    <link href="http://theasocial.com/articles/places/existential-comics.html" />
+    <id>http://theasocial.com/articles/places/existential-comics.html</id>
+    <published>2015-10-10T00:00:00Z</published>
+    <updated>2015-10-10T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  
+  
+  <p class="abstract">“A philosophy comic about the inevitable anguish of living a brief life in an absurd world. Also jokes.”</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 10, 2015
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="http://existentialcomics.com/">http://existentialcomics.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/places.html">places</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        web, comics
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>There is <a href="https://en.wikipedia.org/wiki/List_of_webcomics">quite a choice</a> of web comics around the web, and sometimes one can even find the good ones. «<a href="http://existentialcomics.com/">Existential comics</a>» manages to be both funny and interesting, providing an overview of major philosophical ideas and schools of thought – usually by picturing their comical applications in a variety of settings, e.g. philosophers playing board games, such as D&amp;D and Risk.</p>
+<p>Contrary to the name, it is not limited to existentialism, and exhibits different philosophical traditions; neither it seems to be limited in topics (a reminder: philosophy is about a bunch of pretty <a href="https://en.wikipedia.org/wiki/Philosophy">different</a> <a href="https://en.wikipedia.org/wiki/Outline_of_philosophy">things</a>).</p>
+<p>The comics may assume familiarity with their topics, but each page contains a brief explanation of what is going on in a strip.</p>
+</div>
+]]></summary>
+</entry>
+
+</feed>

@@ -1,0 +1,134 @@
+<!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>OTR – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+  </head>
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">OTR</h1>
+      
+      <div class="info">
+  
+  
+  
+  <p class="abstract">Instant messaging encryption and authentication</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 14, 2015
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://otr.cypherpunks.ca/">https://otr.cypherpunks.ca/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security, privacy
+      </td>
+    </tr>
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="why-otr">Why OTR?</h2>
+<p>Recently we have covered <a href="../../articles/software/gpg.html">data encryption and signing with GPG</a>, which is widely used and is nice for many purposes, yet some of its properties may be not desirable for instant messaging, while some of the properties which it does not possess may be desirable: for instance, a basic signed message provides the means for <a href="https://en.wikipedia.org/wiki/Authentication">authentication</a> (shows who wrote the message), <a href="https://en.wikipedia.org/wiki/Non-repudiation">non-repudiation</a> (the one who wrote it can’t deny that), and <a href="https://en.wikipedia.org/wiki/Data_integrity">data integrity</a> verification (the message can’t be altered by a third party); let’s consider the second property. You are sending a signed and encrypted message to another person – say, complaining about your teachers, parents, job or government to somebody, or sharing books, music or movies; encryption helps to ensure that only that person will receive the message, everything’s fine. The next day you find that the receiver is not a nice person, and now they have a proof of you writing that, which you can’t deny once it’s presented to others (well, you can <a href="https://en.wikipedia.org/wiki/Revocation_list">claim that the key was compromised</a>, but it’s still considerably worse than if such a proof didn’t exist in the first place). If the key really gets compromised, we come to another OpenPGP weakness: all the previously encrypted messages addressed to you also get compromised.</p>
+<p>GPG is good for some purposes, but for others it is far from perfect. Luckily, there are alternatives: <a href="https://otr.cypherpunks.ca/">OTR</a> (<a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging">Off-the-Record Messaging</a>) was <a href="https://otr.cypherpunks.ca/otr-wpes.pdf">designed</a> to get a more appropriate alternative to GPG for <a href="https://en.wikipedia.org/wiki/Secure_instant_messaging">secure</a> <a href="https://en.wikipedia.org/wiki/Instant_messaging">instant messaging</a> – taking human behaviour and various life situations into account.</p>
+<p>There are other alternatives (which we probably will cover in future articles), but after applying the basic rules from <a href="../../articles/software/gpg.html">the GPG article</a>, we simply arrive to OTR: it is supported and used relatively widely, it is a serious project, and it provides useful features, such as <a href="https://en.wikipedia.org/wiki/Plausible_deniability">deniability</a> and <a href="https://en.wikipedia.org/wiki/Forward_secrecy">perfect forward secrecy</a>.</p>
+<h2 id="why-im">Why IM?</h2>
+<p>Although mail is not drastically different from IMs, such as XMPP, and one protocol can be used in place of another, their common use cases do differ, particularly in that we normally don’t expect a mail recipient to be online. But OTR establishes a secure channel before messages can be sent, making it rather impractical to use in such a mode. Other differences include the expectation that letters would be written to a disk in plain text (while IM logging may be turned off, reducing the risk of leaks) and delayed letter delivery (slow spam filters and IMAP/POP3); though it all can be avoided, that’s the current state of things: in most cases IMs are just more suitable for low latency message exchange, which is pretty much what makes them IMs, and hence for OTR.</p>
+<h2 id="using-otr">Using OTR</h2>
+<p>Just as GPG, OTR is not limited to any particular network protocol, and various multi-protocol clients do support it: some are listed in the “<a href="https://otr.cypherpunks.ca/software.php">OTR-Enabled Software</a>” section and in the <a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">Wikipedia article</a>; among those are <a href="https://www.bitlbee.org/main.php/news.r.html">BitlBee</a>, <a href="https://adium.im/">Adium</a>, <a href="https://userbase.kde.org/Kopete">Kopete</a> and <a href="https://pidgin.im/">Pidgin</a>.</p>
+<p>Those programs would do pretty much everything automatically, but there are some things that are useful to know about <a href="https://otr.cypherpunks.ca/Protocol-v3-4.0.0.html">the protocol</a>.</p>
+<p>First of all, you should have a <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">key pair</a> – just as with OpenPGP: usually it gets generated by a client when you enable OTR for the first time. But instead of using those keys to encrypt and sign your messages directly, OTR generates a common <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">symmetric key</a> using <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie–Hellman key exchange</a> – as does <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a>, so participants get authenticated to each other, but any of them can encrypt the messages, and make them look like they came from the other side – only the participants will know whether those are real. Cryptography is full of cool tricks!</p>
+<p>To make things fancier, OTR also supports <a href="https://en.wikipedia.org/wiki/Socialist_millionaire">socialist millionaire protocol</a> (<a href="http://twistedoakstudios.com/blog/Post3724_explain-it-like-im-five-the-socialist-millionaire-problem-and-secure-multi-party-computation">how it works</a>), which helps to ensure that the person you are talking to is who you think they are: basically, you provide a question and an expected answer, that person receives the question and answers it, and the protocol checks whether the answers match, but without revealing them. Another (and more reliable) method is to meet in person and exchange your public keys’ fingerprints, but often it is less practical, or to sign them with GPG, if you have exchanged those keys previously.</p>
+<p>One more useful to know thing about OTR is that it can be configured to indicate your willingness to use OTR, but without necessarily visible messages: just by adding whitespace characters to one of your messages. So that OTR won’t be required, and won’t even be visible in most cases, but will be established if both participants are willing to use it when possible.</p>
+<p>There is more guides and explanations around: <a href="http://www.bitcoinnotbombs.com/beginners-guide-to-off-the-record-messaging/">Beginners’ Guide To Off-the-Record Messaging</a> and <a href="https://wiki.bitlbee.org/bitlbee-otr">OTR with bitlbee</a>, for instance, and the specification itself is readable.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
