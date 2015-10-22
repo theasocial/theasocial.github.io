@@ -11,8 +11,8 @@
     <updated>2015-10-21T00:00:00Z</updated>
     <entry>
     <title>Human web trafficking</title>
-    <link href="http://theasocial.com/articles/places/human-web-trafficking.html" />
-    <id>http://theasocial.com/articles/places/human-web-trafficking.html</id>
+    <link href="http://theasocial.com/articles/internet/human-web-trafficking.html" />
+    <id>http://theasocial.com/articles/internet/human-web-trafficking.html</id>
     <published>2015-10-21T00:00:00Z</published>
     <updated>2015-10-21T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="info">
@@ -65,7 +65,7 @@
         Category
       </th>
       <td>
-        <a class="cat" href="/categories/places.html">places</a>
+        <a class="cat" href="/categories/internet.html">internet</a>
       </td>
     </tr>
     
@@ -122,8 +122,8 @@
 </entry>
 <entry>
     <title>A Dark Web survivor</title>
-    <link href="http://theasocial.com/articles/places/a-dark-web-survivor.html" />
-    <id>http://theasocial.com/articles/places/a-dark-web-survivor.html</id>
+    <link href="http://theasocial.com/articles/internet/a-dark-web-survivor.html" />
+    <id>http://theasocial.com/articles/internet/a-dark-web-survivor.html</id>
     <published>2015-10-18T00:00:00Z</published>
     <updated>2015-10-18T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="info">
@@ -158,7 +158,7 @@
         Category
       </th>
       <td>
-        <a class="cat" href="/categories/places.html">places</a>
+        <a class="cat" href="/categories/internet.html">internet</a>
       </td>
     </tr>
     
@@ -291,97 +291,6 @@
 ]]></summary>
 </entry>
 <entry>
-    <title>Libraries</title>
-    <link href="http://theasocial.com/articles/places/libraries.html" />
-    <id>http://theasocial.com/articles/places/libraries.html</id>
-    <published>2015-10-15T00:00:00Z</published>
-    <updated>2015-10-15T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info">
-  
-  <img src="/images/articles/library.jpg" alt="Libraries"/>
-  
-  
-  
-  <p class="abstract">A short list of freely available book libraries</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Melk_-_Abbey_-_Library.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        public domain
-      </td>
-    </tr>
-    
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        October 15, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/places.html">places</a>
-      </td>
-    </tr>
-    
-    
-
-    
-  </table>
-</div>
-
-<div id="article">
-  <h2 id="introduction">Introduction</h2>
-<p>Never before it was so easy to share knowledge: currently it takes moments and costs approximately nothing to send a book copy to the other side of the planet. You can just get a lot of books on any topic, skim those and look for suitable ones, or pick random ones to read, or find the ones you need – better than any offline library, not only in that you can do it anytime and from any computer connected to the internet.</p>
-<p>Unfortunately, computers are not always connected to the internet, search engines tend to throw fraud and commercial sites instead of books, some governments block libraries, and others do threat to put you into a jail with rape for “piracy”. Not a big deal, but not particularly convenient; better to know where the books are.</p>
-<h2 id="project-gutenberg">Project Gutenberg</h2>
-<p><a href="http://www.gutenberg.org/">Project Gutenberg</a> is a nice library, especially for recreational reading: it is all legal, hence books get there when their copyright expires; a lot of useful information gets outdated by that time. For offline reading (as well as for backup purposes), it provides <a href="http://www.gutenberg.org/wiki/Gutenberg:The_CD_and_DVD_Project#What_the_Discs_Contain">CD images</a>, though even less books are there.</p>
-<p>There are somewhat similar libraries, e.g. <a href="http://onlinebooks.library.upenn.edu/">The Online Books Page</a>, but usually it’s even harder to find anything useful there.</p>
-<h2 id="wikibooks">Wikibooks</h2>
-<p><a href="https://www.wikibooks.org/">Wikibooks</a> is a very promising project, yet there is very few finished books by now – when it comes to maths, at least. Since even those are not guaranteed to be the best for you, it is not the most useful library for now; hopefully, it will be in the future.</p>
-<h2 id="wikipedia">Wikipedia</h2>
-<p>Though <a href="https://www.wikipedia.org/">Wikipedia</a> is not a library, its printed version would consist of <a href="https://en.wikipedia.org/wiki/Wikipedia:Size_in_volumes">a couple of thousands of volumes</a>, which would make a small library. The best part here is that it’s a great encyclopedia, which you can <a href="https://en.wikipedia.org/wiki/Wikipedia:Database_download">download</a> – to be prepared for a zombie apocalypse, <a href="https://en.wikipedia.org/wiki/Censorship_of_Wikipedia">censorship of Wikipedia</a>, internet connection issues; or simply to have lower latency.</p>
-<h2 id="bittorrent-trackers">BitTorrent trackers</h2>
-<p><a href="https://en.wikipedia.org/wiki/The_Pirate_Bay">The Pirate Bay</a> (<a href="https://thepiratebay.se/">thepiratebay.se</a>, <a href="https://thepiratebay.gd/">thepiratebay.gd</a>), <a href="https://kat.cr/">Kickass Torrents</a>, as well as specialized search engines, such as <a href="https://torrentz.eu/">torrentz.eu</a>, may help you to find many books; often it is easier to find a specific book there, than by using a general-purpose web search engine.</p>
-<h2 id="offline-libraries">Offline libraries</h2>
-<p>The thing about offline libraries is that you can pick, skim, and read anything, anytime, and for free; it can also be written onto a device that fits into your pocket. Unfortunately, it is too good to be legal, so we won’t risk to provide the links. But here is a few names of mathematical libraries:</p>
-<ul>
-<li><code>The MYRIAD Mathematical Library</code>: around 11 GB of pure (and applied) awesomeness.</li>
-<li><code>-- mit math</code>: 2 GB of that.</li>
-<li><code>MATH MATHEMATICS BOOK COLLECTION</code>: almost 10 GB.</li>
-</ul>
-<h2 id="tor-network-libraries">Tor network libraries</h2>
-<p><a href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a> has a page for <a href="http://zqktlwi4fecvo6ri.onion/wiki/Libraries">libraries</a>; though one may think that anonymity leads to great libraries, in fact it is not necessarily the case. Yet, there are nice ones, <a href="http://clockwise3rldkgu.onion/">Clockwise Libraries</a> in particular.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
     <title>Being homeless</title>
     <link href="http://theasocial.com/articles/life/storage-bum.html" />
     <id>http://theasocial.com/articles/life/storage-bum.html</id>
@@ -477,6 +386,97 @@
 </ol>
 <p><strong>A</strong>: I’m sure our readers will find it admirable that somebody would not go to a shelter or get on a welfare, but rather would keep fighting to get out of a bad situation. <br /> <strong>H</strong>: Hope my story inspires and helps people who end up in trouble. Give a man a fishing pole and he will learn how to fish, give a man nothing and he will find his own way.</p>
 <p>Here our host had to go take care of his laundry and therefore the interview was over. He didn’t want his name to be mentioned for obvious reasons, but he did tell me that he’s writing a book about surviving the city life while having no money. The Asocial will try to get parts of that book published prior its release.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Libraries</title>
+    <link href="http://theasocial.com/articles/internet/libraries.html" />
+    <id>http://theasocial.com/articles/internet/libraries.html</id>
+    <published>2015-10-15T00:00:00Z</published>
+    <updated>2015-10-15T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+  
+  <img src="/images/articles/library.jpg" alt="Libraries"/>
+  
+  
+  
+  <p class="abstract">A short list of freely available book libraries</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Melk_-_Abbey_-_Library.jpg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        public domain
+      </td>
+    </tr>
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 15, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="introduction">Introduction</h2>
+<p>Never before it was so easy to share knowledge: currently it takes moments and costs approximately nothing to send a book copy to the other side of the planet. You can just get a lot of books on any topic, skim those and look for suitable ones, or pick random ones to read, or find the ones you need – better than any offline library, not only in that you can do it anytime and from any computer connected to the internet.</p>
+<p>Unfortunately, computers are not always connected to the internet, search engines tend to throw fraud and commercial sites instead of books, some governments block libraries, and others do threat to put you into a jail with rape for “piracy”. Not a big deal, but not particularly convenient; better to know where the books are.</p>
+<h2 id="project-gutenberg">Project Gutenberg</h2>
+<p><a href="http://www.gutenberg.org/">Project Gutenberg</a> is a nice library, especially for recreational reading: it is all legal, hence books get there when their copyright expires; a lot of useful information gets outdated by that time. For offline reading (as well as for backup purposes), it provides <a href="http://www.gutenberg.org/wiki/Gutenberg:The_CD_and_DVD_Project#What_the_Discs_Contain">CD images</a>, though even less books are there.</p>
+<p>There are somewhat similar libraries, e.g. <a href="http://onlinebooks.library.upenn.edu/">The Online Books Page</a>, but usually it’s even harder to find anything useful there.</p>
+<h2 id="wikibooks">Wikibooks</h2>
+<p><a href="https://www.wikibooks.org/">Wikibooks</a> is a very promising project, yet there is very few finished books by now – when it comes to maths, at least. Since even those are not guaranteed to be the best for you, it is not the most useful library for now; hopefully, it will be in the future.</p>
+<h2 id="wikipedia">Wikipedia</h2>
+<p>Though <a href="https://www.wikipedia.org/">Wikipedia</a> is not a library, its printed version would consist of <a href="https://en.wikipedia.org/wiki/Wikipedia:Size_in_volumes">a couple of thousands of volumes</a>, which would make a small library. The best part here is that it’s a great encyclopedia, which you can <a href="https://en.wikipedia.org/wiki/Wikipedia:Database_download">download</a> – to be prepared for a zombie apocalypse, <a href="https://en.wikipedia.org/wiki/Censorship_of_Wikipedia">censorship of Wikipedia</a>, internet connection issues; or simply to have lower latency.</p>
+<h2 id="bittorrent-trackers">BitTorrent trackers</h2>
+<p><a href="https://en.wikipedia.org/wiki/The_Pirate_Bay">The Pirate Bay</a> (<a href="https://thepiratebay.se/">thepiratebay.se</a>, <a href="https://thepiratebay.gd/">thepiratebay.gd</a>), <a href="https://kat.cr/">Kickass Torrents</a>, as well as specialized search engines, such as <a href="https://torrentz.eu/">torrentz.eu</a>, may help you to find many books; often it is easier to find a specific book there, than by using a general-purpose web search engine.</p>
+<h2 id="offline-libraries">Offline libraries</h2>
+<p>The thing about offline libraries is that you can pick, skim, and read anything, anytime, and for free; it can also be written onto a device that fits into your pocket. Unfortunately, it is too good to be legal, so we won’t risk to provide the links. But here is a few names of mathematical libraries:</p>
+<ul>
+<li><code>The MYRIAD Mathematical Library</code>: around 11 GB of pure (and applied) awesomeness.</li>
+<li><code>-- mit math</code>: 2 GB of that.</li>
+<li><code>MATH MATHEMATICS BOOK COLLECTION</code>: almost 10 GB.</li>
+</ul>
+<h2 id="tor-network-libraries">Tor network libraries</h2>
+<p><a href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a> has a page for <a href="http://zqktlwi4fecvo6ri.onion/wiki/Libraries">libraries</a>; though one may think that anonymity leads to great libraries, in fact it is not necessarily the case. Yet, there are nice ones, <a href="http://clockwise3rldkgu.onion/">Clockwise Libraries</a> in particular.</p>
 </div>
 ]]></summary>
 </entry>
