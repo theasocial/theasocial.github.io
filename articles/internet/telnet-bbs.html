@@ -1,0 +1,165 @@
+<!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>Telnet BBS – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+  </head>
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">Telnet BBS</h1>
+      
+      <div class="info">
+  
+  <img src="../../images/articles/bbs-synchronet.png" alt="Telnet BBS" />
+  
+  
+  
+  <p class="abstract">An archaeological expedition</p>
+  
+
+  <table>
+    
+    
+    
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 25, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="preparation">Preparation</h2>
+<p><a href="https://en.wikipedia.org/wiki/Bulletin_board_system">Bulletin board systems</a> were the places where people used to gather together and discuss new <a href="https://en.wikipedia.org/wiki/Mammoth">mammoth</a> hunt tricks, as well as to play board and mammoth hunt simulation games (since it was even <a href="https://en.wikipedia.org/wiki/Prehistoric_warfare#Paleolithic">before</a> the <a href="https://en.wikipedia.org/wiki/War#History">invention of war</a>). Currently there is a possibility of mammoth <a href="https://en.wikipedia.org/wiki/De-extinction">de-extinction</a>, which may also bring the popularity of BBS back.</p>
+<p>There were <a href="https://en.wikipedia.org/wiki/MUDs">MUDs</a> (predecessors of modern <a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">MMORPGs</a>), <a href="https://en.wikipedia.org/wiki/Internet_forum">message boards</a> and other messaging systems, news; pretty similar to <a href="https://en.wikipedia.org/wiki/World_Wide_Web">WWW</a> overall, including the approach: both require a <a href="https://en.wikipedia.org/wiki/Thin_client">thin client</a> only – a <a href="https://en.wikipedia.org/wiki/Computer_terminal">computer terminal</a> in case of BBS, and a <a href="https://en.wikipedia.org/wiki/Web_browser">web browser</a> in case of WWW.</p>
+<p>But enough of history. Pick your favourite <a href="https://en.wikipedia.org/wiki/Terminal_emulator">terminal emulator</a>, recall its <a href="http://catern.com/posts/terminal_quirks.html">quirks</a>, prepare a <a href="https://en.wikipedia.org/wiki/Telnet">telnet</a> client, and let the journey begin!</p>
+<p>The <a href="http://www.telnetbbsguide.com/brieflist.asp">Quick Telnet BBS Listing</a> is a good starting point. Before experimenting, recall that it is usually <code>C-]</code> (<code>^]</code>, <code>Ctrl</code> + <code>]</code>) to escape to the normal telnet escape prompt, where you can type <code>quit</code>, and there is <code>tput</code> to reset the colors: <code>tput reset</code> (or <code>tput init</code>). Some BBS will assume that your terminal is 80x24 characters (imagine how modern websites would look like in a few decades – not only they tend to assume certain <a href="https://en.wikipedia.org/wiki/Display_resolution">display resolution</a> range, but most of them also assume certain <a href="https://en.wikipedia.org/wiki/Dots_per_inch">DPI</a>!), so it is better to set the 80x24 mode. Most of them will ask for your <a href="https://en.wikipedia.org/wiki/Pseudonym">pseudonym</a>, so make something up beforehand if it takes you some time – otherwise you may get disconnected while thinking.</p>
+<p>There is a lot of BBS, which makes it nearly impossible to try them all in a reasonable amount of time, hence one should choose wisely. The stategy we employ here is the same as for wine bottles: picking the ones with the most amusing labels. It is mostly about pictures in case of wine (always works, by the way: each time it turns out to be wine in them), and about domain names in case of BBS.</p>
+<h2 id="a-few-bbs">A few BBS</h2>
+<h3 id="thearcade.darktech.org">thearcade.darktech.org</h3>
+<div class="figure">
+<img src="../../images/articles/bbs-lord.png" alt="Legends of the Red Dragon: The Inn" />
+<p class="caption">Legends of the Red Dragon: The Inn</p>
+</div>
+<p>Runs <a href="https://en.wikipedia.org/wiki/WWIV">WWIV</a>, hosts a bunch of games (including <a href="https://en.wikipedia.org/wiki/Legend_of_the_Red_Dragon">LORD</a>), a mailing system, conference and file exchange functionality – pretty usual, and with very few users. The time is limited to 60 minutes – as usual, too; a weird and unfortunate, seemingly legacy restriction, alas very common among BBS. Only textual messages indicate that it is maintained in this century (even in this month, to be fair).</p>
+<h3 id="blobster.publicvm.com">blobster.publicvm.com</h3>
+<div class="figure">
+<img src="../../images/articles/bbs-stats.png" alt="Blue Lobster stats" />
+<p class="caption">Blue Lobster stats</p>
+</div>
+<p>Runs modern <a href="https://en.wikipedia.org/wiki/Synchronet">Synchronet</a> software, which provides plenty of settings, detects and properly uses some of the terminal emulator parameters, and provides access to some of its features via specialized protocols – such as POP3, FTP, and IRC.</p>
+<div class="figure">
+<img src="../../images/articles/bbs-irc.png" alt="IRC over a telnet BBS" />
+<p class="caption">IRC over a telnet BBS</p>
+</div>
+<p>It can emulate various other BBS interfaces, and is relatively cool, though the functionality is pretty much the same as everywhere: messages and boards, games, files. The time limit is 4 hours.</p>
+<h3 id="braintoys.org">braintoys.org</h3>
+<p>A few games, forum, chat, some old-looking engine, files; another common BBS.</p>
+<div class="figure">
+<img src="../../images/articles/bbs-blademaster.png" alt="Blademaster: Tavern" />
+<p class="caption">Blademaster: Tavern</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/bbs-forum.png" alt="Forum" />
+<p class="caption">Forum</p>
+</div>
+<h3 id="chaoticbliss.darktech.org">chaoticbliss.darktech.org</h3>
+<p>One more Synchronet BBS, with “fancy” design – that is, the accesibility is poor. Nevertheless, Synchronet BBS are cool, and here is a few more screenshots:</p>
+<div class="figure">
+<img src="../../images/articles/bbs-stats-chaoticbliss.png" alt="Chaotic Bliss stats" />
+<p class="caption">Chaotic Bliss stats</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/bbs-settings.png" alt="Settings" />
+<p class="caption">Settings</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/bbs-chaoticbliss-menu.png" alt="Menu" />
+<p class="caption">Menu</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/bbs-chaoticbliss-messages.png" alt="Messages" />
+<p class="caption">Messages</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/bbs-oneliners.png" alt="Oneliners" />
+<p class="caption">Oneliners</p>
+</div>
+<h3 id="busy-and-broken-ones">Busy and broken ones</h3>
+<p>Some of the BBS were too busy being BBS to serve us at the time of writing, and some mess up the pseudographics, or require a verification by mail, which made them unusable.</p>
+<h2 id="sole-journey">Sole journey</h2>
+<p>Now you should know what to expect, and may continue this journey alone – there is plenty of games to find, and probably less common BBS features are lurking there somewhere, waiting to be discovered.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
