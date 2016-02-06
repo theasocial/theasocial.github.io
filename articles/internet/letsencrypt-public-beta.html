@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>Let's Encrypt: public beta – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">Let's Encrypt: public beta</h1>
+      
+      <div class="info internet">
+  
+  <img src="../../images/articles/letsencrypt.svg" alt />
+  
+  
+  
+  <p class="abstract">A new Certificate Authority</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        December  4, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Yesterday <a href="https://letsencrypt.org/">Let’s Encrypt</a> <a href="https://letsencrypt.org/2015/12/03/entering-public-beta.html">entered public beta</a>, and we have finally got what should have been there from the beginning: a <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authority</a> that may be tolerable. Although the “authority” part still suggests that it is not a nice thing (see <a href="https://en.wikipedia.org/wiki/Anti-authoritarianism">anti-authoritarianism</a>), and <a href="https://en.wikipedia.org/wiki/X.509">X.509</a> is all <a href="https://en.wikipedia.org/wiki/X.509#Security">messed up</a>, as it was mentioned in our <a href="../../articles/computing/using-tor-hidden-services.html">recent Tor article</a>, in some aspects “Let’s Encrypt” is better in comparison to others, and CA authorities in general provide at least some security against non-targeted attacks performed by bigger authorities (governments, that is), or by non-official scam that exploits vulnerabilities introduced by those authorities.</p>
+<h2 id="how-it-was-before">How it was before</h2>
+<h3 id="fraud">Fraud</h3>
+<p>Until now, CAs mostly resembled <a href="https://en.wikipedia.org/wiki/Mafia">mafia</a> (<a href="https://en.wikipedia.org/wiki/Protection_racket">protection racket</a>), apart from being illegal. Or a <a href="https://en.wikipedia.org/wiki/Monopoly">monopoly</a> held by a <a href="https://en.wikipedia.org/wiki/Conglomerate_%28company%29">conglomerate</a>. They basically take money for performing basic computations, often adding some “warranty”. Let’s just take a look at <a href="https://ssl.comodo.com/">this shit</a>; for hundreds of USD the following “advantages” are offered:</p>
+<ul>
+<li>“Green address bar provides immediate trust and helps customer <a href="https://en.wikipedia.org/wiki/Conversion_marketing">conversion</a>”. “Green address bar” — web-centric and non-technical reference, with the most popular browser being assumed — captures pretty much the whole thing, and that’s what server (often website) owners usually pay for: not security, but “customer conversion”. One more reminder that there’s no such things as ethics and morale in those waters.</li>
+<li>“2048-bit, highest assurance SSL Certificate, with 99.9% Browser Recognition”. Probably “highest assurance” refers to 2048-bit keys currently being fine in practice: though there is not much overhead with 4096, it is not likely that somebody can forge or bruteforce 2048-bit keys, and if they do – it is rather hard to imagine what they are capable of, and particularly whether 4096-bit keys would help at all. On the other hand, why would they put a vague yet reasonable reference among bullshit? Most likely it’s not that. “SSL Certificate” is not even a thing: they refer to X.509 certificates, used in TLS, as well as in insercure and deprecated SSL. The “99.9%” is obviously pulled out of their ass, which doesn’t require any familiarity with the topic to detect with high accuracy. Though translating from the moron language, “99.9%” means “most” or “uncertain”: just as “50%” means “I don’t know”, and “100%” – “whole”, “all”, or “probably; I’m certain, but I’m ignorant enough to gather that certainty out of thin air”.</li>
+<li>“Priority phone support”. Of course, their customers will need it.</li>
+<li>“Free <a href="https://www.trustlogo.com/">Comodo TrustLogo</a> for unlimited server licenses”. That’s a nice one: though the “unlimited server licenses” part is not clear, the logo is indeed available for free, and it is just a picture that you put on your website. Marketed with more bullshit, such as “a site seal from a trusted 3rd party can often be the difference between making a sale or not”. It may be confusing for a naive reader, but they indeed list a free picture that you can put anywhere anyway as an advantage of that $400 package, and market that picture as being useful. Somebody thought that it is a good idea – probably the same person who made up the rest of “advantages”. The frightening thing is that probably it indeed was a good idea for their business.</li>
+<li>“$1,750,000 <a href="https://en.wikipedia.org/wiki/Relying_party">relying party</a> <a href="https://www.comodo.com/repository/docs/SSL_relying_party_warranty.php">warranty</a>”: apparently it is about them warrantying non-violation of their validation procedures, and only covers money transactions, limited by the mentioned sum.</li>
+</ul>
+<p>And they offer free certificates, too! There are claims such as “Ninety day free SSL Certificate (other CAs offer 30 days maximum.)”; not to mention that it is a lie now, it was a lie for a long time before – even crappy <a href="https://startssl.com/">StartSSL</a> — which requires an outdated TLSv1, which is normally disabled in modern software — used to issue free certificates for a year. Comodo is just the first relevant non-ad result thrown by DDG for “ssl certificates” (you won’t find commercial offers among the first few dozens of results using proper naming), but they are all pretty much the same.</p>
+<p>Ironically, CAs exhibit common fraud signs, while they are supposed to protect you from fraud, among other things. Perhaps that’s why they should be “authorities” in order to survive and be legal at all. And that’s just one of the problems with X.509 PKI.</p>
+<h3 id="self-signed-certificates">Self-signed certificates</h3>
+<p>The problem with self-signed certificates is that most users won’t notice them being forged (unless they have received and installed them manually as “trusted” previously). Some users would mostly see self-signed certificates when attacked by their ISPs: supposedly to enforce censorship without confusing users (and without getting tons of phone calls), those ISPs perform those <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">MitM attacks</a> with self-signed certificates, sometimes with default values – in order to show a message, and possibly to intercept data that is supposed to be transmitted over a secure channel. Others will see it while using malicious, hacked, and/or commercial Wi-Fi networks. Self-signed certificates are still better than no encryption at all, unless you get a false sense of safety after seeing one, but generally it implies scam activities, making self-signed certificates only useful in specific cases.</p>
+<h2 id="how-it-is-with-le">How it is with LE</h2>
+<p>First of all, “Let’s Encrypt” is free, and not a trial/marketing kind of free, which makes it usable for hobby projects and non-essential parts of any projects; it is finally easy to take care of security, and not just “green address bar” for “customer conversion”.</p>
+<p>To set certificates with it, you just grab the <a href="https://github.com/letsencrypt/letsencrypt">letsencrypt client</a>, possibly <a href="https://letsencrypt.readthedocs.org/en/latest/">check the documentation</a>, install all the dependencies, and generate a key and a certificate with a single command. It is <em>very</em> easy to use, the certificate gets issued instantly, while in most cases the client takes care of verification for you, providing a few options for that. It also allows you to choose things such as key length, can be set on cron, and apparently updates itself. Neat stuff, which may decrease CA-based fraud and increase overall security over internet in the nearest future.</p>
+<p>Though it also has a few issues, as seen from the first glance:</p>
+<ul>
+<li>Short, 3-month certificate life: it is supposed to force users to automate renewal, but would make less sense for protocols that keep connections for long periods of time, and may be tricky to use for them, if corresponding daemons don’t support certificate reloading without restart.</li>
+<li>Weird, enterprise/amateur-software-style installation: that is, ignoring standard ways to install, implementing and using its own scripts to install dependencies, using your package manager.</li>
+<li>Plugins to perform very basic tasks, messing with your configs.</li>
+<li>Bloated from the beginning, hard to review client, which requires root privileges: currently its repository consists of 482 files, 77992 lines.</li>
+<li>Weird choice of languages: Go and Python. Not safe, not fast, not dependency-frugal.</li>
+<li>Automated updates, which are supposed to be run from root, executing the updated code at once, and possibly via cron. May easily compromise your server while you are trying to protect connections to it.</li>
+<li>Weird name, making it uncomfortable to mention in a sentence.</li>
+</ul>
+<p>Generally, it takes control over your server for no good reason, making you to hack around in order to gain some control over the process, and is quite web-oriented.</p>
+<p>X.509 PKI is still messed up, but “Let’s Encrypt” does not seem to be an outright fraud, as other CAs do.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

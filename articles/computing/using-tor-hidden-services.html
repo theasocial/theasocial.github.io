@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>Using Tor hidden services – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">Using Tor hidden services</h1>
+      
+      <div class="info computing">
+  
+  <img src="../../images/articles/tor.svg" alt />
+  
+  
+  
+  <p class="abstract">Use cases beyond privacy and censorship-resistance</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://commons.wikimedia.org/wiki/File:Tor-logo-2011-flat.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        <a href="http://freedomdefined.org/Definition">free</a>
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        November 13, 2015
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Perhaps the most common motivation to use <a href="https://www.torproject.org/">Tor</a> is to achieve some <a href="https://en.wikipedia.org/wiki/Privacy">privacy</a>, and sometimes to resist <a href="https://en.wikipedia.org/wiki/Censorship">censorship</a>, but Tor gives more than that. Let’s see what else is there.</p>
+<h2 id="security">Security</h2>
+<p><a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> is often used to assist <a href="https://en.wikipedia.org/wiki/Information_security">information security</a> – for instance, to access your bank account over <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>, or to send passwords over some communication protocol. Unfortunately, <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public key infrastructure</a>, which is used in most cases to verify TLS connections, is a mess: you should trust all the <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authorities</a>, whose signing certificates get leaked sometimes – governments, criminals, or janitors can just come and get those. There are other <a href="https://en.wikipedia.org/wiki/X.509#Security">security issues</a>, and in most cases you should pay to get a certificate (though “<a href="https://letsencrypt.org/">Let’s Encrypt</a>” may finally change that soon, but it also has its own drawbacks), but even the idea of CA alone is rather appaling.</p>
+<p>What certificates show, even if everything works as intended, is usually just that you have connected to a server controlled by someone who also controlled the corresponding domain name (or a server to which some of its <a href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a> records pointed – because that’s how the initial verification happens) once upon a time. Therefore, you should also trust random DNS servers. A few other parties may be involved in that initial verification, so you actually should trust even more of random people in order to feel safe with it. Actually, it is the best-case scenario, with <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a>; regular DNS allows <a href="https://en.wikipedia.org/wiki/DNS_spoofing">DNS spoofing</a>, making that initial verification even less secure.</p>
+<p>Another way is <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a>, though its common use cases are different. It uses the “<a href="https://en.wikipedia.org/wiki/Trust_on_first_use">trust on first use</a>” model, where you don’t check the address, but simply should verify a fingerprint of the server certificate on the first connection, and then it gets stored locally. The only problem is that virtually nobody actually does that, accepting anything. Basically, to use it properly, people should accompany each server address with a fingerprint of its certificate – but with such an approach, even TLS may be reliable.</p>
+<p>And then we have <a href="https://en.wikipedia.org/wiki/Tor">Tor</a> with its <a href="https://www.torproject.org/docs/hidden-services.html.en">hidden services</a>. Cutting out anonymity and routing, essentially an <code>.onion</code> name is a fingerprint of service’s public key. Simply and elegantly, verification happens on access, and by providing an address you also provide a fingerprint, which is the same thing.</p>
+<p>There are other distributed networks which adopt the same approach, but Tor is relatively big (hence fast) and mature (hence stable). Though even this approach is not perfect: once you change the key, the address changes. Another major drawback is that you don’t get human-meaningful names (see <a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko’s triangle</a>), which makes it virtually impossible to remember domain names, and potentially leads to scam resources with similar names.</p>
+<p>But keep in mind that there is no single approach that is strictly “better” than others: normally one should consider all the pros and cons of each option for a situation at hand.</p>
+<h2 id="routing">Routing</h2>
+<p>Nowadays, not everyone can enjoy the luxury of a dedicated <a href="https://en.wikipedia.org/wiki/IP_address">IP address</a>. Though <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a> is supposed to deal with the lack of addresses, <a href="https://en.wikipedia.org/wiki/Internet_service_provider">ISPs</a> don’t really care about providing that, since most users don’t need it, and don’t even know what it is – so a lot of users are trapped behind <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT</a>.</p>
+<p>But Tor comes to rescue once again! Instead of using an IP address, one may just set a hidden service for the server, and use <a href="https://en.wikipedia.org/wiki/SOCKS">SOCKS</a> with <code>torsocks</code> — or simply <code>torify</code> — to invoke the client. In case of a website, the client may just be the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a>.</p>
+<h2 id="example">Example</h2>
+<p>Let’s set everything and see how it works.</p>
+<h3 id="installation">Installation</h3>
+<p><a href="https://www.torproject.org/download/download.html.en">Download</a> and <a href="https://www.torproject.org/docs/tor-doc-unix.html.en">install</a> Tor. It is recommended to get a fresh version, since there may be security updates, so the version from your system repositories may be outdated and not secure.</p>
+<h3 id="hidden-service-configuration">Hidden service configuration</h3>
+<p>There is a howto, <a href="https://www.torproject.org/docs/tor-hidden-service.html.en">Configuring Hidden Services for Tor</a>, so we just follow its steps, more or less: <code>nc -vlp 52113</code> to run a basic TCP server, add a service into <code>/etc/tor/torrc</code>:</p>
+<pre><code>HiddenServiceDir /var/lib/tor/test-service/
+HiddenServicePort 31125 0.0.0.0:52113</code></pre>
+<p>Reload (or restart) Tor, obtain the hostname:</p>
+<pre><code>$ sudo systemctl reload tor
+$ sudo cat /var/lib/tor/test-service/hostname
+w5lbbmohoi4dpm2w.onion</code></pre>
+<p>Optionally, you may want to bruteforce a key that gives a readable hash – so that it would be clear which hash corresponds to which service, and closer to usual domain names. There is a few programs for that, including <a href="https://github.com/katmagic/Shallot">Shallot</a> and <a href="https://github.com/lachesis/scallion">scallion</a>; it is only practical to bruteforce exact fingerprint prefixes up to 7-8 characters, but sometimes such programs allow you to use <a href="https://en.wikipedia.org/wiki/Regular_expression">regexps</a>, or to try various alternatives from a word list.</p>
+<h3 id="connecting-to-a-hidden-service">Connecting to a hidden service</h3>
+<p>Finally, <code>torify nc -v w5lbbmohoi4dpm2w.onion 31125</code>. Simple as that, now you should be able to exchange messages between the two <a href="https://en.wikipedia.org/wiki/Netcat">netcat</a> instances, connected over Tor.</p>
+<p>Actually, the almighty netcat also provides a <code>--chat</code> option, allowing you to easily set a multi-user chat.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
