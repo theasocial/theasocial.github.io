@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>Pimp My Code, issue 2 – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">Pimp My Code, issue 2</h1>
+      
+      <div class="info internet">
+  
+  <img src="../../images/articles/pimp-my-code.png" alt />
+  
+  
+  
+  <p class="abstract">Exabit and his team give a new life to a Python logger</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        April 24, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Previously on <a href="https://github.com/pimp-my-code">Pimp My Code</a>: <a href="https://github.com/muennich">muennich</a> got his brand new <a href="https://github.com/muennich/sxiv">sxiv</a> repository <a href="https://github.com/muennich/sxiv/pull/116">pimped</a>. Now he’s enjoying <a href="https://www.gnu.org/software/guile/">GNU Guile</a> and <a href="https://en.wikipedia.org/wiki/GNU_Build_System">GNU Build System</a>, and fetches images directly from the Internet.</p>
+<p>Today Victor Frankenstein comes to visit <a href="https://github.com/getlogbook/logbook">logbook</a> and its owners.</p>
+<p><strong>Victor</strong>: Yo, now we’re going to visit logbook’s authors who aren’t totally happy with their library. Here they are, on github – let’s knock.</p>
+<p><em>The door opens, Roman shows up and looks shocked.</em></p>
+<p><strong>Roman</strong>: Is it you? Is it really you? OMG, OMG! I can’t believe it!</p>
+<p><strong>Victor</strong>: Hell yeah, nice to see you Roman! I heard you need some help with your code, is that right?</p>
+<p><strong>Roman</strong>: Aah, yes! It’s so old, I’ve actually got it from my grandma.</p>
+<p><strong>Victor</strong>: Let’s see what you have there!</p>
+<p><strong>Roman</strong>: Sure, here it is. It’s pretty much in the same condition as it was when I’ve got it, I’ve only tried to cover it with tests occasionally, to keep it going, you know.</p>
+<p><strong>Victor</strong>: Oh, I see. Plenty of tests you’ve got there. Hey, who are <a href="https://github.com/getlogbook/logbook/blob/master/AUTHORS">those fellows</a>?</p>
+<p><strong>Roman</strong>: Those are my comrades, we usually write and use logbook together. That’s Armin and George, they’ve actually done most of the tinkering.</p>
+<p><strong>Armin and George</strong>: Hello Victor!</p>
+<p><strong>Victor</strong>: Hey!</p>
+<p><strong>Roman</strong>: And here are Ronny, Daniel, Kenneth, Valentine, and others. Actually they’ve sent a note to you in the first place, asking for help.</p>
+<p><strong>Victor</strong>: Well, good friends you have there! Now tell me guys, what do you want to see changed about this library?</p>
+<p><strong>Armin</strong>: See all those tests? We’ve collected plenty of those with time.</p>
+<p><strong>Victor</strong>: Yeah, we definitely should clean those up. What else?</p>
+<p><strong>George</strong>: You know how logging is supposed to inform you about errors? But when there’s an error in logging, what’s especially easy to get in these Python libraries, you kind of get screwed – hence all those tests. I don’t know, but maybe something can be done about it?</p>
+<p><strong>Victor</strong>: That’s tricky, but our mechanic will take a look at it – we’ll figure something out. Okay, guys, I’m getting it to our garage – see you later!</p>
+<p><strong>Logbook authors</strong>: Yaay!</p>
+<p><em>Victor arrives to the garage, El Hackerozo doesn’t approve of what Victor has brought in this time.</em></p>
+<p><strong>El Hackerozo</strong>: Come on, man, is it Python? What are we supposed to do with it? Does it look like we got space around here to set up any additional virtual environments?</p>
+<p><strong>Victor</strong>: It’s not that bad, it was maintained.</p>
+<p><strong>El Hackerozo</strong>: Seriously? Look at that test suite, it barely prevents the whole library from collapsing into an infinite loop.</p>
+<p><strong>Victor</strong>: Look, it only proves that we’re the only ones who can help them out! Let’s see what we can fix here, okay?</p>
+<p><em>Victor explains other details and the team begins planning.</em></p>
+<p><strong>Victor</strong>: So, I figured that their logger needs logging. We’ll reuse the existing mechanics for that, making it recursive – just increasing the threshold on each level to make it self-terminate to avoid infinite loops. But something still needs to be done about how it looks. Also don’t forget about those tests!</p>
+<p><strong>El Hackerozo</strong>: Okay, I can repaint the icon completely, perhaps add some flames to make it move faster, and lint the code a bit.</p>
+<p><strong>Victor</strong>: Let’s do this!</p>
+<p><em>The team works on it for hours. The test suite looks really gross after being extracted from the main code tree, guys pack it into big black bags.</em></p>
+<p><strong>Victor</strong>: Let’s see what we’ve got here!</p>
+<div class="figure">
+<img src="../../images/articles/pimp-my-code-logbook-before.png" alt="Before" />
+<p class="caption">Before</p>
+</div>
+<div class="figure">
+<img src="../../images/articles/pimp-my-code-logbook-after.svg" alt="After" />
+<p class="caption">After</p>
+</div>
+<p><strong>Victor</strong>: Now is the time to show it to our clients!</p>
+<p><em>El Hackerozo plays with a part of the eradicated tests.</em></p>
+<p><em>The logbook authors come in, <a href="https://github.com/getlogbook/logbook/pull/201">the team presents the work</a>:</em></p>
+<blockquote>
+<p>Yo dawg!</p>
+</blockquote>
+<blockquote>
+<p>I heard you like logging. Every logger logs. But not every logger is logging what it’s logging while it’s logging. So we’ve put logging into your logger, to log what it’s logging while it’s logging!</p>
+</blockquote>
+<blockquote>
+<p>While that gets logged, it also logs what it’s logging – recursively. But it also terminates! No more silent errors in your logging.</p>
+</blockquote>
+<blockquote>
+<p>Hold on, hold on! That’s not the only thing we’ve improved! Your icon has been updated with screaming new design: flame vinyl that reflects its performance, bookmark, more expensive wood and converted to SVG from plain old boring PNG! While it’s new, we’ve tried to preserve its soul – so it will remind you of all those good times from the previous life of your nifty little library.</p>
+</blockquote>
+<blockquote>
+<p>Why don’t you try to zoom it in and out? See, it’s vector, no pixels! That’s the latest technologies right here, just for you!</p>
+</blockquote>
+<blockquote>
+<p>We had to perform some heavy cleaning to get rid of those rusty tests you’ve collected in it, but see – no tests anymore! Don’t be afraid of bugs anymore: with this beauty, you can write terabyte after terabyte of logs, without a need to pause. Did I mention that it accelerates from 0 to 100 MB/s in 3 seconds? Be careful with this babe!</p>
+</blockquote>
+<blockquote>
+<p>All your favorite handlers are still there, of course. Just pick one and take a stab!</p>
+</blockquote>
+<p><strong>Roman</strong>: OMG, OMG! Is it really our logbook?!</p>
+<p><strong>Armin</strong>: Ahh, look at this beauty!</p>
+<p><strong>George</strong>: Whoo-hoo!</p>
+<p><strong>Victor</strong>: Yeah, yeah, do you even recognize your old library?</p>
+<p><strong>Valentine</strong>: Holy <em>beep</em>! Is it logging?</p>
+<p><strong>Victor</strong>: Yeah, we’ve put logging into your logger! Wanna see it in action?</p>
+<p><strong>Daniel</strong>: Heck yeah!</p>
+<p><strong>Victor</strong>: <a href="../../exhaust/pimp-my-code-logbook.txt">Observe</a>!</p>
+<p><strong>Ronny</strong>: I can’t believe it, you’ve actually made it to log what it’s logging!</p>
+<p><strong>El Hackerozo</strong>: Right, no more silent errors, and no need in those rusty tests. Do you like the new looks?</p>
+<p><strong>Frazer</strong>: It’s awesome! Can you take a photo of me with it?</p>
+<p><strong>Victor</strong>: You also get our badge, indicating that your project has been officially pimped. We’ve also cleaned up all the inferior badges you’ve had there!</p>
+<p><strong>Ronny</strong>: This is awesome! Thank you so much, Pimp My Code!</p>
+<p><strong>Raphaël</strong>: Holy <em>beep</em>, guys, all the handlers are still there!</p>
+<p><strong>Victor</strong>: That’s right. We figured you like them.</p>
+<p><strong>Roman</strong>: Thank you!</p>
+<p><strong>Victor</strong>: It was Pimp My Code on The Asocial, see you next time!</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

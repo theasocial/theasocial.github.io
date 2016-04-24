@@ -1,0 +1,15 @@
+[2016-04-23 20:39:04.821410] DEBUG: __My Awesome Logger: Initialized a record: «Initialized a record: «This is too cool for stdlib»»
+[2016-04-23 20:39:04.821544] DEBUG: _My Awesome Logger: Initialized a record: «This is too cool for stdlib»
+[2016-04-23 20:39:04.821647] DEBUG: __My Awesome Logger: Initialized a record: «Handling a log record»
+[2016-04-23 20:39:04.821718] TRACE: _My Awesome Logger: Handling a log record
+[2016-04-23 20:39:04.821814] DEBUG: __My Awesome Logger: Initialized a record: «Calling handlers»
+[2016-04-23 20:39:04.821882] TRACE: _My Awesome Logger: Calling handlers
+[2016-04-23 20:39:04.821989] DEBUG: __My Awesome Logger: Initialized a record: «Preparing to emit»
+[2016-04-23 20:39:04.822056] TRACE: _My Awesome Logger: Preparing to emit
+[2016-04-23 20:39:04.821940] WARNING: My Awesome Logger: This is too cool for stdlib
+[2016-04-23 20:39:04.822194] DEBUG: __My Awesome Logger: Initialized a record: «Emitted»
+[2016-04-23 20:39:04.822258] TRACE: _My Awesome Logger: Emitted
+[2016-04-23 20:39:04.822347] DEBUG: __My Awesome Logger: Initialized a record: «Called handlers»
+[2016-04-23 20:39:04.822429] TRACE: _My Awesome Logger: Called handlers
+[2016-04-23 20:39:04.822524] DEBUG: __My Awesome Logger: Initialized a record: «Handled a log record»
+[2016-04-23 20:39:04.822586] TRACE: _My Awesome Logger: Handled a log record
