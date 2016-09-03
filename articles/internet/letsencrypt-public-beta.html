@@ -124,9 +124,9 @@
 <li>Short, 3-month certificate life: it is supposed to force users to automate renewal, but would make less sense for protocols that keep connections for long periods of time, and may be tricky to use for them, if corresponding daemons don’t support certificate reloading without restart.</li>
 <li>Weird, enterprise/amateur-software-style installation: that is, ignoring standard ways to install, implementing and using its own scripts to install dependencies, using your package manager.</li>
 <li>Plugins to perform very basic tasks, messing with your configs.</li>
-<li>Bloated from the beginning, hard to review client, which requires root privileges: currently its repository consists of 482 files, 77992 lines.</li>
-<li>Weird choice of languages: Go and Python. Not safe, not fast, not dependency-frugal.</li>
-<li>Automated updates, which are supposed to be run from root, executing the updated code at once, and possibly via cron. May easily compromise your server while you are trying to protect connections to it.</li>
+<li>Bloated from the beginning, hard to review client, which requires root privileges: currently its repository consists of 482 files, 77992 lines. Though alternative clients exist, such as <a href="https://github.com/Neilpang/acme.sh">acme.sh</a>.</li>
+<li>Weird choice of languages: Go and Python. Not safe, not fast, not dependency-frugal. But alternative clients can help there.</li>
+<li>Automated updates, which are supposed to be run from root, executing the updated code at once, and possibly via cron. May easily compromise your server while you are trying to protect connections to it. But again, alternative clients and carefully set cron jobs can help.</li>
 <li>Weird name, making it uncomfortable to mention in a sentence.</li>
 </ul>
 <p>Generally, it takes control over your server for no good reason, making you to hack around in order to gain some control over the process, and is quite web-oriented.</p>

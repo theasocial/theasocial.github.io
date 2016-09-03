@@ -8,8 +8,369 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2016-04-24T00:00:00Z</updated>
+    <updated>2016-08-19T00:00:00Z</updated>
     <entry>
+    <title>Pushing Daisies</title>
+    <link href="http://theasocial.com/articles/video/pushing-daisies.html" />
+    <id>http://theasocial.com/articles/video/pushing-daisies.html</id>
+    <published>2016-08-19T00:00:00Z</published>
+    <updated>2016-08-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/pushing-daisies.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">A fairy tale</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:PushingDaisieslogo2.jpg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        August 19, 2016
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="http://www.imdb.com/title/tt0925266/">http://www.imdb.com/title/tt0925266/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        fantasy
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://en.wikipedia.org/wiki/Pushing_Daisies">Pushing Daisies</a> is a cute fairy tale. The characters are quirky and nice, the dialogues are interesting and not realistic, the colors are bright. There’s plenty of other minor and amusing bits, which make the series pretty wonderful when they are put together.</p>
+<p>Though there are goofs, at least some of which are pointed out on IMDB, they can be ignored rather easily, since the fantasy bits are explained plainly as “magic”, not “sci-fi”.</p>
+<p>The story revolves around the pie maker, who is also a <a href="https://en.wikipedia.org/wiki/Necromancy">necromancer</a>. He applies his skills to revive products for pies, and to assist a private investigator in the forensics by reviving dead people and asking who killed them.</p>
+<p>It is well worth watching.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>The KAT founder got arrested</title>
+    <link href="http://theasocial.com/articles/internet/the-kat-founder-got-arrested.html" />
+    <id>http://theasocial.com/articles/internet/the-kat-founder-got-arrested.html</id>
+    <published>2016-07-27T00:00:00Z</published>
+    <updated>2016-07-27T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/kat.png" alt=""/>
+  
+  
+  
+  <p class="abstract">We investigate where things went wrong for him</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Kickasstorrentslogo.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        copyright-protected logo
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        July 27, 2016
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://kat.am">https://kat.am</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        security
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>As <a href="http://www.wired.co.uk/article/kat-alleged-founder-arrested">Wired</a> and <a href="http://arstechnica.com/tech-policy/2016/07/kickasstorrents-alleged-founder-artem-vaulin-arrested-in-poland/">Ars Technica</a> have reported, Artem Vaulin was recently arrested for being the <a href="https://kat.am/">Kickass Torrents</a> founder. There was lots of noise because KAT was stealing imaginary profit from movie companies, or something like that. In any case, what’s really interesting when such a thing happens, is how exactly he was identified; what was his mistake.</p>
+<p>Though Wired and Ars Technica provide some information about his mistakes, it appears to differ, so let’s better read the actual <a href="https://assets.documentcloud.org/documents/2996082/Artem-Vaulin-Complaint.pdf">complaint</a>.</p>
+<h2 id="the-investigation">The Investigation</h2>
+<p>As one may think, somebody who owns a large torrent tracker should be extremely careful, sometimes even paranoid, since their actions make big companies unhappy. By not preventing users from using their service, they are being an accomplice in the unspeakable crime of file sharing.</p>
+<p>Then there should be a fatal slip, where they get identified by a writing style, or by a small piece of information that accidently leaks to a server accessible by a law enforcement agency, or sold by a person they’ve trusted, or timing of their actions allowed to trace the packets to their ISP… well, nothing of that sort has taken place this time.</p>
+<p>One day, using KAT, HSI special agents found, downloaded, and watched the following movies: Batman V Superman: Dawn of Justice, Captain America: Civil War, Central Intelligence, Deadpool, Finding Dory, Independence Day: Resurgence, Teenage Mutant Ninja Turtles: Out of the Shadows, X-Men Apocalypse, and Now You See Me 2. Apparently they liked the movies very much, concluded that those should cost at least a million dollars combined. Since Homeland Security had nothing better to do, they’ve opened an investigation.</p>
+<p>A special agent, extensively using his or her training and experience, based on which he or she knows great many things, found the following subtle clues:</p>
+<ul>
+<li>KAT “people” page mentioned at least the owner’s nickname, which was also used for personal mail addresses, when real name wasn’t used (in addresses themselves; was still filled everywhere).</li>
+<li>KAT servers didn’t use any disk encryption, easily providing bits of identifying information and helpful evidence.</li>
+<li>A fake company was used as a front, with a LinkedIn presence, with real names and photos.</li>
+<li>Payments went through regular banks, with records available to the investigator.</li>
+<li>Public whois data of a KAT domain registered to Vaulin, with his phone number and address.</li>
+<li>Other KAT domains on the same GoDaddy account.</li>
+<li>Vaulin’s personal mailboxes on public mail services (Apple’s in particular), with unencrypted KAT-related letters, tons of private information filled, Vaulin’s passport, driver’s license, personal banking information.</li>
+<li>A Coinbase account for KAT donations, with real name, address, and that Apple email filled.</li>
+<li>Logs of access to the KAT facebook account from the same IP as to the Apple account with the mailbox that contained all the private information, as well as from the same IP that was used to access the Coinbase account.</li>
+</ul>
+<p>That’s when special agent UC-1, by putting it all together, started becoming suspicious of Vaulin: “he might be involved into KAT!”, thought the agent. Further investigation and additional clues added to the suspicion, and Vaulin, despite all his security measures, was finally captured in Poland.</p>
+<p>Though it’s not clear how exactly Artem was captured, but judging by his overall secrecy and preparation, one may guess how hard it was: he probably was running naked around a police station and screaming, so the authorities had to besiege the city, as well as to bring a couple of helicopters and a tank, while Poland was targeted by nuclear missiles as a plan B, yet was saved in the last moment, and the villian was finally captured. UC-1 rode a Harley into the sunset, got a promotion, and lived happily ever after.</p>
+<h2 id="aftermath">Aftermath</h2>
+<p>Wired and Ars Technica call Artem an “alleged founder”, for it’s still to be proved in court. Indeed, perhaps the only way for all this to make sense is if it’ll turn out that Vaulin’s identity has been stolen and used for years by an actual founder, who is not mentally challenged. Yet it is likely that Vaulin will face a big sentence to learn how it feels when your property gets “illegaly shared”, getting an owner of his own instead of being one.</p>
+<p>This is a lesson to us all: think twice before stealing priceless masterpieces.</p>
+<p>As usual, random officials make <a href="https://www.justice.gov/usao-ndil/pr/owner-most-visited-illegal-file-sharing-website-charged-criminal-copyright-infringement">bullshit statements</a>.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>The Battle for Wesnoth</title>
+    <link href="http://theasocial.com/articles/games/wesnoth.html" />
+    <id>http://theasocial.com/articles/games/wesnoth.html</id>
+    <published>2016-07-16T00:00:00Z</published>
+    <updated>2016-07-16T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/wesnoth.png" alt=""/>
+  
+  
+  
+  <p class="abstract">A neat game</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Battle_for_Wesnoth_logo.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        GPL 2+
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        July 16, 2016
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="http://wesnoth.org/">http://wesnoth.org/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        fantasy
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="http://wesnoth.org/">The Battle for Wesnoth</a> is a turn-based strategy game. There is very few games of such quality among <a href="https://en.wikipedia.org/wiki/List_of_open_source_games">open-source ones</a>: though it looks dated, and there is plenty to improve, it uses a sane build system and not too many dependencies, making it easy to install if it’s not available in your system repositories. It’s also written in C++, and should run on many systems, beyond Linux and BSD.</p>
+<p>The game is quite simplistic in some aspects (say, gold is the only resource there), yet fun and challenging – perhaps because of the battle mechanics that are not that simplistic: some units fight better at day or at night, many of them are affected by terrain type, they level up, there always is randomness, and a bunch of other things. The graphics are fine, for it doesn’t try to do anything too fancy: just <a href="https://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29">sprites</a> with appropriate graphics, and more of occasional art to accompany cutscenes. Nice music, too.</p>
+<p>Fantasy theme is used, featuring orcs, elves, humans, and other factions. The setting is not particularly original or outstanding, yet it’s done nicely.</p>
+<p>There is a variety of scenarios (or campaigns), so one can easily kill a lot of time with it.</p>
+<p>Here is how it looks like:</p>
+<div class="figure">
+<img src="/images/articles/wesnoth-screenshot.png" alt="The Battle for Wesnoth screenshot" />
+<p class="caption">The Battle for Wesnoth screenshot</p>
+</div>
+<p>Overall, the game is well worth trying.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>V</title>
+    <link href="http://theasocial.com/articles/video/v.html" />
+    <id>http://theasocial.com/articles/video/v.html</id>
+    <published>2016-05-14T00:00:00Z</published>
+    <updated>2016-05-14T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/v-tv-series.png" alt=""/>
+  
+  
+  
+  <p class="abstract">A piece of something</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        May 14, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        sci-fi, trash
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>It is amusing how poorly performed things make you to think and to learn more than good ones. Take <a href="https://en.wikipedia.org/wiki/V_%282009_TV_series%29">V (2009)</a>, for example: sci-fi series, with <a href="https://en.wikipedia.org/wiki/Inara_Serra#Inara_Serra">the Companion from Firefly</a> and spaceships, which may seem like a good thing to kill your time. If you are experienced enough in watching movies, you may tolerate poor CGIs, but then comes the absurd plot that would require more than that in order to watch the series. It’s like a parallel universe where people are even more stupid than in this one: nobody questions why the aliens look exactly like humans (the CGIs suggest that they didn’t have enough budget for alien costumes), and when the aliens heal humans and share energy with them, promising to share the technology, nobody asks to teach humans those technologies, but virtually everyone is happily accepting them without an understanding of how it works. Hold on, actually that’s <a href="https://en.wikipedia.org/wiki/Proprietary_software">exactly</a> <a href="https://en.wikipedia.org/wiki/Cargo_cult">what</a> <a href="https://en.wikipedia.org/wiki/Surveillance">happens</a> <a href="https://en.wikipedia.org/wiki/Software_as_a_service">here</a>. Okay, they’ve captured that aspect of humanity pretty well, but then there are obvious cheap movie tricks, almost as bad as in <a href="/articles/video/star-wars.html">Star Wars</a>: even though the antagonists are dull and acting stupid, you can’t sympathize the protagonists even if you try: most of them are robotic and unpleasant like tech support (or those cyborg spammers, if there is a difference). Good folks are pretty, bad ones are ugly or lay slimy eggs, and they just disappear when they die (what they are doing all the time) – as usual. It seems to be separated from the floor of comics-based movies just by the thin layer of Star Wars.</p>
+<p>But it makes one to think how come that they are so bad in making the script any convincing. Reminds of Nigerian spammers, street cons, and other online and offline scam, be those single letters or long acquaintances, making one to question whether there’s another layer of manipulation going on, or the scammers are just that dumb.</p>
+<p>Of course, screenwriters and directors are supposed to manipulate your feelings, and buying it is what helps one to enjoy a movie, but this one is quite hard to stay involved in. Apparently that’s what gave rise to weird <a href="https://en.wikipedia.org/wiki/V_%282009_TV_series%29#Interpretation">interpretations</a> of the series: when something is so obviously fake or empty, one just tries to find something else there – as a melody in noise “music”, anything that makes sense in David Lynch movies, or images when your eyes are closed. A human mind refuses to accept that a plot that bad can exist, and to be written by another sentient human being. Some even learn to enjoy such things, like those weirdos with religious books, or arthouse cinema viewers – just reading the bits that don’t make sense as metaphors to whatever they want those to mean. I think I understand them better now: you really get plenty of random thoughts while watching such a movie – like pitying the actors who have to play in those scenes, wondering what they are thinking, how did they end up performing there, how they’ll explain it to themselves or others, whether or not they are hooked on heroin by the director, or did the directors mix up the plot with a porn movie, leading to a particularly interesting porn there somewhere.</p>
+<p>Here is just one little scene: the emotionless alien queen puts on an evil grin right after convincing the surrounding people that she is sad. Since it’s hard to imagine that the screenwriter thought something like “it isn’t enough that we show every 2-3 minutes how evil and emotionless she is: the viewers may think that she is actually sad in this scene, what would contradict everything that happened during the previous 30 minutes; let’s add one more evil grin, even though it doesn’t make sense for an emotionless alien lizard in human skin to grin at all”, one tries to find an explanation that makes sense. Unless you are willing to search for hidden messages or get into other kinds of crackpottery, the easiest solution here is to keep in mind that one can never underestimate people. Or maybe the writers are just angry and/or misanthropic, saying “that’s how stupid I think you are”. That’s what <a href="https://en.wikipedia.org/wiki/Art">art</a> is about, sometimes – conveying a message, not just making amusing things. It may seem dull, since a message can be written clearly and in plain text instead, but the important aspect here is that you have to digest it yourself, while the piece of art serves as an illustration, which makes you to think. Like the <a href="https://en.wikipedia.org/wiki/Socratic_method">Socratic method</a>.</p>
+<p>Alien culture is rarely elaborated and different enough from human cultures in sci-fi, but in V it’s one of the worst: though it’s mostly absent, the “V” symbol is used in the few bits that are present, making those contradictory to the whole setting, or implying another highly unlikely coincidence.</p>
+<p>No interesting or fun characters there, pretty much every character is rather annoying. The story, if you cut out all the nonsense, is absent.</p>
+<p>On the “sci” part of “sci-fi”, it’s even worse: there are plot-critical recurring events such as DNA “extraction” (it is unclear what they mean by that, but the purpose seems to be just a collection) using thousands of needles, without putting the patients to sleep, and making it a torture, while they can heal (and even revive) patients without touching them. It’s somewhat like in The Matrix, which was dumbed down by replacing human brain usage for computational power with human body usage for heat, except that in V it probably already was that way in the original script. Hackerman-style hackers are also present in the series, of course, together with other movie cliches. There is plenty of implausible events happening, along with implicit assumptions that we’re getting all the physics and biology (one can count mathematics too, because of Hackerman characters) wrong, and without any alternative models or explanations provided, making it more like magic-fiction. Or, perhaps, science-themed trash-fiction.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Pimp My Code, issue 2</title>
     <link href="http://theasocial.com/articles/internet/pimp-my-code-issue-2.html" />
     <id>http://theasocial.com/articles/internet/pimp-my-code-issue-2.html</id>
@@ -138,6 +499,81 @@
 <p><strong>Victor</strong>: That’s right. We figured you like them.</p>
 <p><strong>Roman</strong>: Thank you!</p>
 <p><strong>Victor</strong>: It was Pimp My Code on The Asocial, see you next time!</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Illegal numbers</title>
+    <link href="http://theasocial.com/articles/life/illegal-numbers.html" />
+    <id>http://theasocial.com/articles/life/illegal-numbers.html</id>
+    <published>2016-03-22T00:00:00Z</published>
+    <updated>2016-03-22T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info life">
+  
+  
+  
+  <p class="abstract">The ones that are too good to be legal</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        March 22, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/life.html">life</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        law, nonsense, interview
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>This new century presents new threats to our society, not least of which is the spread of <a href="https://en.wikipedia.org/wiki/Illegal_number">illegal numbers</a>: numbers which are dangerous by themselves, or those that can be interpreted as dangerous information. Pretty much any number falls into the second group, and unfortunately we can’t ban them all yet, so only individual numbers are currently prohibited in the civilized world. A police officer agreed to give us an interview on this topic.</p>
+<p><strong>The Asocial (A)</strong>: We’re all set. Could you briefly explain to our audience the dangers of illegal numbers?</p>
+<p><strong>Police Officer (P)</strong>: Sure. Illegal numbers, and <a href="https://en.wikipedia.org/wiki/Illegal_prime">illegal primes</a> in particular, undermine the values on which our society is built. One day kids play with them, the next day they hijack an airplane to get more.</p>
+<p><strong>A</strong>: Um, how are airplanes related?</p>
+<p><strong>P</strong>: Airplanes are valuable, and illegal numbers are expensive on black market – especially prime ones. Just this month we’ve raided a dealer, extracted enough money to buy a few islands.</p>
+<p><strong>A</strong>: I heard they are very careful, using cryptocurrencies and mixing services, operating over Tor, shipping with <a href="https://en.wikipedia.org/wiki/Dead_drop">dead drops</a>, and so on. How do you catch them?</p>
+<p><strong>P</strong>: Lots of surveillance, statistics, and analytics – quite an interesting process, actually. Though sometimes they just make mistakes, such as using the same place for a dead drop twice.</p>
+<p><strong>A</strong>: Okay, could you describe typical dealers and consumers?</p>
+<p><strong>P</strong>: Yeah, it’s quite simple: the dealers are all the same – be those number dealers, drug dealers, furniture dealers, or whatever: just some poor bastards who can’t do better, and don’t care. But the consumers are the real problem: those are disgusting low-life criminals without any morals. That’s why the punishment for possession is more severe than that for transmission alone.</p>
+<p><strong>A</strong>: How do you tell if one is in a possession of an illegal number?</p>
+<p><strong>P</strong>: Numbers can be stored on laptops, usb sticks, phones, and so on. With phones and most of the laptops it’s pretty easy: NSA performs the required checks to ensure that those are clear. If we see a suspicious usb stick, or an untracked laptop, we can extract it and send to an expertise.</p>
+<p><strong>A</strong>: What about the numbers that contain illegal ones? Like, the same bits, the same digits in their decimal representation, especially if a decimal representation is infinite, or just being larger than the illegal ones – containing them by <a href="https://en.wikipedia.org/wiki/Set-theoretic_definition_of_natural_numbers">the set-theoretic definition</a>.</p>
+<p><strong>P</strong>: Currently it is unclear what to do with those, but if you ask me – those real and complex numbers are quite shady even without illegal ones. Pretty much everything can be solved by whitelisting allowed numbers instead of blacklisting illegal ones: limiting them to natural numbers, such as 0, 1, 2, 3… The next one is banned in China, but that’s enough for all the real-world tasks. And it should be prohibited to put them together, sum them, or do any other tricks, of course.</p>
+<p><strong>A</strong>: Okay, thanks for clarifying that to us.</p>
+<p><strong>P</strong>: No problem.</p>
+<p>As one may see, the taxes don’t get wasted on something silly like mathematical research, but rather getting spent on the safety of citizens.</p>
 </div>
 ]]></summary>
 </entry>
@@ -398,395 +834,6 @@
 <p>This movie is not an exception, and it is also <a href="https://en.wikipedia.org/wiki/Dystopia">dystopian</a>, what may make it more or less worthwhile to spend your time on watching. Though its sound effects are really bad and loud, and it is long, as many other boring movies tend to be: most of the 2-hour movies barely have enough of the plot for 10-30 minutes, and many independent films actually are 10-30 minutes long. Probably sometimes they are like “hey, we have more tape left – let’s make it longer”, or “let’s not cut anything, it’s too wasteful to throw away our work”.</p>
 <p>One of the best ways to watch it is in background – that is, with another window over it. And definitely without sound, since it is very bad and loud, as was mentioned above. Another option is just to turn it off and remove altogether at the moment when it’ll cross your mind: the movie doesn’t get better as it progresses.</p>
 <p>Usually I am seeding a lot, or at least until the 1.0 ratio if a movie is bad, but removed this one as soon as I finished watching it, and felt good about doing so. I feel fooled and robbed of time, so don’t repeat my mistakes.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Let's Encrypt: public beta</title>
-    <link href="http://theasocial.com/articles/internet/letsencrypt-public-beta.html" />
-    <id>http://theasocial.com/articles/internet/letsencrypt-public-beta.html</id>
-    <published>2015-12-04T00:00:00Z</published>
-    <updated>2015-12-04T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/letsencrypt.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">A new Certificate Authority</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        December  4, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        security
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Yesterday <a href="https://letsencrypt.org/">Let’s Encrypt</a> <a href="https://letsencrypt.org/2015/12/03/entering-public-beta.html">entered public beta</a>, and we have finally got what should have been there from the beginning: a <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authority</a> that may be tolerable. Although the “authority” part still suggests that it is not a nice thing (see <a href="https://en.wikipedia.org/wiki/Anti-authoritarianism">anti-authoritarianism</a>), and <a href="https://en.wikipedia.org/wiki/X.509">X.509</a> is all <a href="https://en.wikipedia.org/wiki/X.509#Security">messed up</a>, as it was mentioned in our <a href="/articles/computing/using-tor-hidden-services.html">recent Tor article</a>, in some aspects “Let’s Encrypt” is better in comparison to others, and CA authorities in general provide at least some security against non-targeted attacks performed by bigger authorities (governments, that is), or by non-official scam that exploits vulnerabilities introduced by those authorities.</p>
-<h2 id="how-it-was-before">How it was before</h2>
-<h3 id="fraud">Fraud</h3>
-<p>Until now, CAs mostly resembled <a href="https://en.wikipedia.org/wiki/Mafia">mafia</a> (<a href="https://en.wikipedia.org/wiki/Protection_racket">protection racket</a>), apart from being illegal. Or a <a href="https://en.wikipedia.org/wiki/Monopoly">monopoly</a> held by a <a href="https://en.wikipedia.org/wiki/Conglomerate_%28company%29">conglomerate</a>. They basically take money for performing basic computations, often adding some “warranty”. Let’s just take a look at <a href="https://ssl.comodo.com/">this shit</a>; for hundreds of USD the following “advantages” are offered:</p>
-<ul>
-<li>“Green address bar provides immediate trust and helps customer <a href="https://en.wikipedia.org/wiki/Conversion_marketing">conversion</a>”. “Green address bar” — web-centric and non-technical reference, with the most popular browser being assumed — captures pretty much the whole thing, and that’s what server (often website) owners usually pay for: not security, but “customer conversion”. One more reminder that there’s no such things as ethics and morale in those waters.</li>
-<li>“2048-bit, highest assurance SSL Certificate, with 99.9% Browser Recognition”. Probably “highest assurance” refers to 2048-bit keys currently being fine in practice: though there is not much overhead with 4096, it is not likely that somebody can forge or bruteforce 2048-bit keys, and if they do – it is rather hard to imagine what they are capable of, and particularly whether 4096-bit keys would help at all. On the other hand, why would they put a vague yet reasonable reference among bullshit? Most likely it’s not that. “SSL Certificate” is not even a thing: they refer to X.509 certificates, used in TLS, as well as in insercure and deprecated SSL. The “99.9%” is obviously pulled out of their ass, which doesn’t require any familiarity with the topic to detect with high accuracy. Though translating from the moron language, “99.9%” means “most” or “uncertain”: just as “50%” means “I don’t know”, and “100%” – “whole”, “all”, or “probably; I’m certain, but I’m ignorant enough to gather that certainty out of thin air”.</li>
-<li>“Priority phone support”. Of course, their customers will need it.</li>
-<li>“Free <a href="https://www.trustlogo.com/">Comodo TrustLogo</a> for unlimited server licenses”. That’s a nice one: though the “unlimited server licenses” part is not clear, the logo is indeed available for free, and it is just a picture that you put on your website. Marketed with more bullshit, such as “a site seal from a trusted 3rd party can often be the difference between making a sale or not”. It may be confusing for a naive reader, but they indeed list a free picture that you can put anywhere anyway as an advantage of that $400 package, and market that picture as being useful. Somebody thought that it is a good idea – probably the same person who made up the rest of “advantages”. The frightening thing is that probably it indeed was a good idea for their business.</li>
-<li>“$1,750,000 <a href="https://en.wikipedia.org/wiki/Relying_party">relying party</a> <a href="https://www.comodo.com/repository/docs/SSL_relying_party_warranty.php">warranty</a>”: apparently it is about them warrantying non-violation of their validation procedures, and only covers money transactions, limited by the mentioned sum.</li>
-</ul>
-<p>And they offer free certificates, too! There are claims such as “Ninety day free SSL Certificate (other CAs offer 30 days maximum.)”; not to mention that it is a lie now, it was a lie for a long time before – even crappy <a href="https://startssl.com/">StartSSL</a> — which requires an outdated TLSv1, which is normally disabled in modern software — used to issue free certificates for a year. Comodo is just the first relevant non-ad result thrown by DDG for “ssl certificates” (you won’t find commercial offers among the first few dozens of results using proper naming), but they are all pretty much the same.</p>
-<p>Ironically, CAs exhibit common fraud signs, while they are supposed to protect you from fraud, among other things. Perhaps that’s why they should be “authorities” in order to survive and be legal at all. And that’s just one of the problems with X.509 PKI.</p>
-<h3 id="self-signed-certificates">Self-signed certificates</h3>
-<p>The problem with self-signed certificates is that most users won’t notice them being forged (unless they have received and installed them manually as “trusted” previously). Some users would mostly see self-signed certificates when attacked by their ISPs: supposedly to enforce censorship without confusing users (and without getting tons of phone calls), those ISPs perform those <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">MitM attacks</a> with self-signed certificates, sometimes with default values – in order to show a message, and possibly to intercept data that is supposed to be transmitted over a secure channel. Others will see it while using malicious, hacked, and/or commercial Wi-Fi networks. Self-signed certificates are still better than no encryption at all, unless you get a false sense of safety after seeing one, but generally it implies scam activities, making self-signed certificates only useful in specific cases.</p>
-<h2 id="how-it-is-with-le">How it is with LE</h2>
-<p>First of all, “Let’s Encrypt” is free, and not a trial/marketing kind of free, which makes it usable for hobby projects and non-essential parts of any projects; it is finally easy to take care of security, and not just “green address bar” for “customer conversion”.</p>
-<p>To set certificates with it, you just grab the <a href="https://github.com/letsencrypt/letsencrypt">letsencrypt client</a>, possibly <a href="https://letsencrypt.readthedocs.org/en/latest/">check the documentation</a>, install all the dependencies, and generate a key and a certificate with a single command. It is <em>very</em> easy to use, the certificate gets issued instantly, while in most cases the client takes care of verification for you, providing a few options for that. It also allows you to choose things such as key length, can be set on cron, and apparently updates itself. Neat stuff, which may decrease CA-based fraud and increase overall security over internet in the nearest future.</p>
-<p>Though it also has a few issues, as seen from the first glance:</p>
-<ul>
-<li>Short, 3-month certificate life: it is supposed to force users to automate renewal, but would make less sense for protocols that keep connections for long periods of time, and may be tricky to use for them, if corresponding daemons don’t support certificate reloading without restart.</li>
-<li>Weird, enterprise/amateur-software-style installation: that is, ignoring standard ways to install, implementing and using its own scripts to install dependencies, using your package manager.</li>
-<li>Plugins to perform very basic tasks, messing with your configs.</li>
-<li>Bloated from the beginning, hard to review client, which requires root privileges: currently its repository consists of 482 files, 77992 lines.</li>
-<li>Weird choice of languages: Go and Python. Not safe, not fast, not dependency-frugal.</li>
-<li>Automated updates, which are supposed to be run from root, executing the updated code at once, and possibly via cron. May easily compromise your server while you are trying to protect connections to it.</li>
-<li>Weird name, making it uncomfortable to mention in a sentence.</li>
-</ul>
-<p>Generally, it takes control over your server for no good reason, making you to hack around in order to gain some control over the process, and is quite web-oriented.</p>
-<p>X.509 PKI is still messed up, but “Let’s Encrypt” does not seem to be an outright fraud, as other CAs do.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Tardigrades: foreign DNA</title>
-    <link href="http://theasocial.com/articles/nature/tardigrades-foreign-dna.html" />
-    <id>http://theasocial.com/articles/nature/tardigrades-foreign-dna.html</id>
-    <published>2015-11-27T00:00:00Z</published>
-    <updated>2015-11-27T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info nature">
-  
-  <img src="/images/articles/attack-of-the-tardigrades.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Breaking news</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://ramul.deviantart.com/art/Attack-of-the-tardigrades-143385439">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        November 27, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/nature.html">nature</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>We wrote <a href="tardigrades.html">how badass tardigrades are</a> before, but the information keeps coming. Do you even know what <a href="https://en.wikipedia.org/wiki/Horizontal_gene_transfer">horizontal gene transfer</a> is? Tardigrades not only know what it is, but also use it extensively: currently 17.5% of their <a href="https://en.wikipedia.org/wiki/Genome">genome</a> is borrowed from other organisms, setting another record by water bears. More than that: bacteria, fungi, plant, whatever – <a href="https://en.wikipedia.org/wiki/DNA">DNA</a> is DNA, as the old tardigrade saying states, so they borrow it from everything.</p>
-<p><a href="http://www.pnas.org/content/early/2015/11/18/1510461112">The publication</a> in <a href="https://en.wikipedia.org/wiki/Proceedings_of_the_National_Academy_of_Sciences_of_the_United_States_of_America">PNAS</a> explains it in more detail, and there is <a href="http://news.meta.com/2015/11/23/waterbear/">a meta.com article</a>. In short, apparently when water bears dry out, their genome may lose integrity, and then it gets ready to borrow missing parts from outside.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Happiness</title>
-    <link href="http://theasocial.com/articles/life/happiness.html" />
-    <id>http://theasocial.com/articles/life/happiness.html</id>
-    <published>2015-11-22T00:00:00Z</published>
-    <updated>2015-11-22T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  <img src="/images/articles/wild-cat-and-box.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Is it a myth or reality?</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://www.baby-cats.com/">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        November 22, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Happiness">Happiness</a> is a state of <a href="https://en.wikipedia.org/wiki/Well-being">well-being</a>, or living a <a href="https://en.wikipedia.org/wiki/The_good_life">good life</a>. Or something like that; in fact it is a <a href="https://en.wikipedia.org/wiki/Fuzzy_concept">fuzzy concept</a>. But everyone wants to be happy, apparently, and sometimes happiness is described as “that at which everything aims”, and as synonymous with “good”<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
-<p>It is said that money don’t matter as much after a certain point, what roughly corresponds to the <a href="https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs">Maslow’s hierarchy of needs</a>, though a lot of <a href="https://en.wikipedia.org/wiki/Psychology">psychology</a> is <a href="https://en.wikipedia.org/wiki/Fraud">fraud</a> and <a href="https://en.wikipedia.org/wiki/Pseudoscience">pseudoscience</a>, and this particular theory should not be trusted easily. The wikihow’s <a href="http://www.wikihow.com/Be-Happy">“3 Ways to Be Happy”</a> article (don’t get excited: those advices rarely work) points out that people are pretty flexible, and they can adapt to all kinds of things – both good and bad ones. And since happiness seems to go up when something gets better, but to decline afterwards, you are basically doomed to go back back to the base level level of happiness, unless you change stuff around all the time, maintaining those happiness bumps, or unless you live in poverty or something like that. It also suggests that a lot of happiness depends on human interaction, which is unfortunate.</p>
-<p>Most of stories (books and movies) which feature happy endings exploit that: they picture how a protagonist achieves happiness (gets out of trouble, achieves something that makes him or her, or <a href="https://en.wikipedia.org/wiki/Gender-specific_and_gender-neutral_pronouns#Summary">whatever pronoun</a> that person prefers, happy), and that’s where the stories should end – since there is gradual decoy right after that. Unless the said happy-ending is suicide or something like that, of course. You may have observed similar effects with toys, hardware, probably relationships, and all the other kinds of nice things which tend to make people happy: initial excitement turns into routine, and then you throw stuff (or people) away.</p>
-<p>Being unhappy most of the time may be quite useful for doing some increasingly cool things, since it pushes one to improvement, unless it brings you <a href="https://en.wikipedia.org/wiki/Major_depressive_disorder">depression</a>, <a href="https://en.wikipedia.org/wiki/Apathy">apathy</a>, or something else along those lines. The latter seems to be similar to <a href="https://en.wikipedia.org/wiki/Nirvana">Nirvana</a>, which some folks are trying to achieve, though probably it is different somehow – since people don’t seem to strive for apathy. But anyway, when you achieve or learn something, quite soon you stop considering it being that cool, and look for new stuff, or desire for more; in the end you lose, dying unsatisfied (and often <a href="/articles/life/old-age.html">old</a>). That is, unless your last desire was to die, or you were apathetic in the end – but such cases are rarely associated with being happy, though may be associated with being calm (and, well, perhaps that Nirvana thing).</p>
-<p>Since the race with ever-growing desires is more or less impossible to win, especially in the constantly changing and worsening world we live in, two strategies are often proposed: to fight those desires, or to use some tricks that are supposed to change your perception of reality – which mostly coincide with <a href="https://en.wikipedia.org/wiki/Defence_mechanisms">defence mechanisms</a>. They will not lead to everlasting happiness, but may help to achieve <a href="https://en.wikipedia.org/wiki/Contentment">contentment</a>, which may also be pretty nice – though will probably eliminate even occasional happiness. To check how being calm works for you, you can simply wait until you will get sleepy and relaxed (warning: this may be addictive and lead to waste of time). It is trickier with happiness, but if you can’t even think of a way to invoke it – some drugs may assist, or simply <a href="http://www.wikihow.com/Remember-Dreams">remembering your dreams</a> may help: though there is a lot of weird and scary stuff, one may also be genuinely happy in a dream. By the way, <a href="http://www.wikihow.com/Daydream">daydreaming</a> is a weaker alternative.</p>
-<p>Perpetual change may work, though it is also quite possible that you will get used to that, and may not always be possible to maintain and desire a perpetual change of positive things.</p>
-<p>All in all, prolonged periods of happiness do not seem to be practically achievable, though one may hope for some glimpses of it.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Nicomachean_Ethics">Nicomachean Ethics</a> provides an interesting perspective. Though some parts of it may sound rather weird and vague, it is short: paper wasn’t yet invented at the time of writing.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Humour, fun, and laughter</title>
-    <link href="http://theasocial.com/articles/life/humour-fun-and-laughter.html" />
-    <id>http://theasocial.com/articles/life/humour-fun-and-laughter.html</id>
-    <published>2015-11-20T19:30:00Z</published>
-    <updated>2015-11-20T19:30:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  <img src="/images/articles/chrysippos.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Cheerful stuff</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://commons.wikimedia.org/wiki/File:Chrysippos_BM_1846.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        public domain
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        November 20, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>We have decided to write about something cheerful, so here is three topics at once: <a href="https://en.wikipedia.org/wiki/Humour">humour</a>, <a href="https://en.wikipedia.org/wiki/Fun">fun</a>, and <a href="https://en.wikipedia.org/wiki/Laughter">laughter</a>. They all may be somewhat mysterious and hard to define, though Wikipedia does that.</p>
-<h2 id="humour">Humour</h2>
-<p>There are various kinds of humour, and various <a href="https://en.wikipedia.org/wiki/Theories_of_humor">theories of humour</a>, but it seems to be more or less common in them that unexpected stuff is funny. And it also is a <a href="https://en.wikipedia.org/wiki/Coping_%28psychology%29">coping</a> mechanism, providing you relief. One of the oldest theories states that humour is about feeling superiority: you laugh when you see that somebody is acting stupid or suffers; this theory seems to cover most of the funny things, though it may also depend on personal taste. Also explains why <a href="https://en.wikipedia.org/wiki/Snuff_film">snuff</a> got mixed with <a href="https://en.wikipedia.org/wiki/Comedy">comedies</a>.</p>
-<h2 id="fun">Fun</h2>
-<p>As Wikipedia states, fun is an experience, related to enjoyment of <a href="https://en.wikipedia.org/wiki/Pleasure">pleasure</a>, whereas pleasure may be a lot of things, and often it is something you seek. In many cases it is also easy to link to <a href="https://en.wikipedia.org/wiki/Evolution">evolution</a>: one usually finds enjoyable the things that helped previous generations to survive. So, basically it is supposed to be fun to survive and prosper.</p>
-<h2 id="laughter">Laughter</h2>
-<p>One of the versions of the cause of death of <a href="https://en.wikipedia.org/wiki/Chrysippus">Chrysippus</a> (the guy from the picture, a Greek <a href="https://en.wikipedia.org/wiki/Stoicism">Stoic</a> philosopher) is that he <a href="https://en.wikipedia.org/wiki/Death_from_laughter">died from laughter</a>. So, one use of laughter is to send something really funny by mail, following the <a href="https://en.wikipedia.org/wiki/Ted_Kaczynski">Unabomber</a> – just using different technologies. Actually, it seems that he does exactly that now, from the prison: “On May 24, 2012, Kaczynski submitted his current information to the Harvard University alumni association. He listed his eight life sentences as awards, his current occupation as prisoner.”</p>
-<p>Seriously though, laughter is mostly a social thing, usually caused by humour or other positive emotions, such as joy. Points out that a group of laughing people understands something in the same way, probably is relaxed (hence friendly), and so on.</p>
-<p><a href="https://en.wikipedia.org/wiki/Smile">Smile</a> appears to be related to laughter, though it is not the same thing.</p>
-<p>Note that the interpretation of those differs among cultures: say, websites filled with fake smiles seem to be considered appealing in the webdev culture – especially in its corporate and Indian parts, while in sad ex-USSR countries smiling in public is considered suspicious for obvious reasons: you don’t know what to expect from a person who smiles while being in there. Some of the Asian folks may smile when they are in emotional pain, making it pretty weird.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>That Sugar Film</title>
-    <link href="http://theasocial.com/articles/video/that-sugar-film.html" />
-    <id>http://theasocial.com/articles/video/that-sugar-film.html</id>
-    <published>2015-11-20T00:00:00Z</published>
-    <updated>2015-11-20T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/that-sugar-film.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">A bad documentary film</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        November 20, 2015
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        not recommended
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>“<a href="http://www.imdb.com/title/tt3892434/">That sugar film</a>” is a film about dangers of <a href="https://en.wikipedia.org/wiki/Sugar">sugar</a>, or at least advertised as one. Which may be an interesting topic, but the problem is that it is barely covered in this movie; instead, you get almost 97 minutes of bullshit, which makes you to suspect that it is actually a pro-sugar film, sponsored by sugar companies. Although, assuming that it is not the case, bad examples of pretty much anything can serve another purpose: it is much easier to see how they are trying to trick you when it is not performed professionally. Well, probably it also uses the tricks that are deemed too dumb to be used in professionally made movies, but still – that’s the interesting thing about this movie. It is like observing kids or savages, and then noticing similar behaviours in regular people.</p>
-<p>So, the movie begins with a weird guy who complains that his girlfriend made him to abandon sugar, and now he wants to eat a lot of sugar for the sake of an experiment. His girlfriend is also pregnant, which makes it extra-disgusting, but supposedly it is an <a href="https://en.wikipedia.org/wiki/Appeal_to_emotion">appeal to emotion</a> – since it seems that some perverts like pregnant women. Or the director, who also played the protagonist, just wanted to get away in addition to eating sugar: like, “I’ll have a good time, which would involve a lot of sugar and some travel, while you suffer from pregnancy. But I’ll film it – so it will be a documentary film, which would make more people to eat grass – that’s what you want, right?”. Would probably be more fun to make such a movie about <a href="https://en.wikipedia.org/wiki/Alcoholic_beverage">alcohol</a> or <a href="https://en.wikipedia.org/wiki/Methamphetamine">meth</a>.</p>
-<p>The experiment itself is stupid and doesn’t really show much: the guy goes from nearly-zero to really high sugar consumption for two months, and observes how his body gets screwed; perhaps he is a fan of <a href="https://en.wikipedia.org/wiki/Jackass_%28TV_series%29">Jackass</a>, but he was not nearly as fun.</p>
-<p>Most of the movie is pretty boring: it is about him eating sugar, constantly repeating (<a href="https://en.wikipedia.org/wiki/Ad_nauseam">ad nauseam</a>) how bad sugar is (may remind of <a href="https://en.wikipedia.org/wiki/Circular_reasoning">circular reasoning</a>, but there is no reasoning – just an experiment) and how bad he feels (<a href="https://en.wikipedia.org/wiki/Appeal_to_pity">appeal to pity</a>, perhaps; there also are scenes where he just feels bad), and eating more. By the end of the movie it is revealed that his body is indeed screwed, but not enough to win <a href="https://en.wikipedia.org/wiki/Darwin_Awards">Darwin awards</a>.</p>
-<p>There was a whole one researcher in that documentary, a dialogue with whom went like this<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>:</p>
-<p>— Hello. I’m experimenting with my body by eating a lot of sugar after avoiding it, and I feel bad. You tell us that sugar is not that harmful. How would you explain it?</p>
-<p>— Hello. Well, pretty much anything is harmful if you consume too much of it, and especially if you are going from one extreme to another: your body gets used to…</p>
-<p>— Stop right there, are you getting paid by Coca-Cola?</p>
-<p>— Yes, but it does not affect the results, and they can not…</p>
-<p>— Ah-ha! So you are working for them! I see now!</p>
-<p>Can you tell which <a href="/articles/life/biases-fallacies-and-misconceptions.html">fallacy</a> is that? <a href="https://en.wikipedia.org/wiki/Ergo_decedo">Ergo decedo</a>, a type of <a href="https://en.wikipedia.org/wiki/Ad_hominem">ad hominem</a>, it seems. But the particularly weird thing is that the guy just comes to that researcher, most likely being aware that his research is sponsored by Coca-Cola (or whatever it was), and then invokes the said fallacy. At this point one may think that a lack of sugar makes people retarded (what would also be a fallacy; many jokes involve fallacies, by the way).</p>
-<p>In the end the guy stops consuming sugar, and feels ruined – but from this he does not infer that a lack of sugar is harmful, as he did it with sugar two months ago, but does the opposite, of course. And concludes that — surprise! — sugar is bad. With such a methodology, it should be fairly simple to show that fruits and vegetables are extremely unhealthy – not to mention anything else.</p>
-<p>Of course, one stupid movie does not imply that sugar is all nice and healthy, or anything serious at all; if you are interested in it, check the corresponding Wikipedia article and go through the links, or just search for it – it should not be hard to find some actual research results. Though the movie also suggests that research is unreliable, apparently implying that they are the only source of truth. And while it is possible, it also appears to be highly unlikely, and is the usual bullshit explanation of made-up things.</p>
-<p>The sad part is that such poorly delivered information may have truth in it, but it is hard to tell when it is delivered in such a way; same goes for all the recreational drugs, and a lot of other things. When you see that information about something being harmful is a lie (or vastly exaggregated), it is hard to trust, and one may assume that the thing is in fact harmless. So, it is unclear from this film alone whether sugar is harmful in moderate portions, but the film itself seems to be rather harmful.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>I won’t watch it again, and watched a while ago – so it is a rough paraphrasing from memory; the movie is there for you if you are really interested.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
 </div>
 ]]></summary>
 </entry>

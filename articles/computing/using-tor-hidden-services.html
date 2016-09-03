@@ -133,7 +133,7 @@
 <h2 id="example">Example</h2>
 <p>Let’s set everything and see how it works.</p>
 <h3 id="installation">Installation</h3>
-<p><a href="https://www.torproject.org/download/download.html.en">Download</a> and <a href="https://www.torproject.org/docs/tor-doc-unix.html.en">install</a> Tor. It is recommended to get a fresh version, since there may be security updates, so the version from your system repositories may be outdated and not secure.</p>
+<p><a href="https://www.torproject.org/download/download.html.en">Download</a> and <a href="https://www.torproject.org/docs/tor-doc-unix.html.en">install</a> Tor. It is recommended to get a fresh version, since there may be security updates, so the version from your system repositories may be outdated and not secure. On the other hand, if your distribution applies security patches quickly, it may be better to use a version from repositories, which will have a better chance to actually be updated.</p>
 <h3 id="hidden-service-configuration">Hidden service configuration</h3>
 <p>There is a howto, <a href="https://www.torproject.org/docs/tor-hidden-service.html.en">Configuring Hidden Services for Tor</a>, so we just follow its steps, more or less: <code>nc -vlp 52113</code> to run a basic TCP server, add a service into <code>/etc/tor/torrc</code>:</p>
 <pre><code>HiddenServiceDir /var/lib/tor/test-service/
