@@ -8,8 +8,314 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2016-09-23T00:00:00Z</updated>
+    <updated>2016-10-08T18:00:00Z</updated>
     <entry>
+    <title>Peer review</title>
+    <link href="http://theasocial.com/articles/comics/peer-review.html" />
+    <id>http://theasocial.com/articles/comics/peer-review.html</id>
+    <published>2016-10-08T18:00:00Z</published>
+    <updated>2016-10-08T18:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info comics">
+  
+  <img src="/images/comics/peer-review.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">Reviews are hard</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  8, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/comics.html">comics</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Pimp My Code, issue 3</title>
+    <link href="http://theasocial.com/articles/internet/pimp-my-code-issue-3.html" />
+    <id>http://theasocial.com/articles/internet/pimp-my-code-issue-3.html</id>
+    <published>2016-10-08T00:00:00Z</published>
+    <updated>2016-10-08T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/pimp-my-code.png" alt=""/>
+  
+  
+  
+  <p class="abstract">Exabit and his team pimp an old LaTeX document class</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  8, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="pimp-my-code-issue-2.html">Previously</a> on <a href="https://github.com/pimp-my-code">Pimp My Code</a>: <a href="https://github.com/getlogbook/logbook">logbook</a>, a python logging library, <a href="https://github.com/getlogbook/logbook/pull/201">got logging of its own</a>, as well as new looks.</p>
+<p>Today Exabit visits <a href="https://github.com/cambridge">University of Cambridge</a>, where <a href="https://github.com/cambridge/thesis/graphs/contributors">Matej and his friends</a> are struggling to get any PDFs out of <a href="https://github.com/cambridge/thesis">their old LaTeX document class</a>.</p>
+<p><strong>Exabit</strong>: Yo. Everyone enjoys reading, and I’m reading with these smooth and grotesque <a href="http://dejavu-fonts.org/">DejaVu</a> <a href="https://en.wikipedia.org/wiki/Sans-serif">sans-serif</a> fonts, because I’m Exabit. Unfortunately for my man Matej, this <a href="https://en.wikipedia.org/wiki/Computer_Modern">Computer Modern</a>’s <a href="https://en.wikipedia.org/wiki/Roman_%28typeface%29">Roman</a> font is no good for eyes. But not to worry: Matej has no idea, but we’re about to pimp his code.</p>
+<p><em>Exabit knocks the door, the door opens.</em></p>
+<p><strong>Matej</strong>: No way! You gotta be joking! No waay! Exabit!</p>
+<p><strong>Exabit</strong>: Yeah, yeah, calm down. I’ve come here today, and I’m ready to pimp your code.</p>
+<p><strong>Matej</strong>: I can’t believe it, is it really you?</p>
+<p><strong>Exabit</strong>: It’s me, alright? So, what about your code? Do you have a name for it?</p>
+<p><strong>Matej</strong>: It’s just called “thesis”, but informally we call it “embarrassment”.</p>
+<p><strong>Exabit</strong>: Well, show me your “embarrassment”.</p>
+<p><strong>Matej</strong>: Here it is. It’s a regular black-on-white model, though rather old one. The fonts got serifs with time, the typos are abundant. Obviously it has seen better days.</p>
+<p><strong>Exabit</strong>: Oh wow. And what’s up with that Makefile?</p>
+<p><strong>Matej</strong>: Well, it got circular dependencies, nobody knows how it works at all.</p>
+<p><strong>Exabit</strong>: Okay, I’ve seen enough. I’m taking this off to our garage where we will end its suffering.</p>
+<p><em>Exabit makes a few gangsta gestures, takes off from the third attempt. When he arrives to the garage, Victor and El Hackerozo appear to protest.</em></p>
+<p><strong>Exabit</strong>: Okay, check this out. This is a 2011 LaTeX document class. What can we do with this?</p>
+<p><strong>Victor</strong>: A “screen” mode is a must. Since it’s a document class, we could simply add it as an option; then it would set fonts and colors for on-screen reading.</p>
+<p><strong>Exabit</strong>: Sounds good, what else?</p>
+<p><strong>El Hackerozo</strong>: There’s so much free space. I think we should hide empty pages in that “screen” mode, and add some flames on the title page. You know how pale some of those papers look like?</p>
+<p><strong>Exabit</strong>: Yeah, yeah, they are like “we are so awesome that we don’t have to look nice”, but they actually have to, you know what I’m saying?</p>
+<p><strong>El Hackerozo</strong>: I do. So, we can make a flame contour, which would simply stay that way in the print mode, but will be filled with screen mode.</p>
+<p><strong>Victor</strong>: Somebody should also fix those typos.</p>
+<p><strong>Exabit</strong>: Oh, guys, I forgot to show you: this Makefile has circular dependencies.</p>
+<p><em>Victor grabs his head in horror.</em></p>
+<p><strong>Victor</strong>: I’m not sure if we’ll have enough time to get rid of that, but I’ll take a look.</p>
+<p><strong>Exabit</strong>: Well, sounds good, let’s do this!</p>
+<p><em>The team works on it for hours, and it’s finally the time to present the work to the client. Matej and his friends are coming in, <a href="https://github.com/cambridge/thesis/pull/29">the team presents the work</a>:</em></p>
+<blockquote>
+<p>Yo dawg.</p>
+</blockquote>
+<blockquote>
+<p>I heard you like LaTeX. So we’ve put more LaTeX into your LaTeX.</p>
+</blockquote>
+<blockquote>
+<p>But first things first. Remember that old Makefile of yours, that was failing to make a PDF after <code>make clean</code>? Guess what? We fixed it! That’s right, now it’s actually doing what it’s supposed to do.</p>
+</blockquote>
+<blockquote>
+<p>Of course we’ve fixed a few typos here and there: even the samples of your new class file should be impeccable.</p>
+</blockquote>
+<blockquote>
+<p>Now, let me show you something. See this new TikZ flame contour? It’s fancy even this way, but let’s turn on your brand new <code>screen</code> documentclass option. Not just it brings the flame to life, it sets the default font family to sans serif, skips the empty pages, and even updates the background color of every page! It was not healthy to read from a screen with the contrast as high as there was before, and just look at those smooth letters!</p>
+</blockquote>
+<blockquote>
+<p>Now that it’s easier on the eyes, you’ll always have a steady flow of new dissertations, since the students are gonna just love it. No lone nights with nothing to read anymore!</p>
+</blockquote>
+<blockquote>
+<p>We’ve also found a hidden submission notice claiming that the thesis is badass, and restored it – no need to be humble with this beauty!</p>
+</blockquote>
+<blockquote>
+<p>Yo, look <a href="/exhaust/pimp-my-code-cambridge-thesis.pdf">here</a>. Yeah, that’s a new shield – not exactly of a college, but indicating that you’ve been officially pimped!</p>
+</blockquote>
+<blockquote>
+<p>It’s been our pleasure pimping your thesis template. See you next time!</p>
+</blockquote>
+<p><em><a href="https://dl.bintray.com/matej/cam-thesis/thesis.pdf">Before</a> and <a href="/exhaust/pimp-my-code-cambridge-thesis.pdf">after</a>.</em></p>
+<p><strong>Matej</strong>: Whoa, sick visuals! Awesome typo fixes! And look at this Makefile, ahh. May I try it?</p>
+<p><strong>Exabit</strong>: Of course, it’s all yours!</p>
+<p><strong>Matej</strong>: Awesome, it works!</p>
+<p><strong>Victor</strong>: Sure it does. Hey, let’s turn the screen mode on.</p>
+<p><strong>Matej and friends</strong>: Wow, unbelievable! Thank you guys!</p>
+<p><strong>Exabit</strong>: No problem, that’s what we do. It was Pimp My Code on The Asocial, see you next time!</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>systemd</title>
+    <link href="http://theasocial.com/articles/computing/systemd.html" />
+    <id>http://theasocial.com/articles/computing/systemd.html</id>
+    <published>2016-10-06T00:00:00Z</published>
+    <updated>2016-10-06T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  <img src="/images/articles/redhat.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">History and current state</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:RedHat.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  6, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Once upon a time, there was a guy named <a href="https://en.wikipedia.org/wiki/Lennart_Poettering">Lennart Poettering</a>, who was involved into edgy projects such as <a href="https://en.wikipedia.org/wiki/PulseAudio">PulseAudio</a> (the monster sound server that runs on top of <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> driver, leading to half the sound problems – the other half is caused by ALSA) and <a href="https://en.wikipedia.org/wiki/Avahi_(software)">Avahi</a> (an implementation of <a href="https://en.wikipedia.org/wiki/Multicast_DNS">mDNS</a> and related things – one of those programs that seem to rarely be used outside of corporate environments). The monstrosity of both is comparable to that of <a href="https://en.wikipedia.org/wiki/D-Bus">D-Bus</a>, which is actually used by both. It shouldn’t be a surprise that Lennart currently works for <a href="https://en.wikipedia.org/wiki/Red_Hat">Red Hat</a> – a company responsible for things such as <a href="https://en.wikipedia.org/wiki/NetworkManager">NetworkManager</a> and other abominations.</p>
+<p>Back in 2010, Lennart started working on <a href="https://en.wikipedia.org/wiki/Systemd">systemd</a>. There already was <a href="https://en.wikipedia.org/wiki/Init#Replacements_for_init">a variety of init systems</a>, but the most widely used ones were rather messy: non-portable across systems shell scripts for daemons alone were quite a pain to deal with. In November 2010, systemd got into <a href="https://getfedora.org/">Fedora</a> (<a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> beta) repositories, and became default there in May 2011. Journald (its logging system) was <a href="http://blog.gerhards.net/2011/11/journald-and-rsyslog.html">criticized by rsyslog author</a> in 2011. In 2012, the Slackware author <a href="https://www.linuxquestions.org/questions/interviews-28/interview-with-patrick-volkerding-of-slackware-949029/">claimed</a> that systemd violates <a href="https://en.wikipedia.org/wiki/Unix_philosophy">UNIX philosophy</a>. By 2015, it already ate <a href="https://en.wikipedia.org/wiki/Udev">udev</a>, implemented its much criticized logging system, a login shell, and grew a bunch of <a href="https://en.wikipedia.org/wiki/Systemd#Ancillary_components">other components</a>, for what it has been criticized – as well as for being Linux-specific, doing half-assed job, and so on. Yet, after a <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=727708">long</a> <a href="https://wiki.debian.org/Debate/initsystem">debate</a>, in April 2015 it became default in <a href="https://www.debian.org/">Debian</a>. There’s more of <a href="https://en.wikipedia.org/wiki/Systemd#History">systemd history</a>, which mostly consists of criticizm, in the Wikipedia article.</p>
+<p>Though systemd finally made daemons easily portable across major Linux-based systems, it made them incompatible with other Unix-like systems, and with a few Linux-based ones that continued to resist – such as <a href="https://en.wikipedia.org/wiki/Slackware">Slackware</a> and <a href="https://www.gentoo.org/">Gentoo</a>.</p>
+<p>Somewhere along the way, we’ve got the “boycott systemd” campaign, a systemd-free Debian fork, and <a href="http://without-systemd.org">without-systemd.com wiki</a>. But that’s not all: now we’re getting things such as “<a href="https://www.agwa.name/blog/post/how_to_crash_systemd_in_one_tweet">How to Crash Systemd in One Tweet</a>” (the title is actually misleading and weird, but the article is rather interesting) and “<a href="http://suckless.org/sucks/systemd">systemd is the best example of Suck</a>” by <a href="http://suckless.org/">suckless.org</a>.</p>
+<p>Systemd is not the first attempt to fix the init mess: “<a href="http://blog.darknedgy.net/technology/2015/09/05/0/">A history of modern init systems (1992-2015)</a>” gives a nice outline of those, with occasional config examples. Yet it’s the one that was backed by Red Hat, what contributed to both development and the wide adoption.</p>
+<p>To be fair, Linux kernel itself is huge and monolithic, and the tools that were widely used before systemd are not much better. There’s the monstrous, often monolithic and bloated, often by Red Hat or GNOME and resembling MS Windows, “enterprise” junk with D-Bus and stuff on one side, and the swamp of old, often bloated because of compatibility with the most obscure systems, and heterogeneous junk on the other.</p>
+<p>It would be nice to point out some articles that show systemd in a good light for a contrast, but currently the <a href="https://duckduckgo.com/?q=systemd+good&amp;ia=web">“systemd good” search query</a> yields results such as “<a href="http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html">Meet systemd, the controversial project taking over a Linux distro near you</a>”, “<a href="http://www.infoworld.com/article/2608798/data-center/systemd--harbinger-of-the-linux-apocalypse.html">Systemd: Harbinger of the Linux apocalypse</a>”, “<a href="http://linuxbsdos.com/2014/09/03/is-systemd-as-bad-as-boycott-systemd-is-trying-to-make-it/">Is systemd as bad as boycott systemd is trying to make it?</a>”, followed by Wikipedia, suckless, ArchWiki, some tutorials, and <a href="https://judecnelson.blogspot.com/2014/09/systemd-biggest-fallacies.html#!">more</a> <a href="https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/">criticizm</a>.</p>
+<p>Well, at least it reached its alleged goal of being more like MS Windows: very few people seem to like it, yet it is used widely.</p>
+<p>One of the lessons to learn from this is the following: fix your stuff in time, or Lennart will do it, and nobody will be happy.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>StartSSL and friends</title>
+    <link href="http://theasocial.com/articles/internet/startssl-and-friends.html" />
+    <id>http://theasocial.com/articles/internet/startssl-and-friends.html</id>
+    <published>2016-10-02T00:00:00Z</published>
+    <updated>2016-10-02T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/startcom-logo.png" alt=""/>
+  
+  
+  
+  <p class="abstract">StartCom, Qihoo 360, WoSign, and Opera</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  2, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="startssl-and-startcom">StartSSL and StartCom</h2>
+<p>As you probably already know, and as it has already been mentioned in the “<a href="letsencrypt-public-beta.html">Let’s Encrypt: public beta</a>” article, <a href="https://www.startssl.com/">StartSSL</a> is a crappy (though not outstanding in that) certificate authority. The company behind it is Israel-based <a href="https://en.wikipedia.org/wiki/StartCom">StartCom</a>, and as the Wikipedia article points out, its root certificates have been shipped with all major browsers since 2010, though the startssl.com domain name was created on 2006-09-10.</p>
+<p>Apparently “StartCom” stands for “start commerce”, and their slogan is “StartCom, the Start of eCommerce”. When they’ve just launched StartSSL (assuming it was after 2006-09-10), TLS 1.1 was already out, but “SSL” was a more widely known term among clueless potential customers. That was a subtle hint of what to expect. Since then it only went downhill.</p>
+<p>In 2011, shortly after <a href="http://www.theregister.co.uk/2011/03/23/gmail_microsoft_web_credential_forgeries/">Comodo</a>, it <a href="http://www.theregister.co.uk/2011/06/21/startssl_security_breach/">suffered a security breach</a>, but apparently nothing of value has been stolen, so it wasn’t such big of a deal. It wasn’t considered a biggie even with Comodo, though it has potentially screwed a lot of users.</p>
+<p>In 2016, StartCom launched StartEncrypt – a Let’s Encrypt clone, but <a href="https://www.computest.nl/blog/startencrypt-considered-harmful-today/">vulnerable</a>, issuing certificates without confirmation.</p>
+<h2 id="opera">Opera</h2>
+<p>Opera was a proprietary web browser, perhaps not particularly bad one, which began in 1994, and grew into a monster and pretty much died about 2013. The developers refused to open its source code even after that, managing to sell the poor thing to some Chinese corporation for a hefty bulk of money like a large shipment of old electronics.</p>
+<h2 id="wosign-and-qihoo-360">WoSign and Qihoo 360</h2>
+<p><a href="https://en.wikipedia.org/wiki/Qihoo">Qihoo 360</a> is <a href="https://webdesign.tutsplus.com/articles/qihoo-360-secure-the-most-popular-browser-youve-never-heard-of--cms-24074">a huge Chinese scam</a> that brands its malware as security products, which is, alas, not that uncommon – there indeed seems to be a large overlap between commercial security (or commercial anything, perhaps) and outright fraud. As StartCom, they are not really trying to mimic a decent company: as the linked article mentions, their “<a href="http://se.360.cn/">security browser</a>” logo is just that of IE, but green.</p>
+<p>Assuming that people wouldn’t tell lies on the internet (<a href="https://twitter.com/vtlynch/status/777882757548634113">1</a> and <a href="https://news.ycombinator.com/item?id=12617659">2</a> by the same author, <a href="https://www.root.cz/clanky/startssl-byl-potichu-koupen-wosign-a-prestehovan-do-ciny/">3</a>), and inferring it from the verifiable fact that WoSign is hosted by “QiHU 360 Inc.”, it seems that Qihoo owns WoSign, though Qihoo is not mentioned on the “<a href="https://www.wosign.com/english/about.htm">About WoSign</a>” page (warning: poor English).</p>
+<p>The Mozilla wiki “<a href="https://wiki.mozilla.org/CA:WoSign_Issues">CA:WoSign Issues</a>” page currently outlines 14 pretty serious issues, occasionally linking bugzilla threads such as <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1293366#c3">#1293366</a>.</p>
+<h2 id="a-pile-formed">A pile formed</h2>
+<p>Recently <a href="https://www.wosign.com/english/News/WoSign_completed_equity_investment_to_StartCom_CA.htm">WoSign invested into StartCom</a>, and now hosts its servers. Meantime, <a href="https://www.engadget.com/2016/07/18/opera-browser-sold-to-a-chinese-consortium-for-600-million/">Qihoo purchased Opera browser</a>, forming a larger pile consisting mostly of scam, and of one corpse.</p>
+<h2 id="mozilla-apple-microsoft-and-the-other-one">Mozilla, Apple, Microsoft, and the other one</h2>
+<p>One may think that operating system and web browser maintainers shouldn’t have included that crap into distributions at all, but it wasn’t that much worse than the alternatives at the time. One may also think that shipping X.509 certificates is not something a web browser should do in the first place, but it’s not the only thing they do in addition to rendering HTML.</p>
+<p>But now <a href="http://www.zdnet.com/article/mozilla-to-chinas-wosign-well-kill-firefox-trust-in-you-after-mis-issued-github-certs/">Mozilla proposed to get rid of that</a>, <a href="https://groups.google.com/forum/?_escaped_fragment_=topic/mozilla.dev.security.policy/lWJ1zdUJPLI#!topic/mozilla.dev.security.policy/lWJ1zdUJPLI">Apple does some half-assed job at that</a>, while the other two major browser developers, Microsoft and Google/Alphabet/whatever, don’t seem to react. It’s going pretty slowly, and one of the explanations is that users would do really stupid things (such as disabling validation completely) if they won’t be able to access some websites because of CA blacklisting.</p>
+<h2 id="lessons-learned">Lessons learned</h2>
+<p>None.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Friendship as a service</title>
     <link href="http://theasocial.com/articles/life/friendship-as-a-service.html" />
     <id>http://theasocial.com/articles/life/friendship-as-a-service.html</id>
@@ -482,402 +788,6 @@
 
 <div id="article">
   
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Mr. Robot</title>
-    <link href="http://theasocial.com/articles/video/mr-robot.html" />
-    <id>http://theasocial.com/articles/video/mr-robot.html</id>
-    <published>2016-09-15T00:00:00Z</published>
-    <updated>2016-09-15T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/mr-robot.png" alt=""/>
-  
-  
-  
-  <p class="abstract">Identifying bad bits in a good show</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://www.usanetwork.com/mrrobot">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 15, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        tv series
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29">Mr. Robot</a> is a rather good show about <a href="https://en.wikipedia.org/wiki/Security_hacker">security hacking</a> and other loosely related things, such as <a href="https://en.wikipedia.org/wiki/Social_anxiety_disorder">SAD</a>.</p>
-<p>The prominent feature of this show is its connection to reality: there is actual software instead of 3-dimensional interfaces, and the protagonist is at least somewhat <a href="https://en.wikipedia.org/wiki/Geek">geeky</a>. Though it is not really new, for there were series such as <a href="https://en.wikipedia.org/wiki/The_Scene_%28miniseries%29">The Scene</a>, <a href="https://en.wikipedia.org/wiki/The_IT_Crowd">The IT Crowd</a>, and perhaps <a href="https://en.wikipedia.org/wiki/The_Lone_Gunmen_%28TV_series%29">The Lone Gunmen</a>, Mr. Robot might be the first show to combine geeky characters with real software. Well, except for <a href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory">The Big Bang Theory</a>. But maybe it’s still the first to do it to such extent.</p>
-<p>The plot itself is quite decent, though the first major plot twist appears to be borrowed from another movie, which is rather strange. The show itself tells a continued story – not just the same plot with variables filled with different values from episode to episode. However, once you get used to reality in a show, you may begin to expect accuracy and plausibility, but that’s where the show gets worse. There are clichés, such as <a href="https://en.wikipedia.org/wiki/Leet">leetspeak</a> in both writing and speech, to begin with. Then there is software: the protagonist is supposed to be experienced and geeky, so one would expect him to be using both efficient and advanced tools. But what we observe is mouse-driven <a href="https://en.wikipedia.org/wiki/GNOME">GNOME</a>, sometimes with <a href="https://en.wikipedia.org/wiki/GNU_nano">nano</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a><a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a><a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a><a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a><a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> in a terminal emulator. Though it may be argued that GNOME is being featured there because of it being the default desktop environment for the <a href="https://en.wikipedia.org/wiki/Kali_Linux">Kali</a> GNU/Linux distribution, or because it allows one to just focus on the job without dealing with WM and system configuration manually, nano on top of that makes little sense: there is basically <a href="https://en.wikipedia.org/wiki/Editor_war">two advanced text editors</a>, and nano is not one of them. Even for a newbie user, it would not make much sense to use GNOME, and then nano in a terminal emulator: there is gedit for such users. To be fair, it seems that <a href="https://en.wikipedia.org/wiki/Vi">vi</a> is also used sometimes, but sometimes there’s also <a href="https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29">Ubuntu</a>. Although, it may be a matter of taste, and something overly geeky would probably also look like a cliché.</p>
-<p>In S02E06, they are preparing a newbie to attack FBI. Here is a hilarious screen:</p>
-<pre><code>root@OpenWrt:~/exploit_dev/bin# ./EnableAttack femtoponWLAN
-Usage: ./EnableAttack &lt;attack name&gt; &lt;interfaces&gt; &lt;timing&gt;
-root@OpenWrt:~/exploit_dev/bin# ./EnableAttack femtopwn WLANWLAN22
-Usage: ./EnableAttack &lt;attack name&gt; &lt;interfaces&gt; &lt;timing&gt;
-root@OpenWrt:~/exploit_dev/bin#</code></pre>
-<p>Then the guy who is teaching the newbie suggests to visualize the attack, showing pictures of the devices. And dictates the command: “period, forward slash, enable attack, space, femtopwn, space, WLAN0, comma, WLAN1, space, two”. The screen again:</p>
-<pre><code>root@OpenWrt:~/exploit_dev/bin# ./EnableAttack femtoponWLAN
-Usage: ./EnableAttack &lt;attack name&gt; &lt;interfaces&gt; &lt;timing&gt;
-root@OpenWrt:~/exploit_dev/bin# ./EnableAttack femtopwn WLANWLAN22
-Usage: ./EnableAttack &lt;attack name&gt; &lt;interfaces&gt; &lt;timing&gt;
-root@OpenWrt:~/exploit_dev/bin# ./EnableAttack femtopwn WLAN1WLAN22
-Usage: ./EnableAttack &lt;attack name&gt; &lt;interfaces&gt; &lt;timing&gt;
-root@OpenWrt:~/exploit_dev/bin#</code></pre>
-<p>Though it is funny, and mental disability of the hacker-to-be may be assumed without hurting the plot, it is rather hard to imagine why wouldn’t they just set a shell script instead of making the poor kid who can neither write what’s dictated nor read the instructions to memorize the commands, without any understanding.</p>
-<p>“I will get this. Let’s just try it again.” – says the future hacker with a serious face after another failure, apparently implying that she doesn’t get that the problem is that she keeps making typos. In the next scene, the teacher complains: “You can’t teach someone to hack in one day, okay?”, suggesting that “to hack” is “to type without typos”. That for sure takes some time to learn.</p>
-<p>A bit later, they use the same rookie as a modem, not just as a shell script. Apparently it all is intended to add visible thrill and human interaction to the process, just as the infamous 3D interfaces are.</p>
-<p>Nevertheless, the show is rather pleasant to watch.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Nothing’s wrong with nano.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Except for it being useless.<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>Well, I’m using it.<a href="#fnref3">↩</a></p></li>
-<li id="fn4"><p>Is it the reason why you screw formatting all the time?<a href="#fnref4">↩</a></p></li>
-<li id="fn5"><p>Here he goes again. Footnotes are not the place for flamewars, let’s go settle it like men.<a href="#fnref5">↩</a></p></li>
-<li id="fn6"><p>I don’t hit kids.<a href="#fnref6">↩</a></p></li>
-<li id="fn7"><p>That’s it, I’m heading to your table.<a href="#fnref7">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Data breaches</title>
-    <link href="http://theasocial.com/articles/internet/data-breaches.html" />
-    <id>http://theasocial.com/articles/internet/data-breaches.html</id>
-    <published>2016-09-10T00:00:00Z</published>
-    <updated>2016-09-10T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  
-  
-  <p class="abstract">Their extent and consequences</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 10, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        security
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <h2 id="first-glance">First glance</h2>
-<p>While it is now well-known that companies worldwide are obliged to participate into mass surveillance by sharing your data with state agencies, we are trying to estimate the extent to which regular scam has access to that data.</p>
-<p>Perhaps the primary source of data leaks is major <a href="https://en.wikipedia.org/wiki/Data_breach">data breaches</a>; there’s even a <a href="https://en.wikipedia.org/wiki/List_of_data_breaches">list of data breaches</a> in Wikipedia.</p>
-<p>Apparently a common belief is that big companies are less likely to exploit your data for much more than <a href="/articles/internet/human-web-trafficking.html">human web trafficking</a>, than, say, Chinese hackers. But sometimes the latter can access the data of the former – including huge techy companies and services, such as Gmail, Ubuntu, Twitter, Facebook, Apple, eBay, Adobe, Everenote, and Dropbox, as well as financial, retail, healthcare, government ones. You hand data to those, they get hacked or accidently publish<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> it, doing all the collection job for the scam that may be interested.</p>
-<h2 id="the-extent">The extent</h2>
-<p>The wikipedia list mentions an estimate of 2 billion user entries total, while the <a href="https://en.wikipedia.org/wiki/Global_Internet_usage">amount of internet users</a> is roughly a half of the world population – about 3.5 billion users. With the average <a href="https://en.wikipedia.org/wiki/List_of_countries_by_literacy_rate">literacy rate</a> of about 85%<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>, it’s pretty high, and it also suggests why so many websites and programs seem to aim rather inexperienced users. <a href="https://www.leakedsource.com/">LeakedSource</a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> mentions a similar figure, 2.2 billion accounts in their database. Probably some of the breaches remain untold, but there should be plenty of accounts belonging to the same users, and plenty of spam bots – so the actual number of users whose data was compromised may be, say, an order of magnitude lower than that – hundreds of millions.</p>
-<p>That estimate is probably not too high, since some of the individual breaches are reported to contain huge numbers. Here they are, in millions: US Military veterans – 76, TK / TJ Maxx – 94, Target Corporation – 70, 7-Eleven + Nasdaq + others – 160, Heartland – 130, eBay – 145, AOL – 92, Anthem Inc. – 80, Adobe Systems – 152. The LeakedSource website also mentions, among the 20 most recently added databases: Rambler.ru – 98, Last.fm – 43, Dropbox.com – 67.</p>
-<h2 id="causes">Causes</h2>
-<p>Each breach takes multiple stupid decisions or mistakes: from hiring and assigning those who are not suitable for a job, to actually not doing it properly: computers don’t give data away by themselves, unless they are told to – even if unintentionally.</p>
-<p>Though it is in human nature to make mistakes, there are techniques to prevent nearly all of them – such as reviews by competent people, <a href="https://en.wikipedia.org/wiki/Formal_proof">formal</a> and <a href="https://en.wikipedia.org/wiki/Interactive_theorem_proving">machine-verified</a> proofs, <a href="https://en.wikipedia.org/wiki/Layered_security">layered security</a>, and so on. It is mostly carelessness that leads to the breaches.</p>
-<h2 id="data-usage">Data usage</h2>
-<p>Many things can happen with the user data which is available to scammers: <a href="https://en.wikipedia.org/wiki/Phishing">phishing</a> is probably the most basic way to apply it, though one may use that data to get into user accounts on other services, to spam while impersonating them<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, to resell for future directed attacks, and so on. <a href="https://en.wikipedia.org/wiki/Scientia_potentia_est">Knowledge is power</a>, and it’s rather unjust in this case.</p>
-<h2 id="counter-measures">Counter measures</h2>
-<p>Entertainment services that require registration can simply be avoided, while others may be rather tricky to avoid. For those, one can just use separate identities: obviously different logins and passwords, no private data such as real name or photos when not necessary, preferably using Tor, etc. A single alternative identity for online activities is not sufficient, since it leads to higher accumulation of data in the hands of scammers than the practically achievable minimum.</p>
-<p>Basically, just do the opposite of <a href="/articles/internet/the-kat-founder-got-arrested.html">what Vaulin did</a>.</p>
-<h3 id="unauthorized-access-laws">Unauthorized access laws</h3>
-<p>As one may guess, those breaches are illegal: that’s unauthorized access to information. Recently Bruce Schneier reposted a couple of related news: “<a href="https://www.schneier.com/blog/archives/2016/07/visiting_a_webs.html">Visiting a Website against the Owner’s Wishes Is Now a Federal Crime</a>” and “<a href="https://www.schneier.com/blog/archives/2016/07/password_sharin_1.html">Password Sharing Is Now a Crime</a>”. One of those quotes some guy, who explained “without authorization” as follows:</p>
-<blockquote>
-<p>An unambiguous, non-technical term that, given its plain and ordinary meaning, means accessing a protected computer without permission.</p>
-</blockquote>
-<p>It’s so unambiguous that we have at least one more unambiguous – though rather technical – <a href="https://en.wikipedia.org/wiki/Authorization">definition in Wikipedia</a>:</p>
-<blockquote>
-<p>Authorization or authorisation is the function of specifying access rights to resources related to information security and computer security in general and to access control in particular. More formally, “to authorize” is to define an access policy.</p>
-</blockquote>
-<p>At the first glance, they don’t seem to contradict each other: a permission is given (or not) by defining an access policy. Computers are precise, and they follow that policy as programmed. Pretty cool, and it’s pretty much impossible to violate such a policy when it’s implemented using computers.</p>
-<p>Alas, people read and understand those unambiguous definitions quite differently. What the guy tried to explain there, is not plain “permission by a strict and unambiguous program”, but “what one <em>really</em> means or wants”. So, when one messes up and fails to define the access policy as they wanted to, and then somebody uses what was in fact defined – it is usually considered an unauthorized access, for which the more competent person is supposed to be punished – since they have probably understood what’s going on. Orin Kerr of The Washington Post <a href="https://www.washingtonpost.com/news/volokh-conspiracy/wp/2016/07/12/9th-circuit-its-a-federal-crime-to-visit-a-website-after-being-told-not-to-visit-it/">states</a>:</p>
-<blockquote>
-<p>The main question becomes <a href="https://en.wikipedia.org/wiki/Mens_rea">mens rea</a>: The visit becomes a federal crime when the visitor knows that the computer owner doesn’t want it.</p>
-</blockquote>
-<p>Indeed, that also explains how the more conventional unauthorized access is deemed illegal. Alas, it’s mostly useless against scam and major data breaches, and may even simplify those by discouraging ethical hackers from penetration testing.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Yes, that’s a thing – pretty common, even.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Ever wondered what it was like to live in the world where most of the human population was savage? Surprise, we’re not far from that.<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>The website itself looks rather scammy, but appears to indeed have those databases.<a href="#fnref3">↩</a></p></li>
-<li id="fn4"><p>Well, that’s what legitimate websites such as LinkedIn are doing already.<a href="#fnref4">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Pushing Daisies</title>
-    <link href="http://theasocial.com/articles/video/pushing-daisies.html" />
-    <id>http://theasocial.com/articles/video/pushing-daisies.html</id>
-    <published>2016-08-19T00:00:00Z</published>
-    <updated>2016-08-19T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/pushing-daisies.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">A fairy tale</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:PushingDaisieslogo2.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        August 19, 2016
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="http://www.imdb.com/title/tt0925266/">http://www.imdb.com/title/tt0925266/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        fantasy
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Pushing_Daisies">Pushing Daisies</a> is a cute fairy tale. The characters are quirky and nice, the dialogues are interesting and not realistic, the colors are bright. There’s plenty of other minor and amusing bits, which make the series pretty wonderful when they are put together.</p>
-<p>Though there are goofs, at least some of which are pointed out on IMDB, they can be ignored rather easily, since the fantasy bits are explained plainly as “magic”, not “sci-fi”.</p>
-<p>The story revolves around the pie maker, who is also a <a href="https://en.wikipedia.org/wiki/Necromancy">necromancer</a>. He applies his skills to revive products for pies, and to assist a private investigator in the forensics by reviving dead people and asking who killed them.</p>
-<p>It is well worth watching.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>The KAT founder got arrested</title>
-    <link href="http://theasocial.com/articles/internet/the-kat-founder-got-arrested.html" />
-    <id>http://theasocial.com/articles/internet/the-kat-founder-got-arrested.html</id>
-    <published>2016-07-27T00:00:00Z</published>
-    <updated>2016-07-27T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/kat.png" alt=""/>
-  
-  
-  
-  <p class="abstract">We investigate where things went wrong for him</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Kickasstorrentslogo.png">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        copyright-protected logo
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        July 27, 2016
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://kat.am">https://kat.am</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        security
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>As <a href="http://www.wired.co.uk/article/kat-alleged-founder-arrested">Wired</a> and <a href="http://arstechnica.com/tech-policy/2016/07/kickasstorrents-alleged-founder-artem-vaulin-arrested-in-poland/">Ars Technica</a> have reported, Artem Vaulin was recently arrested for being the <a href="https://kat.am/">Kickass Torrents</a> founder. There was lots of noise because KAT was stealing imaginary profit from movie companies, or something like that. In any case, what’s really interesting when such a thing happens, is how exactly he was identified; what was his mistake.</p>
-<p>Though Wired and Ars Technica provide some information about his mistakes, it appears to differ, so let’s better read the actual <a href="https://assets.documentcloud.org/documents/2996082/Artem-Vaulin-Complaint.pdf">complaint</a>.</p>
-<h2 id="the-investigation">The Investigation</h2>
-<p>As one may think, somebody who owns a large torrent tracker should be extremely careful, sometimes even paranoid, since their actions make big companies unhappy. By not preventing users from using their service, they are being an accomplice in the unspeakable crime of file sharing.</p>
-<p>Then there should be a fatal slip, where they get identified by a writing style, or by a small piece of information that accidently leaks to a server accessible by a law enforcement agency, or sold by a person they’ve trusted, or timing of their actions allowed to trace the packets to their ISP… well, nothing of that sort has taken place this time.</p>
-<p>One day, using KAT, HSI special agents found, downloaded, and watched the following movies: Batman V Superman: Dawn of Justice, Captain America: Civil War, Central Intelligence, Deadpool, Finding Dory, Independence Day: Resurgence, Teenage Mutant Ninja Turtles: Out of the Shadows, X-Men Apocalypse, and Now You See Me 2. Apparently they liked the movies very much, concluded that those should cost at least a million dollars combined. Since Homeland Security had nothing better to do, they’ve opened an investigation.</p>
-<p>A special agent, extensively using his or her training and experience, based on which he or she knows great many things, found the following subtle clues:</p>
-<ul>
-<li>KAT “people” page mentioned at least the owner’s nickname, which was also used for personal mail addresses, when real name wasn’t used (in addresses themselves; was still filled everywhere).</li>
-<li>KAT servers didn’t use any disk encryption, easily providing bits of identifying information and helpful evidence.</li>
-<li>A fake company was used as a front, with a LinkedIn presence, with real names and photos.</li>
-<li>Payments went through regular banks, with records available to the investigator.</li>
-<li>Public whois data of a KAT domain registered to Vaulin, with his phone number and address.</li>
-<li>Other KAT domains on the same GoDaddy account.</li>
-<li>Vaulin’s personal mailboxes on public mail services (Apple’s in particular), with unencrypted KAT-related letters, tons of private information filled, Vaulin’s passport, driver’s license, personal banking information.</li>
-<li>A Coinbase account for KAT donations, with real name, address, and that Apple email filled.</li>
-<li>Logs of access to the KAT facebook account from the same IP as to the Apple account with the mailbox that contained all the private information, as well as from the same IP that was used to access the Coinbase account.</li>
-</ul>
-<p>That’s when special agent UC-1, by putting it all together, started becoming suspicious of Vaulin: “he might be involved into KAT!”, thought the agent. Further investigation and additional clues added to the suspicion, and Vaulin, despite all his security measures, was finally captured in Poland.</p>
-<p>Though it’s not clear how exactly Artem was captured, but judging by his overall secrecy and preparation, one may guess how hard it was: he probably was running naked around a police station and screaming, so the authorities had to besiege the city, as well as to bring a couple of helicopters and a tank, while Poland was targeted by nuclear missiles as a plan B, yet was saved in the last moment, and the villian was finally captured. UC-1 rode a Harley into the sunset, got a promotion, and lived happily ever after.</p>
-<h2 id="aftermath">Aftermath</h2>
-<p>Wired and Ars Technica call Artem an “alleged founder”, for it’s still to be proved in court. Indeed, perhaps the only way for all this to make sense is if it’ll turn out that Vaulin’s identity has been stolen and used for years by an actual founder, who is not mentally challenged. Yet it is likely that Vaulin will face a big sentence to learn how it feels when your property gets “illegaly shared”, getting an owner of his own instead of being one.</p>
-<p>This is a lesson to us all: think twice before stealing priceless masterpieces.</p>
-<p>As usual, random officials make <a href="https://www.justice.gov/usao-ndil/pr/owner-most-visited-illegal-file-sharing-website-charged-criminal-copyright-infringement">bullshit statements</a>.</p>
 </div>
 ]]></summary>
 </entry>

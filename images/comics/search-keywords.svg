@@ -39,11 +39,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="335.36775"
-     inkscape:cy="186.64401"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="30.571897"
+     inkscape:cy="434.20569"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:snap-page="true"
@@ -72,15 +72,10 @@
      id="layer1"
      transform="translate(0,-652.36216)">
     <path
-       style="fill:#0c0c0c;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="m 0,652.36216 800,0 0,400.00004 -800,0 z"
-       id="path6379"
-       inkscape:connector-curvature="0" />
-    <path
        inkscape:connector-curvature="0"
        id="path6785"
        d="M 70.352112,998.34816 558.13238,1038.1575 762.2858,912.70104 274.50552,872.89181 Z"
-       style="fill:#15151f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.71712923px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.71712923px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"

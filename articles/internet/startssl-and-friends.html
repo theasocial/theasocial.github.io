@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>StartSSL and friends – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">StartSSL and friends</h1>
+      
+      <div class="info internet">
+  
+  <img src="../../images/articles/startcom-logo.png" alt />
+  
+  
+  
+  <p class="abstract">StartCom, Qihoo 360, WoSign, and Opera</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  2, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <h2 id="startssl-and-startcom">StartSSL and StartCom</h2>
+<p>As you probably already know, and as it has already been mentioned in the “<a href="letsencrypt-public-beta.html">Let’s Encrypt: public beta</a>” article, <a href="https://www.startssl.com/">StartSSL</a> is a crappy (though not outstanding in that) certificate authority. The company behind it is Israel-based <a href="https://en.wikipedia.org/wiki/StartCom">StartCom</a>, and as the Wikipedia article points out, its root certificates have been shipped with all major browsers since 2010, though the startssl.com domain name was created on 2006-09-10.</p>
+<p>Apparently “StartCom” stands for “start commerce”, and their slogan is “StartCom, the Start of eCommerce”. When they’ve just launched StartSSL (assuming it was after 2006-09-10), TLS 1.1 was already out, but “SSL” was a more widely known term among clueless potential customers. That was a subtle hint of what to expect. Since then it only went downhill.</p>
+<p>In 2011, shortly after <a href="http://www.theregister.co.uk/2011/03/23/gmail_microsoft_web_credential_forgeries/">Comodo</a>, it <a href="http://www.theregister.co.uk/2011/06/21/startssl_security_breach/">suffered a security breach</a>, but apparently nothing of value has been stolen, so it wasn’t such big of a deal. It wasn’t considered a biggie even with Comodo, though it has potentially screwed a lot of users.</p>
+<p>In 2016, StartCom launched StartEncrypt – a Let’s Encrypt clone, but <a href="https://www.computest.nl/blog/startencrypt-considered-harmful-today/">vulnerable</a>, issuing certificates without confirmation.</p>
+<h2 id="opera">Opera</h2>
+<p>Opera was a proprietary web browser, perhaps not particularly bad one, which began in 1994, and grew into a monster and pretty much died about 2013. The developers refused to open its source code even after that, managing to sell the poor thing to some Chinese corporation for a hefty bulk of money like a large shipment of old electronics.</p>
+<h2 id="wosign-and-qihoo-360">WoSign and Qihoo 360</h2>
+<p><a href="https://en.wikipedia.org/wiki/Qihoo">Qihoo 360</a> is <a href="https://webdesign.tutsplus.com/articles/qihoo-360-secure-the-most-popular-browser-youve-never-heard-of--cms-24074">a huge Chinese scam</a> that brands its malware as security products, which is, alas, not that uncommon – there indeed seems to be a large overlap between commercial security (or commercial anything, perhaps) and outright fraud. As StartCom, they are not really trying to mimic a decent company: as the linked article mentions, their “<a href="http://se.360.cn/">security browser</a>” logo is just that of IE, but green.</p>
+<p>Assuming that people wouldn’t tell lies on the internet (<a href="https://twitter.com/vtlynch/status/777882757548634113">1</a> and <a href="https://news.ycombinator.com/item?id=12617659">2</a> by the same author, <a href="https://www.root.cz/clanky/startssl-byl-potichu-koupen-wosign-a-prestehovan-do-ciny/">3</a>), and inferring it from the verifiable fact that WoSign is hosted by “QiHU 360 Inc.”, it seems that Qihoo owns WoSign, though Qihoo is not mentioned on the “<a href="https://www.wosign.com/english/about.htm">About WoSign</a>” page (warning: poor English).</p>
+<p>The Mozilla wiki “<a href="https://wiki.mozilla.org/CA:WoSign_Issues">CA:WoSign Issues</a>” page currently outlines 14 pretty serious issues, occasionally linking bugzilla threads such as <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1293366#c3">#1293366</a>.</p>
+<h2 id="a-pile-formed">A pile formed</h2>
+<p>Recently <a href="https://www.wosign.com/english/News/WoSign_completed_equity_investment_to_StartCom_CA.htm">WoSign invested into StartCom</a>, and now hosts its servers. Meantime, <a href="https://www.engadget.com/2016/07/18/opera-browser-sold-to-a-chinese-consortium-for-600-million/">Qihoo purchased Opera browser</a>, forming a larger pile consisting mostly of scam, and of one corpse.</p>
+<h2 id="mozilla-apple-microsoft-and-the-other-one">Mozilla, Apple, Microsoft, and the other one</h2>
+<p>One may think that operating system and web browser maintainers shouldn’t have included that crap into distributions at all, but it wasn’t that much worse than the alternatives at the time. One may also think that shipping X.509 certificates is not something a web browser should do in the first place, but it’s not the only thing they do in addition to rendering HTML.</p>
+<p>But now <a href="http://www.zdnet.com/article/mozilla-to-chinas-wosign-well-kill-firefox-trust-in-you-after-mis-issued-github-certs/">Mozilla proposed to get rid of that</a>, <a href="https://groups.google.com/forum/?_escaped_fragment_=topic/mozilla.dev.security.policy/lWJ1zdUJPLI#!topic/mozilla.dev.security.policy/lWJ1zdUJPLI">Apple does some half-assed job at that</a>, while the other two major browser developers, Microsoft and Google/Alphabet/whatever, don’t seem to react. It’s going pretty slowly, and one of the explanations is that users would do really stupid things (such as disabling validation completely) if they won’t be able to access some websites because of CA blacklisting.</p>
+<h2 id="lessons-learned">Lessons learned</h2>
+<p>None.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

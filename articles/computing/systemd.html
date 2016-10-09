@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>systemd – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">systemd</h1>
+      
+      <div class="info computing">
+  
+  <img src="../../images/articles/redhat.svg" alt />
+  
+  
+  
+  <p class="abstract">History and current state</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:RedHat.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  6, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Once upon a time, there was a guy named <a href="https://en.wikipedia.org/wiki/Lennart_Poettering">Lennart Poettering</a>, who was involved into edgy projects such as <a href="https://en.wikipedia.org/wiki/PulseAudio">PulseAudio</a> (the monster sound server that runs on top of <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> driver, leading to half the sound problems – the other half is caused by ALSA) and <a href="https://en.wikipedia.org/wiki/Avahi_(software)">Avahi</a> (an implementation of <a href="https://en.wikipedia.org/wiki/Multicast_DNS">mDNS</a> and related things – one of those programs that seem to rarely be used outside of corporate environments). The monstrosity of both is comparable to that of <a href="https://en.wikipedia.org/wiki/D-Bus">D-Bus</a>, which is actually used by both. It shouldn’t be a surprise that Lennart currently works for <a href="https://en.wikipedia.org/wiki/Red_Hat">Red Hat</a> – a company responsible for things such as <a href="https://en.wikipedia.org/wiki/NetworkManager">NetworkManager</a> and other abominations.</p>
+<p>Back in 2010, Lennart started working on <a href="https://en.wikipedia.org/wiki/Systemd">systemd</a>. There already was <a href="https://en.wikipedia.org/wiki/Init#Replacements_for_init">a variety of init systems</a>, but the most widely used ones were rather messy: non-portable across systems shell scripts for daemons alone were quite a pain to deal with. In November 2010, systemd got into <a href="https://getfedora.org/">Fedora</a> (<a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> beta) repositories, and became default there in May 2011. Journald (its logging system) was <a href="http://blog.gerhards.net/2011/11/journald-and-rsyslog.html">criticized by rsyslog author</a> in 2011. In 2012, the Slackware author <a href="https://www.linuxquestions.org/questions/interviews-28/interview-with-patrick-volkerding-of-slackware-949029/">claimed</a> that systemd violates <a href="https://en.wikipedia.org/wiki/Unix_philosophy">UNIX philosophy</a>. By 2015, it already ate <a href="https://en.wikipedia.org/wiki/Udev">udev</a>, implemented its much criticized logging system, a login shell, and grew a bunch of <a href="https://en.wikipedia.org/wiki/Systemd#Ancillary_components">other components</a>, for what it has been criticized – as well as for being Linux-specific, doing half-assed job, and so on. Yet, after a <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=727708">long</a> <a href="https://wiki.debian.org/Debate/initsystem">debate</a>, in April 2015 it became default in <a href="https://www.debian.org/">Debian</a>. There’s more of <a href="https://en.wikipedia.org/wiki/Systemd#History">systemd history</a>, which mostly consists of criticizm, in the Wikipedia article.</p>
+<p>Though systemd finally made daemons easily portable across major Linux-based systems, it made them incompatible with other Unix-like systems, and with a few Linux-based ones that continued to resist – such as <a href="https://en.wikipedia.org/wiki/Slackware">Slackware</a> and <a href="https://www.gentoo.org/">Gentoo</a>.</p>
+<p>Somewhere along the way, we’ve got the “boycott systemd” campaign, a systemd-free Debian fork, and <a href="http://without-systemd.org">without-systemd.com wiki</a>. But that’s not all: now we’re getting things such as “<a href="https://www.agwa.name/blog/post/how_to_crash_systemd_in_one_tweet">How to Crash Systemd in One Tweet</a>” (the title is actually misleading and weird, but the article is rather interesting) and “<a href="http://suckless.org/sucks/systemd">systemd is the best example of Suck</a>” by <a href="http://suckless.org/">suckless.org</a>.</p>
+<p>Systemd is not the first attempt to fix the init mess: “<a href="http://blog.darknedgy.net/technology/2015/09/05/0/">A history of modern init systems (1992-2015)</a>” gives a nice outline of those, with occasional config examples. Yet it’s the one that was backed by Red Hat, what contributed to both development and the wide adoption.</p>
+<p>To be fair, Linux kernel itself is huge and monolithic, and the tools that were widely used before systemd are not much better. There’s the monstrous, often monolithic and bloated, often by Red Hat or GNOME and resembling MS Windows, “enterprise” junk with D-Bus and stuff on one side, and the swamp of old, often bloated because of compatibility with the most obscure systems, and heterogeneous junk on the other.</p>
+<p>It would be nice to point out some articles that show systemd in a good light for a contrast, but currently the <a href="https://duckduckgo.com/?q=systemd+good&amp;ia=web">“systemd good” search query</a> yields results such as “<a href="http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html">Meet systemd, the controversial project taking over a Linux distro near you</a>”, “<a href="http://www.infoworld.com/article/2608798/data-center/systemd--harbinger-of-the-linux-apocalypse.html">Systemd: Harbinger of the Linux apocalypse</a>”, “<a href="http://linuxbsdos.com/2014/09/03/is-systemd-as-bad-as-boycott-systemd-is-trying-to-make-it/">Is systemd as bad as boycott systemd is trying to make it?</a>”, followed by Wikipedia, suckless, ArchWiki, some tutorials, and <a href="https://judecnelson.blogspot.com/2014/09/systemd-biggest-fallacies.html#!">more</a> <a href="https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/">criticizm</a>.</p>
+<p>Well, at least it reached its alleged goal of being more like MS Windows: very few people seem to like it, yet it is used widely.</p>
+<p>One of the lessons to learn from this is the following: fix your stuff in time, or Lennart will do it, and nobody will be happy.</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

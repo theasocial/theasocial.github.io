@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noarchive" />
+    <title>Pimp My Code, issue 3 – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+      
+      <h1 id="title">Pimp My Code, issue 3</h1>
+      
+      <div class="info internet">
+  
+  <img src="../../images/articles/pimp-my-code.png" alt />
+  
+  
+  
+  <p class="abstract">Exabit and his team pimp an old LaTeX document class</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October  8, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="pimp-my-code-issue-2.html">Previously</a> on <a href="https://github.com/pimp-my-code">Pimp My Code</a>: <a href="https://github.com/getlogbook/logbook">logbook</a>, a python logging library, <a href="https://github.com/getlogbook/logbook/pull/201">got logging of its own</a>, as well as new looks.</p>
+<p>Today Exabit visits <a href="https://github.com/cambridge">University of Cambridge</a>, where <a href="https://github.com/cambridge/thesis/graphs/contributors">Matej and his friends</a> are struggling to get any PDFs out of <a href="https://github.com/cambridge/thesis">their old LaTeX document class</a>.</p>
+<p><strong>Exabit</strong>: Yo. Everyone enjoys reading, and I’m reading with these smooth and grotesque <a href="http://dejavu-fonts.org/">DejaVu</a> <a href="https://en.wikipedia.org/wiki/Sans-serif">sans-serif</a> fonts, because I’m Exabit. Unfortunately for my man Matej, this <a href="https://en.wikipedia.org/wiki/Computer_Modern">Computer Modern</a>’s <a href="https://en.wikipedia.org/wiki/Roman_%28typeface%29">Roman</a> font is no good for eyes. But not to worry: Matej has no idea, but we’re about to pimp his code.</p>
+<p><em>Exabit knocks the door, the door opens.</em></p>
+<p><strong>Matej</strong>: No way! You gotta be joking! No waay! Exabit!</p>
+<p><strong>Exabit</strong>: Yeah, yeah, calm down. I’ve come here today, and I’m ready to pimp your code.</p>
+<p><strong>Matej</strong>: I can’t believe it, is it really you?</p>
+<p><strong>Exabit</strong>: It’s me, alright? So, what about your code? Do you have a name for it?</p>
+<p><strong>Matej</strong>: It’s just called “thesis”, but informally we call it “embarrassment”.</p>
+<p><strong>Exabit</strong>: Well, show me your “embarrassment”.</p>
+<p><strong>Matej</strong>: Here it is. It’s a regular black-on-white model, though rather old one. The fonts got serifs with time, the typos are abundant. Obviously it has seen better days.</p>
+<p><strong>Exabit</strong>: Oh wow. And what’s up with that Makefile?</p>
+<p><strong>Matej</strong>: Well, it got circular dependencies, nobody knows how it works at all.</p>
+<p><strong>Exabit</strong>: Okay, I’ve seen enough. I’m taking this off to our garage where we will end its suffering.</p>
+<p><em>Exabit makes a few gangsta gestures, takes off from the third attempt. When he arrives to the garage, Victor and El Hackerozo appear to protest.</em></p>
+<p><strong>Exabit</strong>: Okay, check this out. This is a 2011 LaTeX document class. What can we do with this?</p>
+<p><strong>Victor</strong>: A “screen” mode is a must. Since it’s a document class, we could simply add it as an option; then it would set fonts and colors for on-screen reading.</p>
+<p><strong>Exabit</strong>: Sounds good, what else?</p>
+<p><strong>El Hackerozo</strong>: There’s so much free space. I think we should hide empty pages in that “screen” mode, and add some flames on the title page. You know how pale some of those papers look like?</p>
+<p><strong>Exabit</strong>: Yeah, yeah, they are like “we are so awesome that we don’t have to look nice”, but they actually have to, you know what I’m saying?</p>
+<p><strong>El Hackerozo</strong>: I do. So, we can make a flame contour, which would simply stay that way in the print mode, but will be filled with screen mode.</p>
+<p><strong>Victor</strong>: Somebody should also fix those typos.</p>
+<p><strong>Exabit</strong>: Oh, guys, I forgot to show you: this Makefile has circular dependencies.</p>
+<p><em>Victor grabs his head in horror.</em></p>
+<p><strong>Victor</strong>: I’m not sure if we’ll have enough time to get rid of that, but I’ll take a look.</p>
+<p><strong>Exabit</strong>: Well, sounds good, let’s do this!</p>
+<p><em>The team works on it for hours, and it’s finally the time to present the work to the client. Matej and his friends are coming in, <a href="https://github.com/cambridge/thesis/pull/29">the team presents the work</a>:</em></p>
+<blockquote>
+<p>Yo dawg.</p>
+</blockquote>
+<blockquote>
+<p>I heard you like LaTeX. So we’ve put more LaTeX into your LaTeX.</p>
+</blockquote>
+<blockquote>
+<p>But first things first. Remember that old Makefile of yours, that was failing to make a PDF after <code>make clean</code>? Guess what? We fixed it! That’s right, now it’s actually doing what it’s supposed to do.</p>
+</blockquote>
+<blockquote>
+<p>Of course we’ve fixed a few typos here and there: even the samples of your new class file should be impeccable.</p>
+</blockquote>
+<blockquote>
+<p>Now, let me show you something. See this new TikZ flame contour? It’s fancy even this way, but let’s turn on your brand new <code>screen</code> documentclass option. Not just it brings the flame to life, it sets the default font family to sans serif, skips the empty pages, and even updates the background color of every page! It was not healthy to read from a screen with the contrast as high as there was before, and just look at those smooth letters!</p>
+</blockquote>
+<blockquote>
+<p>Now that it’s easier on the eyes, you’ll always have a steady flow of new dissertations, since the students are gonna just love it. No lone nights with nothing to read anymore!</p>
+</blockquote>
+<blockquote>
+<p>We’ve also found a hidden submission notice claiming that the thesis is badass, and restored it – no need to be humble with this beauty!</p>
+</blockquote>
+<blockquote>
+<p>Yo, look <a href="../../exhaust/pimp-my-code-cambridge-thesis.pdf">here</a>. Yeah, that’s a new shield – not exactly of a college, but indicating that you’ve been officially pimped!</p>
+</blockquote>
+<blockquote>
+<p>It’s been our pleasure pimping your thesis template. See you next time!</p>
+</blockquote>
+<p><em><a href="https://dl.bintray.com/matej/cam-thesis/thesis.pdf">Before</a> and <a href="../../exhaust/pimp-my-code-cambridge-thesis.pdf">after</a>.</em></p>
+<p><strong>Matej</strong>: Whoa, sick visuals! Awesome typo fixes! And look at this Makefile, ahh. May I try it?</p>
+<p><strong>Exabit</strong>: Of course, it’s all yours!</p>
+<p><strong>Matej</strong>: Awesome, it works!</p>
+<p><strong>Victor</strong>: Sure it does. Hey, let’s turn the screen mode on.</p>
+<p><strong>Matej and friends</strong>: Wow, unbelievable! Thank you guys!</p>
+<p><strong>Exabit</strong>: No problem, that’s what we do. It was Pimp My Code on The Asocial, see you next time!</p>
+</div>
+
+    </div>
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
