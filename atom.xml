@@ -8,8 +8,460 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2016-10-12T00:00:00Z</updated>
+    <updated>2016-11-27T00:00:00Z</updated>
     <entry>
+    <title>Blackadder</title>
+    <link href="http://theasocial.com/articles/video/blackadder.html" />
+    <id>http://theasocial.com/articles/video/blackadder.html</id>
+    <published>2016-11-27T00:00:00Z</published>
+    <updated>2016-11-27T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/blackadder.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">Guess what? A British sitcom!</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="http://www.imdb.com/title/tt0084988/mediaviewer/rm1930467584">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        November 27, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        tv series, history
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://en.wikipedia.org/wiki/Blackadder">Blackadder</a> is a four-season-and-a-few-extras historical series, with each season being set in a different (yet recent) century. Some historians believe that it contains real footage, but the mainstream opinion is that it’s just old, but not old enough to contain that.</p>
+<p>It follows the adventures of Edmund Blackadder and his loyal servant Baldrick, along with a few recurring secondary characters. From season to season, the intelligence appears to drift from Baldrick to Blackadder somehow, while Edmund’s social status declines, yet some of the character traits always stay there.</p>
+<p><em>As a side note, there is a strange appeal in writing vague nonsense while reviewing something: probably that’s how all those movie summaries come into existence, and not because their authors don’t even care to watch the movies they are writing about.</em></p>
+<p>The characters are quite fun, and the cast includes <a href="https://en.wikipedia.org/wiki/Rowan_Atkinson">Mr. Bean</a>, <a href="https://en.wikipedia.org/wiki/Hugh_Laurie">Dr. House</a>, <a href="https://www.gnu.org/fry/">the gNewSense guy</a> who <a href="https://en.wikipedia.org/wiki/Stephen_Fry#Computing_and_software_freedom">secretly uses</a> <a href="https://www.gnu.org/philosophy/ubuntu-spyware.en.html">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Baldrick">Baldrick</a> (cameo appearance), and some less famous folks.</p>
+<p>One of its prominent features is the depiction of the most cunning plans throughout the history: “as cunning as a fox what used to be Professor of Cunning at Oxford University but has moved on and is now working for the U.N. at the High Commission of International Cunning Planning”, for instance. Not all of them have worked out though.</p>
+<p>Another nice thing to note about Blackadder is its realism: nobody develops an unlikely friendship there.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Top 500 websites, filtered again</title>
+    <link href="http://theasocial.com/articles/internet/alexa-top-500-filtered-again.html" />
+    <id>http://theasocial.com/articles/internet/alexa-top-500-filtered-again.html</id>
+    <published>2016-11-06T00:00:00Z</published>
+    <updated>2016-11-06T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/alexa.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">Checking the dynamics</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/Alexa_Internet">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        November  6, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>About a year ago we have <a href="alexa-top-500-filtered.html">filtered top 500 websites</a> in order to get the trash out of the list, and observe what’s there on the internet. Now we are doing it again, and observing how it changes.</p>
+<p>The filter criteria are roughly the same as before: no fraud, social networks, politics, pornography, country-specific and company websites, trading, heavy surveillance, and other kinds of crap. It is not guaranteed to be consistent with the last year’s list, since websites change, perception changes, and we could have missed some of those previously. This time we’ve got 31 website again – 6.2% that are tolerable:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">#</th>
+<th>link</th>
+<th>changes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5</td>
+<td><a href="https://www.wikipedia.org/">wikipedia.org</a></td>
+<td>↑ 2</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td><a href="https://www.reddit.com/">reddit.com</a></td>
+<td>↑ 8</td>
+</tr>
+<tr class="odd">
+<td align="right">40</td>
+<td><a href="https://stackoverflow.com/">stackoverflow.com</a></td>
+<td>↑ 18</td>
+</tr>
+<tr class="even">
+<td align="right">52</td>
+<td><a href="https://imgur.com/">imgur.com</a></td>
+<td>↓ 6</td>
+</tr>
+<tr class="odd">
+<td align="right">53</td>
+<td><a href="https://github.com/">github.com</a></td>
+<td>↑ 22</td>
+</tr>
+<tr class="even">
+<td align="right">55</td>
+<td><a href="http://www.imdb.com/">imdb.com</a></td>
+<td>↓ 6</td>
+</tr>
+<tr class="odd">
+<td align="right">88</td>
+<td><a href="http://www.wikia.com/Wikia">wikia.com</a></td>
+<td>↑ 16</td>
+</tr>
+<tr class="even">
+<td align="right">133</td>
+<td><a href="https://thepiratebay.org/">thepiratebay.org</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">136</td>
+<td><a href="https://stackexchange.com/">stackexchange.com</a></td>
+<td>↑ 14</td>
+</tr>
+<tr class="even">
+<td align="right">138</td>
+<td><a href="http://www.w3schools.com/">w3schools.com</a></td>
+<td>↑ 66</td>
+</tr>
+<tr class="odd">
+<td align="right">151</td>
+<td><a href="http://www.deviantart.com/">deviantart.com</a></td>
+<td>↑ 47</td>
+</tr>
+<tr class="even">
+<td align="right">170</td>
+<td><a href="https://pages.github.com/">github.io</a></td>
+<td>↑ 89</td>
+</tr>
+<tr class="odd">
+<td align="right">195</td>
+<td><a href="http://www.wikihow.com/Main-Page">wikihow.com</a></td>
+<td>↑ 10</td>
+</tr>
+<tr class="even">
+<td align="right">216</td>
+<td><a href="http://www.weather.com/">weather.com</a></td>
+<td>↓ 61</td>
+</tr>
+<tr class="odd">
+<td align="right">219</td>
+<td><a href="http://extratorrent.cc/">extratorrent.cc</a></td>
+<td>↑ 95</td>
+</tr>
+<tr class="even">
+<td align="right">228</td>
+<td><a href="http://www.wordreference.com/">wordreference.com</a></td>
+<td>↑ 59</td>
+</tr>
+<tr class="odd">
+<td align="right">231</td>
+<td><a href="http://www.nih.gov/">nih.gov</a></td>
+<td>↓ 37</td>
+</tr>
+<tr class="even">
+<td align="right">238</td>
+<td><a href="https://www.wikimedia.org/">wikimedia.org</a></td>
+<td>same</td>
+</tr>
+<tr class="odd">
+<td align="right">246</td>
+<td><a href="https://archive.org/">archive.org</a></td>
+<td>↓ 14</td>
+</tr>
+<tr class="even">
+<td align="right">276</td>
+<td><a href="http://www.thesaurus.com/">thesaurus.com</a></td>
+<td>↑ 32</td>
+</tr>
+<tr class="odd">
+<td align="right">301</td>
+<td><a href="https://rarbg.to/">rarbg.to</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="right">332</td>
+<td><a href="https://www.goodreads.com/">goodreads.com</a></td>
+<td>↓ 33</td>
+</tr>
+<tr class="odd">
+<td align="right">387</td>
+<td><a href="http://dictionary.com/">dictionary.com</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="right">395</td>
+<td><a href="https://yts.ag/">yts.ag</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">408</td>
+<td><a href="https://www.sciencedirect.com/">sciencedirect.com</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="right">422</td>
+<td><a href="https://www.kickstarter.com/">kickstarter.com</a></td>
+<td>↓ 44</td>
+</tr>
+<tr class="odd">
+<td align="right">424</td>
+<td><a href="http://techcrunch.com/">techcrunch.com</a></td>
+<td>↑ 68</td>
+</tr>
+<tr class="even">
+<td align="right">440</td>
+<td><a href="https://subscene.com/">subscene.com</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">454</td>
+<td><a href="http://www.thefreedictionary.com/">thefreedictionary.com</a></td>
+<td>↓ 44</td>
+</tr>
+<tr class="even">
+<td align="right">470</td>
+<td><a href="http://azlyrics.com/">azlyrics.com</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">479</td>
+<td><a href="http://www.webmd.com/">webmd.com</a></td>
+<td>↓ 195</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://sourceforge.net/">Sourceforget</a> (268) and <a href="https://gizmodo.com/">Gizmodo</a> (488) weren’t included because they are meh. A few torrent trackers got KAT visitors after its <a href="the-kat-founder-got-arrested.html">takedown</a>.</p>
+<p>The Asocial is not in the top yet, and not actually in the ranking at all, but <a href="/articles/comics/search-keywords.html">getting</a> <a href="/articles/comics/went-mainstream.html">there</a>.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Went mainstream</title>
+    <link href="http://theasocial.com/articles/comics/went-mainstream.html" />
+    <id>http://theasocial.com/articles/comics/went-mainstream.html</id>
+    <published>2016-10-23T00:00:00Z</published>
+    <updated>2016-10-23T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info comics">
+  
+  <img src="/images/comics/went-mainstream.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">Come and see the censorship inherent in the system!</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 23, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/comics.html">comics</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Deep Web in a Nutshell</title>
+    <link href="http://theasocial.com/articles/internet/deep-web-in-a-nutshell.html" />
+    <id>http://theasocial.com/articles/internet/deep-web-in-a-nutshell.html</id>
+    <published>2016-10-20T00:00:00Z</published>
+    <updated>2016-10-20T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/onions.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">A quick way to explore Onionland</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Mixed_onions.jpg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        October 20, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        places
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>As <a href="a-dark-web-survivor.html">a dark web survivor</a> described <a href="https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29#Hidden_services">Onionland</a> about a year ago, it was a mix of the old web, the modern web, and scam. But it evolves, and as it was with clearnet web, <a href="https://en.wikipedia.org/wiki/Web_portal">portals</a> appear that combine all the commonly used services in a single place.</p>
+<p>One of such portals is <a href="http://dtt6tdtgroj63iud.onion/">dtt6tdtgroj63iud.onion</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, “Deep Web in a Nutshell”, which indeed provides a great outline of deep web: “the dodgy marketplace”, “bitcoin multiplier”, “the abandoned forum”, “the spammy wiki”, “the anonymous uploader to nowhere”, and dozens of its other elaborate up to design details sections are barely distinguishable from the ones you would find on dedicated hidden services, and many of those are nice on their own. Perhaps “<a href="http://dtt6tdtgroj63iud.onion/webdesign/index.html">the rogue web designer</a>” section deserves a highlight, but only as primus inter pares. In addition to that, it includes an illustration of clearnet websites as those can be seen via Tor, and a puzzle. Basically, it is awesome.</p>
+<p>Its description sums it up nicely as well:</p>
+<blockquote>
+<p>Why visit lots of dodgy onion sites on the “dark” web, when you can enjoy being bored out of your wits here on this site in perfect safety? Authentic feelings of disappointment guaranteed, or your money back!</p>
+</blockquote>
+<p>“Deep Web in a Nutshell” is certainly worthwhile to check out if you would like to explore deep web, but don’t have much time for that.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Or use <a href="https://www.onion.to/">Tor2web</a> if you are too lazy to install <a href="https://torproject.org/">Tor</a> – just append “.to” to the domain name: <a href="http://dtt6tdtgroj63iud.onion.to/">dtt6tdtgroj63iud.onion.to</a>.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Human sleep modes</title>
     <link href="http://theasocial.com/articles/life/human-sleep-modes.html" />
     <id>http://theasocial.com/articles/life/human-sleep-modes.html</id>
@@ -200,7 +652,7 @@
 <p><strong>Exabit</strong>: Yo. Everyone enjoys reading, and I’m reading with these smooth and grotesque <a href="http://dejavu-fonts.org/">DejaVu</a> <a href="https://en.wikipedia.org/wiki/Sans-serif">sans-serif</a> fonts, because I’m Exabit. Unfortunately for my man Matej, this <a href="https://en.wikipedia.org/wiki/Computer_Modern">Computer Modern</a>’s <a href="https://en.wikipedia.org/wiki/Roman_%28typeface%29">Roman</a> font is no good for eyes. But not to worry: Matej has no idea, but we’re about to pimp his code.</p>
 <p><em>Exabit knocks the door, the door opens.</em></p>
 <p><strong>Matej</strong>: No way! You gotta be joking! No waay! Exabit!</p>
-<p><strong>Exabit</strong>: Yeah, yeah, calm down. I’ve come here today, and I’m ready to pimp your code.</p>
+<p><strong>Exabit</strong>: Yeah, yeah, calm down. I’ve came here today, and I’m ready to pimp your code.</p>
 <p><strong>Matej</strong>: I can’t believe it, is it really you?</p>
 <p><strong>Exabit</strong>: It’s me, alright? So, what about your code? Do you have a name for it?</p>
 <p><strong>Matej</strong>: It’s just called “thesis”, but informally we call it “embarrassment”.</p>
@@ -384,7 +836,7 @@
 <p>In 2011, shortly after <a href="http://www.theregister.co.uk/2011/03/23/gmail_microsoft_web_credential_forgeries/">Comodo</a>, it <a href="http://www.theregister.co.uk/2011/06/21/startssl_security_breach/">suffered a security breach</a>, but apparently nothing of value has been stolen, so it wasn’t such big of a deal. It wasn’t considered a biggie even with Comodo, though it has potentially screwed a lot of users.</p>
 <p>In 2016, StartCom launched StartEncrypt – a Let’s Encrypt clone, but <a href="https://www.computest.nl/blog/startencrypt-considered-harmful-today/">vulnerable</a>, issuing certificates without confirmation.</p>
 <h2 id="opera">Opera</h2>
-<p>Opera was a proprietary web browser, perhaps not particularly bad one, which began in 1994, and grew into a monster and pretty much died about 2013. The developers refused to open its source code even after that, managing to sell the poor thing to some Chinese corporation for a hefty bulk of money like a large shipment of old electronics.</p>
+<p>Opera was a proprietary web browser, perhaps not a particularly bad one, which began in 1994, and grew into a monster and pretty much died about 2013. The developers refused to open its source code even after that, managing to sell the poor thing to some Chinese corporation for a hefty bulk of money like a large shipment of old electronics.</p>
 <h2 id="wosign-and-qihoo-360">WoSign and Qihoo 360</h2>
 <p><a href="https://en.wikipedia.org/wiki/Qihoo">Qihoo 360</a> is <a href="https://webdesign.tutsplus.com/articles/qihoo-360-secure-the-most-popular-browser-youve-never-heard-of--cms-24074">a huge Chinese scam</a> that brands its malware as security products, which is, alas, not that uncommon – there indeed seems to be a large overlap between commercial security (or commercial anything, perhaps) and outright fraud. As StartCom, they are not really trying to mimic a decent company: as the linked article mentions, their “<a href="http://se.360.cn/">security browser</a>” logo is just that of IE, but green.</p>
 <p>Assuming that people wouldn’t tell lies on the internet (<a href="https://twitter.com/vtlynch/status/777882757548634113">1</a> and <a href="https://news.ycombinator.com/item?id=12617659">2</a> by the same author, <a href="https://www.root.cz/clanky/startssl-byl-potichu-koupen-wosign-a-prestehovan-do-ciny/">3</a>), and inferring it from the verifiable fact that WoSign is hosted by “QiHU 360 Inc.”, it seems that Qihoo owns WoSign, though Qihoo is not mentioned on the “<a href="https://www.wosign.com/english/about.htm">About WoSign</a>” page (warning: poor English).</p>
@@ -394,6 +846,8 @@
 <h2 id="mozilla-apple-microsoft-and-the-other-one">Mozilla, Apple, Microsoft, and the other one</h2>
 <p>One may think that operating system and web browser maintainers shouldn’t have included that crap into distributions at all, but it wasn’t that much worse than the alternatives at the time. One may also think that shipping X.509 certificates is not something a web browser should do in the first place, but it’s not the only thing they do in addition to rendering HTML.</p>
 <p>But now <a href="http://www.zdnet.com/article/mozilla-to-chinas-wosign-well-kill-firefox-trust-in-you-after-mis-issued-github-certs/">Mozilla proposed to get rid of that</a>, <a href="https://groups.google.com/forum/?_escaped_fragment_=topic/mozilla.dev.security.policy/lWJ1zdUJPLI#!topic/mozilla.dev.security.policy/lWJ1zdUJPLI">Apple does some half-assed job at that</a>, while the other two major browser developers, Microsoft and Google/Alphabet/whatever, don’t seem to react. It’s going pretty slowly, and one of the explanations is that users would do really stupid things (such as disabling validation completely) if they won’t be able to access some websites because of CA blacklisting.</p>
+<h3 id="update-2016-10-24">Update (2016-10-24)</h3>
+<p>Mozilla is <a href="https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/">finally going to distrust</a> some of the WoSign certificates, starting with Firefox 51. WoSign made a regular corporate bullshit <a href="https://www.wosign.com/english/News/announcement_about_Mozilla_Action_20161024.htm">announcement about Mozilla action</a>. Apart from surprisingly poor English for a large corporation, it’s somewhat interesting that they are not going to drop the affected root certificates, but planning to sell certificates signed with those with a 90% discount. Both Mozilla and WoSign keep calling X.509 “SSL”.</p>
 <h2 id="lessons-learned">Lessons learned</h2>
 <p>None.</p>
 </div>
@@ -476,349 +930,6 @@
 <p>Anyways, one shady service doesn’t compromise the whole idea, and it is always possible to find frescorts without such a service: some of them work on streets, hanging around without any apparent purpose. One can approach them, settle on the price, and go be friends for a few hours. Just keep in mind that undercover cops may hang there as well, so you shouldn’t explicitly mention “friendship for money”, unless it is legal in the state or country you are in.</p>
 <hr />
 <p>Advertisement: <a href="/">Friendly nurses befriend a terminally ill guy [HD Video]</a>.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Video Game High School</title>
-    <link href="http://theasocial.com/articles/video/vghs.html" />
-    <id>http://theasocial.com/articles/video/vghs.html</id>
-    <published>2016-09-22T00:00:00Z</published>
-    <updated>2016-09-22T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/vghs.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Fun web series</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://www.imdb.com/title/tt2170584/">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 22, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        web series
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Video_Game_High_School">VGHS</a> pictures a place where people just play computer games all day long, and they call it a school. It may look fun, but <a href="https://en.wikipedia.org/wiki/ESports">professional gaming</a> is a thing, and as professional sports in general, it sucks all the joy from games, turning those into income sources and stressful jobs for gamers, weird amusement and gambling opportunity for the masses, and marketing opportunity for companies. But the show does not bring up the sad bits of professional gaming, keeping it rather lighthearted.</p>
-<p>The next thing that you notice is exaggregation of pretty much everything – as in caricatures, or in those asian cartoons. There’s almost no realistic characters, but that makes the show rather fun. It’s also quite interesting how that works out: sometimes the characters act so cute, pretentious, or silly that it may make you to smile and laugh.</p>
-<p>The main character (portrayed by the actor known for such roles as Bartender, Tea Guest, Boy on Bike, Guy, and Douche) is rather annoying: he is a disgusting kind of nerd, dully reacting to the things that happen around, which is probably supposed to be relatable. Plenty of nice things happen to him from the very beginning, which is the plot of every asian cartoon, as I’ve heard. To elaborate on the “disgusting” part: it’s the kind of disgusting where you suspect that the actor has a few different health issues, and that it wouldn’t be nice to criticize him for that. It’s good that I don’t care.</p>
-<p>Following the annoying tradition of <a href="https://en.wikipedia.org/wiki/Tron">TRON</a>, during the games, the characters are placed in a game world, but somehow it’s not that bad, even though doesn’t always make sense. The plot twists are predictable sometimes, but then again – the show isn’t supposed to be taken seriously, so that’s fine.</p>
-<p>The season structure makes it closer to regular shows: the first season is okay, the second one is probably the most fun, and the third one deals with boring character relationships. Fortunately, it ended before getting even worse; actually it’d be disappointing if it ended when it was good, so ending after a decay is a rather nice way out.</p>
-<p>The show is available for free on <code>youtube-dl https://www.youtube.com/playlist?list=PLsMtUWKCmBPRFzqglpk4YQlNFy8wzSXBN</code>.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Oolite</title>
-    <link href="http://theasocial.com/articles/games/oolite.html" />
-    <id>http://theasocial.com/articles/games/oolite.html</id>
-    <published>2016-09-22T00:00:00Z</published>
-    <updated>2016-09-22T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info games">
-  
-  <img src="/images/articles/oolite.png" alt=""/>
-  
-  
-  
-  <p class="abstract">Space and lasers. Lasers in space.</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 22, 2016
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="http://oolite.org/">http://oolite.org/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/games.html">games</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        space
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Oolite_%28video_game%29">Oolite</a> is a rather trashy game, pretty much just <a href="https://en.wikipedia.org/wiki/Elite_%28video_game%29">Elite</a> with poor graphics. It’s not just that it is not polished or the gameplay is boring, but it’s screwed by really weird choices – such as barely readable black-on-red and red-on-black captions, and extremely annoying and hard-to-get-rid-of pets.</p>
-<p>But. It is set in space, and there are lasers, what almost makes up for the trashy bits. There is trading, long and boring flights, long and boring battles, and some other activities – such as parcel delivery and occasional quests. A few ship upgrades, a bit more if you use extension packs – though it’s somewhat weird and feels like borderline cheating to add items.</p>
-<p>It could be called an arcade game, since there’s the same shit over and over again, without any goal. Probably it was cool in 1984, when Elite was first published, but it was 32 years ago – it can be considered vintage now.</p>
-<p>Yet, it is playable, and even enjoyable – even if it’s just because of the space and lasers.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Smooth criminal</title>
-    <link href="http://theasocial.com/articles/life/smooth-criminal.html" />
-    <id>http://theasocial.com/articles/life/smooth-criminal.html</id>
-    <published>2016-09-20T00:00:00Z</published>
-    <updated>2016-09-20T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  <img src="/images/articles/smoothie.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">The liquid danger</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Blueberry_smoothie.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 20, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>While the magazines that have any audience are suspected in being paid by smoothie corporations to stay silent, The Asocial conducts an investigation on the topic, following the rumors of smoothies being a major risk factor in becoming a hipster.</p>
-<h2 id="a-creep">A creep</h2>
-<p>We interview a creep, who has got leg <a href="https://en.wikipedia.org/wiki/Necrosis">necrosis</a> as a <a href="https://en.wikipedia.org/wiki/Slim_fit_pants">shrinked pants syndrome</a> complication. That’s what news media usually does in order to <a href="https://en.wikipedia.org/wiki/Appeal_to_pity">appeal to pity</a>, and to get a convincing story by <a href="https://en.wikipedia.org/wiki/Cherry_picking_%28fallacy%29">cherry picking</a> and/or using a <a href="https://en.wikipedia.org/wiki/Biased_sample">biased sample</a>, so we’ve figured we’ll do the same – and maybe will get paid by the smoothie corporations one day.</p>
-<p>The creep’s legs look disgusting, and he does not like being photographed in this condition, so we will not put a picture here.</p>
-<p><strong>The Asocial (A)</strong>: So, how are you doing?</p>
-<p><strong>Creep (C)</strong>: How does it look I’m doing?</p>
-<p><strong>A</strong>: Fine?</p>
-<p><strong>C</strong>: Not quite, I have leg necrosis.</p>
-<p><strong>A</strong>: Don’t be a whimp, nobody is completely healthy.</p>
-<p><strong>C</strong>: There are fucking maggots in my legs.</p>
-<p><strong>A</strong>: Calm down, <a href="https://en.wikipedia.org/wiki/Human_parasite">human parasites</a> are not that uncommon.</p>
-<p><strong>C</strong>: Did I mention dead flesh?</p>
-<p><strong>A</strong>: Fuck it, we’ll find another creep.</p>
-<p><strong>C</strong>: Hey, wait, I’ll give the interview.</p>
-<p><strong>A</strong>: Okay. So, you’ve got the necrosis because of the slim pants you were wearing, right?</p>
-<p><strong>C</strong>: Yup.</p>
-<p><strong>A</strong>: And you were wearing the slim pants because you were a hipster, is that correct?</p>
-<p><strong>C</strong>: Yes, and I still am.</p>
-<p><strong>A</strong>: But no slim pants anymore, huh?</p>
-<p><strong>C</strong>: I have to wear therapeutic pants now.</p>
-<p><strong>A</strong>: Did you become a hipster because of the smoothies you were consuming?</p>
-<p><strong>C</strong>: That’s what the doctors say.</p>
-<p><strong>A</strong>: But what do you think?</p>
-<p><strong>C</strong>: Well, I guess that it contributed, at least.</p>
-<p><strong>A</strong>: Okay. Any word of advice to our readers?</p>
-<p><strong>C</strong>: Smoothies are the shit.</p>
-<p><strong>A</strong>: Do you mean that they are good?</p>
-<p><strong>C</strong>: Yeah, but you’d better not even try them.</p>
-<p><strong>A</strong>: You’re not making much sense now.</p>
-<p><strong>C</strong>: Want to see my leg?</p>
-<p><strong>A</strong>: Put that away, please.</p>
-<p><strong>C</strong>: Want to touch it?</p>
-<p><strong>A</strong>: That’s enough for the interview, I hope you’ll die soon.</p>
-<h2 id="dr.fraud">Dr. Fraud</h2>
-<p>Dr. Fraud is a man in doctor clothing (trustworthiness +4), glasses (intelligence +3), and with a stethoscope (charisma +3). He looks like he knows everything about medicine and follows all the recent research, so we’re interviewing him as well.</p>
-<p><strong>The Asocial (A)</strong>: Is it true that each smoothie shrinks your pants’ leg opening diameter by 0.5 mm?</p>
-<p><strong>Dr. Fraud (F)</strong>: What? Where did you get that from?</p>
-<p><strong>A</strong>: Made it up just now, actually.</p>
-<p><strong>F</strong>: Oh. Well, let’s see. Here is the data we have – that’s how many people turn after their <em>n</em>th smoothie:</p>
-<div class="figure">
-<img src="/images/articles/smooth-criminal-plot-1.svg" alt="people turned into hipsters after consuming their nth smoothie" />
-<p class="caption">people turned into hipsters after consuming their nth smoothie</p>
-</div>
-<!-- s = 0:10:490 -->
-<!-- h = [3,2,0,0,0,0,1,0,0,0,0,0,4,8,7,1,5,11,20,4,6,1,1,3,4,3,5,7,9,13,14,11,8,12,8,8,7,3,1,1,1,2,1,2,1,0,0,0,0,0] -->
-<p>Or, to visualize it a bit differently – that’s how many people are hipsters after consuming <em>n</em> smoothies:</p>
-<div class="figure">
-<img src="/images/articles/smooth-criminal-plot-2.svg" alt="people turned into hipsters after consuming n smoothies" />
-<p class="caption">people turned into hipsters after consuming n smoothies</p>
-</div>
-<!-- h2 = [3,5,5,5,5,5,6,6,6,6,6,6,10,18,25,26,31,42,62,66,72,73,74,77,81,84,89,96,105,118,132,143,151,163,171,179,186,189,190,191,192,194,195,197,198,198,198,198,198,198] -->
-<p>That’s from a study with 100000 smoothies and 200 subjects, 198 of which turned into hipsters by the end of the experiment, and the remaining two were probably immune. Hm, wait, that’s less than 0.05 of the sample, so it could be seen as insignificant – in fact, we could claim that they turn after 390 smoothies. Round it up to 400, and it’d be 0.25 mm per smoothie, if a leg opening shrinks by 10 cm on average once one turns into a hipster. But that’s only what’s expected after 400 smoothies, while it would be different for pretty much any other amount.</p>
-<p><strong>A</strong>: Interesting. But it assumes that the pants only shrink once, when one becomes a hipster, right?</p>
-<p><strong>F</strong>: Yeah, we can’t tell much about further shrinking from this study, and that 10 cm value should be checked as well. But the order of magnitude should be about right.</p>
-<p><strong>A</strong>: What about the timing? Is the effect the same when one drinks 390 smoothies in, say, a month, and when one does that in a year?</p>
-<p><strong>F</strong>: No idea. It’s just written here that in the study, 2 smoothies per day were used. Maybe it’s an average or something.</p>
-<p><strong>A</strong>: Is it the same for different smoothies, and does the volume of a smoothie matter?</p>
-<p><strong>F</strong>: Listen, I’m not really a doctor.</p>
-<p><strong>A</strong>: Well, I’m not really a journalist.</p>
-<p><strong>F</strong>: Want to grab a smoothie, then?</p>
-<p><strong>A</strong>: Sure.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Emacs 25 and Vim 8 released</title>
-    <link href="http://theasocial.com/articles/computing/emacs-25-and-vim-8-released.html" />
-    <id>http://theasocial.com/articles/computing/emacs-25-and-vim-8-released.html</id>
-    <published>2016-09-19T00:00:00Z</published>
-    <updated>2016-09-19T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info computing">
-  
-  <img src="/images/articles/emacs-and-vim.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">On the same week</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 19, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/computing.html">computing</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>After years of development, there are new major releases of both <a href="https://www.gnu.org/software/emacs/">Emacs</a> and <a href="https://www.vim.org/">Vim</a>: “<a href="https://groups.google.com/forum/?_escaped_fragment_=topic/vim_announce/EKTuhjF3ET0#!topic/vim_announce/EKTuhjF3ET0">Vim 8.0 released!</a>”, “<a href="https://lists.gnu.org/archive/html/info-gnu-emacs/2016-09/msg00000.html">Emacs 25.1 released</a>”. Emacs is somewhat unusual in versioning, so don’t get confused: 25.1 is the first stable release, while 25.0 was for unstable ones.</p>
-<p>Highlights of the highlights listed in the release notes: Emacs now has C FFI and Xwidgets support, while Vim got asynchronous I/O and closures.</p>
-<p>Both emacs and vi were initially released in 1976, and both are trying to provide efficient controls and extensibility. Both seem to be extremely slow in adopting new features<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> in their extension languages, and neither can just switch to a sane language, since that would break tons of code and configuration files written in the past decades. As even the last changes suggest, Emacs is not called an “operating system” for nothing, while Vim still tries to be just a text editor.</p>
-<p>Things go as usual, and perhaps the biggest surprise here is that Vim finally got ahead of Emacs in something: in stable major release date, by a few days.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Well, FFIs, asynchronous I/O, and closures were there even before 1976, so it can be generalized to any features.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
 </div>
 ]]></summary>
 </entry>
