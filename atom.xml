@@ -8,8 +8,126 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2016-11-27T00:00:00Z</updated>
+    <updated>2016-12-21T00:00:00Z</updated>
     <entry>
+    <title>Top 4 websites</title>
+    <link href="http://theasocial.com/articles/internet/top-4-websites.html" />
+    <id>http://theasocial.com/articles/internet/top-4-websites.html</id>
+    <published>2016-12-21T00:00:00Z</published>
+    <updated>2016-12-21T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/google.png" alt=""/>
+  
+  
+  
+  <p class="abstract">The ones that are more popular than Wikipedia</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://www.google.com/images/errors/robot.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        December 21, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Currently there is just 4 websites between Wikipedia and world domination, and we are reviewing those four. Each section begins with a quote from <a href="alexa-top-500-filtered-again.html">alexa top 500</a>, followed by a list of observations, possibly a comment, and concludes with a more honest description.</p>
+<h3 id="google">Google</h3>
+<blockquote>
+<p>Enables users to search the world’s information, including webpages, images, and videos. Offers unique features and search technology.</p>
+</blockquote>
+<ul>
+<li>Fails w3 validation (i.e., invalid trash).</li>
+<li>Sometimes the website welcomes us with a captcha.</li>
+<li>Half of the pages (i.e., one page) is in French, despite web browser locale being English.</li>
+</ul>
+<p>When attempting to switch to English, or to type anything in the text input field on its main page, an amusing error message appears (the URL is shortened here):</p>
+<blockquote>
+<p>Your client does not have permission to get URL /sorry/index?continue=https://www.google.fr/… from this server. That’s all we know.</p>
+</blockquote>
+<p>Well, at least it’s in English. Note that there is no permission to get a resource that is an error page according to its URL, not the one we were looking for. As if it wasn’t bad enough, the message also claims that there is no permission to get <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">URL</a>, not the resource it refers to.</p>
+<blockquote>
+<p>Two pages behind a captcha: one is weird, and the other one is to broken as what a supernova is to a confetti cannon.</p>
+</blockquote>
+<h3 id="youtube">Youtube</h3>
+<blockquote>
+<p>User-submitted videos with rating, comments, and contests.</p>
+</blockquote>
+<ul>
+<li>Fails validation.</li>
+<li>Lists trashy videos.</li>
+<li>Claims to have about 17,000,000 cat videos.</li>
+<li>Downloading is not trivial.</li>
+<li>Uploading requires to sign in; the login page is slightly broken, but has a link to an account creation page.</li>
+<li>The account creation page is also slightly broken, in a different way. Also says that the “qw11112222” password is strong.</li>
+<li>Its privacy policy and terms of service describe many different ways in which one would be screwed.</li>
+</ul>
+<blockquote>
+<p>A file archive limited to videos, with complicated download and no reasonable upload functionality. And with some junk around it.</p>
+</blockquote>
+<h3 id="facebook">Facebook</h3>
+<blockquote>
+<p>A social utility that connects people, to keep up with friends, upload photos, share links and videos.</p>
+</blockquote>
+<ul>
+<li>Fails validation.</li>
+<li>Clicking or navigating the website implies agreement with being screwed, so we are not doing that.</li>
+<li>Apparently it is useless anyway.</li>
+</ul>
+<blockquote>
+<p>A closed image gallery or something.</p>
+</blockquote>
+<h3 id="baidu">Baidu</h3>
+<blockquote>
+<p>The leading Chinese language search engine, provides “simple and reliable” search experience, strong in Chinese language and multi-media content including MP3 music and movies, the first to offer WAP and PDA-based mobile search in China.</p>
+</blockquote>
+<ul>
+<li>Won’t load.</li>
+</ul>
+<p>Well, it explains why “simple and reliable” is quoted.</p>
+<blockquote>
+<p>Plain nothing.</p>
+</blockquote>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Blackadder</title>
     <link href="http://theasocial.com/articles/video/blackadder.html" />
     <id>http://theasocial.com/articles/video/blackadder.html</id>
@@ -76,7 +194,7 @@
 </div>
 
 <div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Blackadder">Blackadder</a> is a four-season-and-a-few-extras historical series, with each season being set in a different (yet recent) century. Some historians believe that it contains real footage, but the mainstream opinion is that it’s just old, but not old enough to contain that.</p>
+  <p><a href="https://en.wikipedia.org/wiki/Blackadder">Blackadder</a> is a four-season-and-a-few-extras historical series, with each season being set in a different (yet recent) century. Some historians believe that it contains real footage, but the mainstream opinion is that it’s just old, yet not old enough to contain that.</p>
 <p>It follows the adventures of Edmund Blackadder and his loyal servant Baldrick, along with a few recurring secondary characters. From season to season, the intelligence appears to drift from Baldrick to Blackadder somehow, while Edmund’s social status declines, yet some of the character traits always stay there.</p>
 <p><em>As a side note, there is a strange appeal in writing vague nonsense while reviewing something: probably that’s how all those movie summaries come into existence, and not because their authors don’t even care to watch the movies they are writing about.</em></p>
 <p>The characters are quite fun, and the cast includes <a href="https://en.wikipedia.org/wiki/Rowan_Atkinson">Mr. Bean</a>, <a href="https://en.wikipedia.org/wiki/Hugh_Laurie">Dr. House</a>, <a href="https://www.gnu.org/fry/">the gNewSense guy</a> who <a href="https://en.wikipedia.org/wiki/Stephen_Fry#Computing_and_software_freedom">secretly uses</a> <a href="https://www.gnu.org/philosophy/ubuntu-spyware.en.html">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Baldrick">Baldrick</a> (cameo appearance), and some less famous folks.</p>
@@ -930,6 +1048,82 @@
 <p>Anyways, one shady service doesn’t compromise the whole idea, and it is always possible to find frescorts without such a service: some of them work on streets, hanging around without any apparent purpose. One can approach them, settle on the price, and go be friends for a few hours. Just keep in mind that undercover cops may hang there as well, so you shouldn’t explicitly mention “friendship for money”, unless it is legal in the state or country you are in.</p>
 <hr />
 <p>Advertisement: <a href="/">Friendly nurses befriend a terminally ill guy [HD Video]</a>.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Video Game High School</title>
+    <link href="http://theasocial.com/articles/video/vghs.html" />
+    <id>http://theasocial.com/articles/video/vghs.html</id>
+    <published>2016-09-22T00:00:00Z</published>
+    <updated>2016-09-22T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/vghs.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">Fun web series</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="http://www.imdb.com/title/tt2170584/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Date
+      </th>
+      <td>
+        September 22, 2016
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        web series
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://en.wikipedia.org/wiki/Video_Game_High_School">VGHS</a> pictures a place where people just play computer games all day long, and they call it a school. It may look fun, but <a href="https://en.wikipedia.org/wiki/ESports">professional gaming</a> is a thing, and as professional sports in general, it sucks all the joy out of games, turning those into income sources and stressful jobs for gamers, weird amusement and gambling opportunity for the masses, and marketing opportunity for companies. But the show does not bring up the sad bits of professional gaming, keeping it rather lighthearted.</p>
+<p>The next thing that you notice is exaggregation of pretty much everything – as in caricatures, or in those asian cartoons. There’s almost no realistic characters, but that makes the show rather fun. It’s also quite interesting how that works out: sometimes the characters act so cute, pretentious, or silly that it may make you to smile and laugh.</p>
+<p>The main character (portrayed by the actor known for such roles as Bartender, Tea Guest, Boy on Bike, Guy, and Douche) is rather annoying: he is a disgusting kind of nerd, dully reacting to the things that happen around, which is probably supposed to be relatable. Plenty of nice things happen to him from the very beginning, which is the plot of every asian cartoon, as I’ve heard. To elaborate on the “disgusting” part: it’s the kind of disgusting where you suspect that the actor has a few different health issues, and that it wouldn’t be nice to criticize him for that. It’s good that I don’t care.</p>
+<p>Following the annoying tradition of <a href="https://en.wikipedia.org/wiki/Tron">TRON</a>, during the games, the characters are placed in a game world, but somehow it’s not that bad, even though doesn’t always make sense. The plot twists are predictable sometimes, but then again – the show isn’t supposed to be taken seriously, so that’s fine.</p>
+<p>The season structure makes it closer to regular shows: the first season is okay, the second one is probably the most fun, and the third one deals with boring character relationships. Fortunately, it ended before getting even worse; actually it’d be disappointing if it ended when it was good, so ending after a decay is a rather nice way out.</p>
+<p>The show is available for free on <code>youtube-dl https://www.youtube.com/playlist?list=PLsMtUWKCmBPRFzqglpk4YQlNFy8wzSXBN</code>.</p>
 </div>
 ]]></summary>
 </entry>
