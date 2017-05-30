@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cloudflare – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bloat.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+  
+  <h1 id="title">Cloudflare</h1>
+  
+  <div class="info internet">
+  
+  <img src="../../images/articles/cloudflare.svg" alt />
+  
+  
+  
+  <p class="abstract">A self-inflicted MitM attack service</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Cloudflare_logo.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        copyrighted logo
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May 23, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><em>You may have noticed that we didn’t write much in the past few months. That’s because we’ve been saving our quarterly profanity quota to write about Cloudflare.</em></p>
+<p>“Synergy” is a word famous for being abused by useless people, yet it would serve well to describe what combination of Cloudflare with everything connected to it is: a few pieces of shit, the combination of which is a greater piece of shit than the sum of each separately. Or, to put in a more straightforward way, Cloudflare is a shit amplifier.</p>
+<p>Consider Google: it milks its users for private information, sells them to spammers (aka advertisers), tries to track others and do the same to them, but fails because JavaScript is disabled and Google hosts are blocked, so everyone’s sort of happy. But combined with Cloudflare by the use of Google’s captcha service, it gives users an ultimatum if one wants to visit a Cloudflare-encumbered website: either get tracked and sold to spammers, or become an image-clustering monkey working for free for Google. Supposedly Google doesn’t even pay Cloudflare for that: CF are just happy to screw their users in one more way.</p>
+<p>Security with Cloudflare is a circus: just look at “<a href="https://www.cloudflare.com/ssl/">Cloudflare One-Click SSL</a>”. Of course they call both X.509 and TLS “SSL”, but there’s much more. The use of non-vulnerable TLS versions is just optional, as the page claims. The “Flexible SSL” mode means “pretend that there is encryption”, making it to look like the connection is safe, while it is plaintext between Cloudflare and an actual server. The “Full SSL” mode is a MitM attack performed by Cloudflare itself. Oh, <a href="https://www.wordfence.com/blog/2017/02/cloudflare-data-leak/">look</a>, “Cloudflare has experienced a data leak over a 5 month period that mixed sensitive data between websites and visitors” – who would have thought! Actively broken security combined with evidently half-assed job turns out to lead to actual leaks. They keep going with a patch and no substantial changes after that, of course.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Cloudflare#Criticism_and_controversies">criticism listed in Wikipedia</a> doesn’t even cover those, but mentions <a href="https://en.wikipedia.org/wiki/Pink_contract">pink contracts</a> and such; indeed, spammers seem to like Cloudflare, as do other scammers.</p>
+<p>The only good thing about Cloudflare is that it lists the largest companies that are foolish enough to trust them, so one can use that to find out what to avoid. They tend to list the numbers of clients (“internet properties”, as they call them) as well, in an attempt to exploit at least two common fallacies: appeals <a href="https://en.wikipedia.org/wiki/Argument_from_authority">to authority</a> and <a href="https://en.wikipedia.org/wiki/Argumentum_ad_populum">to the people</a>.</p>
+<p>The Wikipedia article mentions that they’ve got some dumb award from TechCrunch. Why don’t we assign awards though? Cloudflare is hereby awarded with our new “fraud of the year” award.</p>
+<p>P.S. The public mail service we were using, vivaldi.net, has — in its infinite wisdom — effectively blocked our account as a response to the Cloudflare leak. If you’ve sent anything there in the past year or so, use our updated contacts to resend it.</p>
+</div>
+
+</div>
+
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

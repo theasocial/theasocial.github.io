@@ -8,8 +8,322 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2017-02-04T00:00:00Z</updated>
+    <updated>2017-05-25T00:00:00Z</updated>
     <entry>
+    <title>BBS: The Documentary</title>
+    <link href="http://theasocial.com/articles/video/bbs-documentary.html" />
+    <id>http://theasocial.com/articles/video/bbs-documentary.html</id>
+    <published>2017-05-25T00:00:00Z</published>
+    <updated>2017-05-25T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/bbs-documentary.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">A documentary about bulletin board systems</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="http://www.bbsdocumentary.com/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May 25, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="http://www.bbsdocumentary.com/">http://www.bbsdocumentary.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Remember our journey into the world of <a href="/articles/internet/telnet-bbs.html">telnet BBS</a>? While they are somewhat fun on their own, they only provide glimpses of what it was like to use them when they were popular. But <a href="https://en.wikipedia.org/wiki/BBS:_The_Documentary">BBS: The Documentary</a> provides a more comprehensive overview of various aspects surrounding BBS, focusing on the people who were using and running them.</p>
+<p>Through numerous interviews, it covers early BBS communities and stories, the birth of <a href="https://en.wikipedia.org/wiki/FidoNet">FidoNet</a>, <a href="https://en.wikipedia.org/wiki/MUD">MUD</a> games, <a href="https://en.wikipedia.org/wiki/ANSI_art">ANSI art</a> scene, the transformation of some of the BBS into <a href="https://en.wikipedia.org/wiki/Internet_service_provider">ISPs</a>, some hardware and software of the time, and other related topics.</p>
+<p>While it seems to be rather low-budget, with low audio and video quality, it is genuinely interesting and informative. The film is directed by <a href="https://en.wikipedia.org/wiki/Jason_Scott_Sadofsky">Jason Scott</a>.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Cloudflare</title>
+    <link href="http://theasocial.com/articles/internet/cloudflare.html" />
+    <id>http://theasocial.com/articles/internet/cloudflare.html</id>
+    <published>2017-05-23T00:00:00Z</published>
+    <updated>2017-05-23T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/cloudflare.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">A self-inflicted MitM attack service</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Cloudflare_logo.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        copyrighted logo
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May 23, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><em>You may have noticed that we didn’t write much in the past few months. That’s because we’ve been saving our quarterly profanity quota to write about Cloudflare.</em></p>
+<p>“Synergy” is a word famous for being abused by useless people, yet it would serve well to describe what combination of Cloudflare with everything connected to it is: a few pieces of shit, the combination of which is a greater piece of shit than the sum of each separately. Or, to put in a more straightforward way, Cloudflare is a shit amplifier.</p>
+<p>Consider Google: it milks its users for private information, sells them to spammers (aka advertisers), tries to track others and do the same to them, but fails because JavaScript is disabled and Google hosts are blocked, so everyone’s sort of happy. But combined with Cloudflare by the use of Google’s captcha service, it gives users an ultimatum if one wants to visit a Cloudflare-encumbered website: either get tracked and sold to spammers, or become an image-clustering monkey working for free for Google. Supposedly Google doesn’t even pay Cloudflare for that: CF are just happy to screw their users in one more way.</p>
+<p>Security with Cloudflare is a circus: just look at “<a href="https://www.cloudflare.com/ssl/">Cloudflare One-Click SSL</a>”. Of course they call both X.509 and TLS “SSL”, but there’s much more. The use of non-vulnerable TLS versions is just optional, as the page claims. The “Flexible SSL” mode means “pretend that there is encryption”, making it to look like the connection is safe, while it is plaintext between Cloudflare and an actual server. The “Full SSL” mode is a MitM attack performed by Cloudflare itself. Oh, <a href="https://www.wordfence.com/blog/2017/02/cloudflare-data-leak/">look</a>, “Cloudflare has experienced a data leak over a 5 month period that mixed sensitive data between websites and visitors” – who would have thought! Actively broken security combined with evidently half-assed job turns out to lead to actual leaks. They keep going with a patch and no substantial changes after that, of course.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Cloudflare#Criticism_and_controversies">criticism listed in Wikipedia</a> doesn’t even cover those, but mentions <a href="https://en.wikipedia.org/wiki/Pink_contract">pink contracts</a> and such; indeed, spammers seem to like Cloudflare, as do other scammers.</p>
+<p>The only good thing about Cloudflare is that it lists the largest companies that are foolish enough to trust them, so one can use that to find out what to avoid. They tend to list the numbers of clients (“internet properties”, as they call them) as well, in an attempt to exploit at least two common fallacies: appeals <a href="https://en.wikipedia.org/wiki/Argument_from_authority">to authority</a> and <a href="https://en.wikipedia.org/wiki/Argumentum_ad_populum">to the people</a>.</p>
+<p>The Wikipedia article mentions that they’ve got some dumb award from TechCrunch. Why don’t we assign awards though? Cloudflare is hereby awarded with our new “fraud of the year” award.</p>
+<p>P.S. The public mail service we were using, vivaldi.net, has — in its infinite wisdom — effectively blocked our account as a response to the Cloudflare leak. If you’ve sent anything there in the past year or so, use our updated contacts to resend it.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>OpenTTD</title>
+    <link href="http://theasocial.com/articles/games/openttd.html" />
+    <id>http://theasocial.com/articles/games/openttd.html</id>
+    <published>2017-05-20T00:00:00Z</published>
+    <updated>2017-05-20T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/openttd.png" alt=""/>
+  
+  
+  
+  <p class="abstract">Trains galore</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://binaries.openttd.org/releases/1.7.0/openttd-1.7.0-source.tar.xz">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        GPL 2+
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May 20, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://openttd.org/">https://openttd.org/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Trains are awesome. Everybody loves trains.</p>
+<p>With <a href="https://openttd.org/">OpenTTD</a>, one can enjoy train business simulation using a personal computer, with no need of actually getting into train business!</p>
+<p>That’s another libre clone<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> of an older game, with some additional development on top of that. One of the cutting-edge technologies that OpenTTD applies is an additional sensory output: not just you see and hear trains, but you can also smell the burning dirt – supposedly from a video card. Not like there are any fancy graphics, so it can’t be a mere side effect.</p>
+<p>Apart from trains, it includes some busses, ships, and aircraft. You build roads, airports, and other stuff, collect money, build more – in a loop. With no way of enjoying what you’ve earned, or any meaningful goal: that’s how good it is at simulating a train entrepreneur’s life.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>More of FOSS clones can be found on <a href="http://osgameclones.com/">osgameclones.com</a>. And <a href="https://libregamewiki.org">libregamewiki.org</a> lists some of those, as well as original games.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Widelands</title>
+    <link href="http://theasocial.com/articles/games/widelands.html" />
+    <id>http://theasocial.com/articles/games/widelands.html</id>
+    <published>2017-05-19T00:00:00Z</published>
+    <updated>2017-05-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/widelands.png" alt=""/>
+  
+  
+  
+  <p class="abstract">A real-time strategy game</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://wl.widelands.org">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May 19, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://wl.widelands.org">https://wl.widelands.org</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://wl.widelands.org/">Widelands</a> is a libre remake — with further development — of an older RTS game Settlers II, focused mainly on building a sustainable and efficient economy, and a little on warfare. There is a variety of resources and buildings, and a player can apply different development strategies.</p>
+<p>The first stage of playing it boils down to figuring how it works, what resources and buildings are needed, in what order to build them, etc. Then it’s mostly about perfecting the same strategy. Well, not very different from what one does in most of the other games: acquiring a useless skill, and applying it then.</p>
+<p>There’s a lot of maps, some campaigns, and multiplayer is present over both direct connection and a game server.</p>
+<p>The game is implemented quite well: as in <a href="/articles/games/wesnoth.html">The Battle for Wesnoth</a>, the graphics here are dated, yet generally it is nice and polished. Though its build process relies on custom shell scripts, but at least they work – so building from sources should not be a problem.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>A fat guy got stuck in a bathtub</title>
     <link href="http://theasocial.com/articles/life/a-fat-guy-got-stuck-in-a-bathtub.html" />
     <id>http://theasocial.com/articles/life/a-fat-guy-got-stuck-in-a-bathtub.html</id>
@@ -43,7 +357,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         February  4, 2017
@@ -76,9 +390,9 @@
 </div>
 
 <div id="article">
-  <p>More and more often overweight people are getting stuck in bathtubs<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, sometimes <a href="https://imgur.com/gallery/3mD4u">requiring assistance</a> to get released. Surprisingly, both causes and mechanisms differ from case to case.</p>
+  <p>More and more often overweight people are getting stuck in bathtubs<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, sometimes <a href="https://imgur.com/gallery/3mD4u">requiring assistance</a> to get released. Surprisingly, both the causes and the mechanisms differ from case to case.</p>
 <p>Following the rumors of another overweight guy being stuck in a bathtub, The Asocial interviews the poor fatty himself:</p>
-<p><strong>The Asocial (TA)</strong>: Hello, fatty. May i call you that?</p>
+<p><strong>The Asocial (TA)</strong>: Hello, fatty. May I call you that?</p>
 <p><strong>Fat Guy (FA)</strong>: I wouldn’t call a person who weights 125 kilograms “fatty”. But I do deem those of a lower weight underweight.</p>
 <p><strong>TA</strong>: Interesting world view. How long have you been stuck in the bathtub?</p>
 <p><strong>FA</strong>: To be honest, just a few seconds total, but more than once. The whole time I’ve been in control of being stuck, though the second to last didn’t go exactly as planned. Besides, it was rather a suction, I wasn’t literally “stuck”.</p>
@@ -165,7 +479,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         December 21, 2016
@@ -283,7 +597,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         November 27, 2016
@@ -359,7 +673,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         November  6, 2016
@@ -581,7 +895,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         October 23, 2016
@@ -652,7 +966,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         October 20, 2016
@@ -724,7 +1038,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         October 12, 2016
@@ -810,7 +1124,7 @@
     
     <tr>
       <th>
-        Date
+        Article date
       </th>
       <td>
         October  8, 2016
@@ -835,341 +1149,6 @@
 
 <div id="article">
   
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Pimp My Code, issue 3</title>
-    <link href="http://theasocial.com/articles/internet/pimp-my-code-issue-3.html" />
-    <id>http://theasocial.com/articles/internet/pimp-my-code-issue-3.html</id>
-    <published>2016-10-08T00:00:00Z</published>
-    <updated>2016-10-08T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/pimp-my-code.png" alt=""/>
-  
-  
-  
-  <p class="abstract">Exabit and his team pimp an old LaTeX document class</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        October  8, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="/articles/internet/pimp-my-code-issue-2.html">Previously</a> on <a href="https://github.com/pimp-my-code">Pimp My Code</a>: <a href="https://github.com/getlogbook/logbook">logbook</a>, a python logging library, <a href="https://github.com/getlogbook/logbook/pull/201">got logging of its own</a>, as well as new looks.</p>
-<p>Today Exabit visits <a href="https://github.com/cambridge">University of Cambridge</a>, where <a href="https://github.com/cambridge/thesis/graphs/contributors">Matej and his friends</a> are struggling to get any PDFs out of <a href="https://github.com/cambridge/thesis">their old LaTeX document class</a>.</p>
-<p><strong>Exabit</strong>: Yo. Everyone enjoys reading, and I’m reading with these smooth and grotesque <a href="http://dejavu-fonts.org/">DejaVu</a> <a href="https://en.wikipedia.org/wiki/Sans-serif">sans-serif</a> fonts, because I’m Exabit. Unfortunately for my man Matej, this <a href="https://en.wikipedia.org/wiki/Computer_Modern">Computer Modern</a>’s <a href="https://en.wikipedia.org/wiki/Roman_%28typeface%29">Roman</a> font is no good for eyes. But not to worry: Matej has no idea, but we’re about to pimp his code.</p>
-<p><em>Exabit knocks the door, the door opens.</em></p>
-<p><strong>Matej</strong>: No way! You gotta be joking! No waay! Exabit!</p>
-<p><strong>Exabit</strong>: Yeah, yeah, calm down. I’ve came here today, and I’m ready to pimp your code.</p>
-<p><strong>Matej</strong>: I can’t believe it, is it really you?</p>
-<p><strong>Exabit</strong>: It’s me, alright? So, what about your code? Do you have a name for it?</p>
-<p><strong>Matej</strong>: It’s just called “thesis”, but informally we call it “embarrassment”.</p>
-<p><strong>Exabit</strong>: Well, show me your “embarrassment”.</p>
-<p><strong>Matej</strong>: Here it is. It’s a regular black-on-white model, though rather old one. The fonts got serifs with time, the typos are abundant. Obviously it has seen better days.</p>
-<p><strong>Exabit</strong>: Oh wow. And what’s up with that Makefile?</p>
-<p><strong>Matej</strong>: Well, it got circular dependencies, nobody knows how it works at all.</p>
-<p><strong>Exabit</strong>: Okay, I’ve seen enough. I’m taking this off to our garage where we will end its suffering.</p>
-<p><em>Exabit makes a few gangsta gestures, takes off from the third attempt. When he arrives to the garage, Victor and El Hackerozo appear to protest.</em></p>
-<p><strong>Exabit</strong>: Okay, check this out. This is a 2011 LaTeX document class. What can we do with this?</p>
-<p><strong>Victor</strong>: A “screen” mode is a must. Since it’s a document class, we could simply add it as an option; then it would set fonts and colors for on-screen reading.</p>
-<p><strong>Exabit</strong>: Sounds good, what else?</p>
-<p><strong>El Hackerozo</strong>: There’s so much free space. I think we should hide empty pages in that “screen” mode, and add some flames on the title page. You know how pale some of those papers look like?</p>
-<p><strong>Exabit</strong>: Yeah, yeah, they are like “we are so awesome that we don’t have to look nice”, but they actually have to, you know what I’m saying?</p>
-<p><strong>El Hackerozo</strong>: I do. So, we can make a flame contour, which would simply stay that way in the print mode, but will be filled with screen mode.</p>
-<p><strong>Victor</strong>: Somebody should also fix those typos.</p>
-<p><strong>Exabit</strong>: Oh, guys, I forgot to show you: this Makefile has circular dependencies.</p>
-<p><em>Victor grabs his head in horror.</em></p>
-<p><strong>Victor</strong>: I’m not sure if we’ll have enough time to get rid of that, but I’ll take a look.</p>
-<p><strong>Exabit</strong>: Well, sounds good, let’s do this!</p>
-<p><em>The team works on it for hours, and it’s finally the time to present the work to the client. Matej and his friends are coming in, <a href="https://github.com/cambridge/thesis/pull/29">the team presents the work</a>:</em></p>
-<blockquote>
-<p>Yo dawg.</p>
-</blockquote>
-<blockquote>
-<p>I heard you like LaTeX. So we’ve put more LaTeX into your LaTeX.</p>
-</blockquote>
-<blockquote>
-<p>But first things first. Remember that old Makefile of yours, that was failing to make a PDF after <code>make clean</code>? Guess what? We fixed it! That’s right, now it’s actually doing what it’s supposed to do.</p>
-</blockquote>
-<blockquote>
-<p>Of course we’ve fixed a few typos here and there: even the samples of your new class file should be impeccable.</p>
-</blockquote>
-<blockquote>
-<p>Now, let me show you something. See this new TikZ flame contour? It’s fancy even this way, but let’s turn on your brand new <code>screen</code> documentclass option. Not just it brings the flame to life, it sets the default font family to sans serif, skips the empty pages, and even updates the background color of every page! It was not healthy to read from a screen with the contrast as high as there was before, and just look at those smooth letters!</p>
-</blockquote>
-<blockquote>
-<p>Now that it’s easier on the eyes, you’ll always have a steady flow of new dissertations, since the students are gonna just love it. No lone nights with nothing to read anymore!</p>
-</blockquote>
-<blockquote>
-<p>We’ve also found a hidden submission notice claiming that the thesis is badass, and restored it – no need to be humble with this beauty!</p>
-</blockquote>
-<blockquote>
-<p>Yo, look <a href="/exhaust/pimp-my-code-cambridge-thesis.pdf">here</a>. Yeah, that’s a new shield – not exactly of a college, but indicating that you’ve been officially pimped!</p>
-</blockquote>
-<blockquote>
-<p>It’s been our pleasure pimping your thesis template. See you next time!</p>
-</blockquote>
-<p><em><a href="https://dl.bintray.com/matej/cam-thesis/thesis.pdf">Before</a> and <a href="/exhaust/pimp-my-code-cambridge-thesis.pdf">after</a>.</em></p>
-<p><strong>Matej</strong>: Whoa, sick visuals! Awesome typo fixes! And look at this Makefile, ahh. May I try it?</p>
-<p><strong>Exabit</strong>: Of course, it’s all yours!</p>
-<p><strong>Matej</strong>: Awesome, it works!</p>
-<p><strong>Victor</strong>: Sure it does. Hey, let’s turn the screen mode on.</p>
-<p><strong>Matej and friends</strong>: Wow, unbelievable! Thank you guys!</p>
-<p><strong>Exabit</strong>: No problem, that’s what we do. It was Pimp My Code on The Asocial, see you next time!</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>systemd</title>
-    <link href="http://theasocial.com/articles/computing/systemd.html" />
-    <id>http://theasocial.com/articles/computing/systemd.html</id>
-    <published>2016-10-06T00:00:00Z</published>
-    <updated>2016-10-06T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info computing">
-  
-  <img src="/images/articles/redhat.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">History and current state</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:RedHat.svg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        October  6, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/computing.html">computing</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Once upon a time, there was a guy named <a href="https://en.wikipedia.org/wiki/Lennart_Poettering">Lennart Poettering</a>, who was involved into edgy projects such as <a href="https://en.wikipedia.org/wiki/PulseAudio">PulseAudio</a> (the monster sound server that runs on top of <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> driver, leading to half the sound problems – the other half is caused by ALSA) and <a href="https://en.wikipedia.org/wiki/Avahi_(software)">Avahi</a> (an implementation of <a href="https://en.wikipedia.org/wiki/Multicast_DNS">mDNS</a> and related things – one of those programs that seem to rarely be used outside of corporate environments). The monstrosity of both is comparable to that of <a href="https://en.wikipedia.org/wiki/D-Bus">D-Bus</a>, which is actually used by both. It shouldn’t be a surprise that Lennart currently works for <a href="https://en.wikipedia.org/wiki/Red_Hat">Red Hat</a> – a company responsible for things such as <a href="https://en.wikipedia.org/wiki/NetworkManager">NetworkManager</a> and other abominations.</p>
-<p>Back in 2010, Lennart started working on <a href="https://en.wikipedia.org/wiki/Systemd">systemd</a>. There already was <a href="https://en.wikipedia.org/wiki/Init#Replacements_for_init">a variety of init systems</a>, but the most widely used ones were rather messy: non-portable across systems shell scripts for daemons alone were quite a pain to deal with. In November 2010, systemd got into <a href="https://getfedora.org/">Fedora</a> (<a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux">RHEL</a> beta) repositories, and became default there in May 2011. Journald (its logging system) was <a href="http://blog.gerhards.net/2011/11/journald-and-rsyslog.html">criticized by rsyslog author</a> in 2011. In 2012, the Slackware author <a href="https://www.linuxquestions.org/questions/interviews-28/interview-with-patrick-volkerding-of-slackware-949029/">claimed</a> that systemd violates <a href="https://en.wikipedia.org/wiki/Unix_philosophy">UNIX philosophy</a>. By 2015, it already ate <a href="https://en.wikipedia.org/wiki/Udev">udev</a>, implemented its much criticized logging system, a login shell, and grew a bunch of <a href="https://en.wikipedia.org/wiki/Systemd#Ancillary_components">other components</a>, for what it has been criticized – as well as for being Linux-specific, doing half-assed job, and so on. Yet, after a <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=727708">long</a> <a href="https://wiki.debian.org/Debate/initsystem">debate</a>, in April 2015 it became default in <a href="https://www.debian.org/">Debian</a>. There’s more of <a href="https://en.wikipedia.org/wiki/Systemd#History">systemd history</a>, which mostly consists of criticizm, in the Wikipedia article.</p>
-<p>Though systemd finally made daemons easily portable across major Linux-based systems, it made them incompatible with other Unix-like systems, and with a few Linux-based ones that continued to resist – such as <a href="https://en.wikipedia.org/wiki/Slackware">Slackware</a> and <a href="https://www.gentoo.org/">Gentoo</a>.</p>
-<p>Somewhere along the way, we’ve got the “boycott systemd” campaign, a systemd-free Debian fork, and <a href="http://without-systemd.org">without-systemd.com wiki</a>. But that’s not all: now we’re getting things such as “<a href="https://www.agwa.name/blog/post/how_to_crash_systemd_in_one_tweet">How to Crash Systemd in One Tweet</a>” (the title is actually misleading and weird, but the article is rather interesting) and “<a href="http://suckless.org/sucks/systemd">systemd is the best example of Suck</a>” by <a href="http://suckless.org/">suckless.org</a>.</p>
-<p>Systemd is not the first attempt to fix the init mess: “<a href="http://blog.darknedgy.net/technology/2015/09/05/0/">A history of modern init systems (1992-2015)</a>” gives a nice outline of those, with occasional config examples. Yet it’s the one that was backed by Red Hat, what contributed to both development and the wide adoption.</p>
-<p>To be fair, Linux kernel itself is huge and monolithic, and the tools that were widely used before systemd are not much better. There’s the monstrous, often monolithic and bloated, often by Red Hat or GNOME and resembling MS Windows, “enterprise” junk with D-Bus and stuff on one side, and the swamp of old, often bloated because of compatibility with the most obscure systems, and heterogeneous junk on the other.</p>
-<p>It would be nice to point out some articles that show systemd in a good light for a contrast, but currently the <a href="https://duckduckgo.com/?q=systemd+good&amp;ia=web">“systemd good” search query</a> yields results such as “<a href="http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html">Meet systemd, the controversial project taking over a Linux distro near you</a>”, “<a href="http://www.infoworld.com/article/2608798/data-center/systemd--harbinger-of-the-linux-apocalypse.html">Systemd: Harbinger of the Linux apocalypse</a>”, “<a href="http://linuxbsdos.com/2014/09/03/is-systemd-as-bad-as-boycott-systemd-is-trying-to-make-it/">Is systemd as bad as boycott systemd is trying to make it?</a>”, followed by Wikipedia, suckless, ArchWiki, some tutorials, and <a href="https://judecnelson.blogspot.com/2014/09/systemd-biggest-fallacies.html#!">more</a> <a href="https://www.textplain.net/blog/2015/problems-with-systemd-and-why-i-like-bsd-init/">criticizm</a>.</p>
-<p>Well, at least it reached its alleged goal of being more like MS Windows: very few people seem to like it, yet it is used widely.</p>
-<p>One of the lessons to learn from this is the following: fix your stuff in time, or Lennart will do it, and nobody will be happy.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>StartSSL and friends</title>
-    <link href="http://theasocial.com/articles/internet/startssl-and-friends.html" />
-    <id>http://theasocial.com/articles/internet/startssl-and-friends.html</id>
-    <published>2016-10-02T00:00:00Z</published>
-    <updated>2016-10-02T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/startcom-logo.png" alt=""/>
-  
-  
-  
-  <p class="abstract">StartCom, Qihoo 360, WoSign, and Opera</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        October  2, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <h2 id="startssl-and-startcom">StartSSL and StartCom</h2>
-<p>As you probably already know, and as it has already been mentioned in the “<a href="/articles/internet/letsencrypt-public-beta.html">Let’s Encrypt: public beta</a>” article, <a href="https://www.startssl.com/">StartSSL</a> is a crappy (though not outstanding in that) certificate authority. The company behind it is Israel-based <a href="https://en.wikipedia.org/wiki/StartCom">StartCom</a>, and as the Wikipedia article points out, its root certificates have been shipped with all major browsers since 2010, though the startssl.com domain name was created on 2006-09-10.</p>
-<p>Apparently “StartCom” stands for “start commerce”, and their slogan is “StartCom, the Start of eCommerce”. When they’ve just launched StartSSL (assuming it was after 2006-09-10), TLS 1.1 was already out, but “SSL” was a more widely known term among clueless potential customers. That was a subtle hint of what to expect. Since then it only went downhill.</p>
-<p>In 2011, shortly after <a href="http://www.theregister.co.uk/2011/03/23/gmail_microsoft_web_credential_forgeries/">Comodo</a>, it <a href="http://www.theregister.co.uk/2011/06/21/startssl_security_breach/">suffered a security breach</a>, but apparently nothing of value has been stolen, so it wasn’t such big of a deal. It wasn’t considered a biggie even with Comodo, though it has potentially screwed a lot of users.</p>
-<p>In 2016, StartCom launched StartEncrypt – a Let’s Encrypt clone, but <a href="https://www.computest.nl/blog/startencrypt-considered-harmful-today/">vulnerable</a>, issuing certificates without confirmation.</p>
-<h2 id="opera">Opera</h2>
-<p>Opera was a proprietary web browser, perhaps not a particularly bad one, which began in 1994, and grew into a monster and pretty much died about 2013. The developers refused to open its source code even after that, managing to sell the poor thing to some Chinese corporation for a hefty bulk of money like a large shipment of old electronics.</p>
-<h2 id="wosign-and-qihoo-360">WoSign and Qihoo 360</h2>
-<p><a href="https://en.wikipedia.org/wiki/Qihoo">Qihoo 360</a> is <a href="https://webdesign.tutsplus.com/articles/qihoo-360-secure-the-most-popular-browser-youve-never-heard-of--cms-24074">a huge Chinese scam</a> that brands its malware as security products, which is, alas, not that uncommon – there indeed seems to be a large overlap between commercial security (or commercial anything, perhaps) and outright fraud. As StartCom, they are not really trying to mimic a decent company: as the linked article mentions, their “<a href="http://se.360.cn/">security browser</a>” logo is just that of IE, but green.</p>
-<p>Assuming that people wouldn’t tell lies on the internet (<a href="https://twitter.com/vtlynch/status/777882757548634113">1</a> and <a href="https://news.ycombinator.com/item?id=12617659">2</a> by the same author, <a href="https://www.root.cz/clanky/startssl-byl-potichu-koupen-wosign-a-prestehovan-do-ciny/">3</a>), and inferring it from the verifiable fact that WoSign is hosted by “QiHU 360 Inc.”, it seems that Qihoo owns WoSign, though Qihoo is not mentioned on the “<a href="https://www.wosign.com/english/about.htm">About WoSign</a>” page (warning: poor English).</p>
-<p>The Mozilla wiki “<a href="https://wiki.mozilla.org/CA:WoSign_Issues">CA:WoSign Issues</a>” page currently outlines 14 pretty serious issues, occasionally linking bugzilla threads such as <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1293366#c3">#1293366</a>.</p>
-<h2 id="a-pile-formed">A pile formed</h2>
-<p>Recently <a href="https://www.wosign.com/english/News/WoSign_completed_equity_investment_to_StartCom_CA.htm">WoSign invested into StartCom</a>, and now hosts its servers. Meantime, <a href="https://www.engadget.com/2016/07/18/opera-browser-sold-to-a-chinese-consortium-for-600-million/">Qihoo purchased Opera browser</a>, forming a larger pile consisting mostly of scam, and of one corpse.</p>
-<h2 id="mozilla-apple-microsoft-and-the-other-one">Mozilla, Apple, Microsoft, and the other one</h2>
-<p>One may think that operating system and web browser maintainers shouldn’t have included that crap into distributions at all, but it wasn’t that much worse than the alternatives at the time. One may also think that shipping X.509 certificates is not something a web browser should do in the first place, but it’s not the only thing they do in addition to rendering HTML.</p>
-<p>But now <a href="http://www.zdnet.com/article/mozilla-to-chinas-wosign-well-kill-firefox-trust-in-you-after-mis-issued-github-certs/">Mozilla proposed to get rid of that</a>, <a href="https://groups.google.com/forum/?_escaped_fragment_=topic/mozilla.dev.security.policy/lWJ1zdUJPLI#!topic/mozilla.dev.security.policy/lWJ1zdUJPLI">Apple does some half-assed job at that</a>, while the other two major browser developers, Microsoft and Google/Alphabet/whatever, don’t seem to react. It’s going pretty slowly, and one of the explanations is that users would do really stupid things (such as disabling validation completely) if they won’t be able to access some websites because of CA blacklisting.</p>
-<h3 id="update-2016-10-24">Update (2016-10-24)</h3>
-<p>Mozilla is <a href="https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/">finally going to distrust</a> some of the WoSign certificates, starting with Firefox 51. WoSign made a regular corporate bullshit <a href="https://www.wosign.com/english/News/announcement_about_Mozilla_Action_20161024.htm">announcement about Mozilla action</a>. Apart from surprisingly poor English for a large corporation, it’s somewhat interesting that they are not going to drop the affected root certificates, but planning to sell certificates signed with those with a 90% discount. Both Mozilla and WoSign keep calling X.509 “SSL”.</p>
-<h2 id="lessons-learned">Lessons learned</h2>
-<p>None.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Friendship as a service</title>
-    <link href="http://theasocial.com/articles/life/friendship-as-a-service.html" />
-    <id>http://theasocial.com/articles/life/friendship-as-a-service.html</id>
-    <published>2016-09-23T00:00:00Z</published>
-    <updated>2016-09-23T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  <img src="/images/articles/friendship-as-a-service.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Friends from a cloud</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Jacopo_Pontormo_-_Portrait_of_Two_Friends_-_WGA18109.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        public domain
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Date
-      </th>
-      <td>
-        September 23, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>The latest <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud technology</a> advancement is here, and it is called “<a href="https://en.wikipedia.org/wiki/Friendship">friendship</a> as a service” (FaaS). Some critics claim that it is pretty similar to the good old GaaS (<a href="https://en.wikipedia.org/wiki/Girlfriend_experience">girlfriend as a service</a>), and not really an innovation, but MaaS (marketing as a service) provides some compelling evidence of it being indeed new by pointing to the almighty cloud, and promising that now you can get as much friendship as you want, when and where you want, for a reasonable price.</p>
-<p>Other critics claim that it is just <a href="http://www.thefreedictionary.com/escort">escort</a>, but as we shall see, FaaS goes beyond traditional escort services.</p>
-<p>As it often happens with technologies, the idea was first contemplated in fiction, such as one of the “<a href="/articles/video/pushing-daisies.html">Pushing Daisies</a>” episodes, where the service was called “<a href="http://www.imdb.com/title/tt1127264/">frescort</a>”, which is short for “friend escort”. But now we have actual commercial services, one of which is <a href="http://rentafriend.com/">RentAFriend.com</a>.</p>
-<p>As RentAFriend points out, “there are over 621,585 Friends available for rent worldwide”, and the available activities include pretty much all the conventional friend activities.</p>
-<p>What distinguishes FaaS from all the other rental-related things rebranded into “something-as-a-service” and themed with clouds, is that friendship wasn’t explicitly rental-related before, or at least that was rare enough to stay unheard of: if one didn’t have enough imagination to get imaginary friends, they had to hang out with mostly random people, occasionally finding those who they can communicate with, so that they can do stuff together. But it was hard and time-consuming, while not even always leading to the desired results. So people were using other kinds of services that provide human interaction instead, but not quite getting what they wanted to. The solution looks fairly obvious if you think of it now, but nobody has implemented it before: with FaaS, you just pay somebody per hour to pretend being your friend.</p>
-<p>The rented friends can pretend being interested in any freaky shit you are into, or simply help you to not feel awkward for or bored because of staying alone while visiting a social event. You also get to choose friends instead of getting more or less random ones, and the relationships are conveniently limited to transactions.</p>
-<p>“Friends will NEVER see your name, email address, or any of your personal information”, as RentAFriend <a href="https://rentafriend.com/join/">claims</a>: no sneaky friend will violate your privacy anymore. Its creators seem to indeed care about privacy, not identifying themselves on the website or in its whois records. Though it’s probably bullshit anyway, since they also claim that “you will never receive any mail or phone calls from us. We respect your privacy concerns and assure your information will never be shared or sold to anyone”, while <a href="http://rentafriend.com/privacy/">their T&amp;Cs</a> state that “[y]ou may also receive emails from 3rd party advertisers to the email provided in your account and your agreement during registration”, and do mention that some of the data about you may be sold.</p>
-<p>Anyways, one shady service doesn’t compromise the whole idea, and it is always possible to find frescorts without such a service: some of them work on streets, hanging around without any apparent purpose. One can approach them, settle on the price, and go be friends for a few hours. Just keep in mind that undercover cops may hang there as well, so you shouldn’t explicitly mention “friendship for money”, unless it is legal in the state or country you are in.</p>
-<hr />
-<p>Advertisement: <a href="/">Friendly nurses befriend a terminally ill guy [HD Video]</a>.</p>
 </div>
 ]]></summary>
 </entry>
