@@ -8,8 +8,309 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2017-05-25T00:00:00Z</updated>
+    <updated>2017-09-24T00:00:00Z</updated>
     <entry>
+    <title>Primitive Technology</title>
+    <link href="http://theasocial.com/articles/video/primitive-technology.html" />
+    <id>http://theasocial.com/articles/video/primitive-technology.html</id>
+    <published>2017-09-24T00:00:00Z</published>
+    <updated>2017-09-24T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/primitive-technology.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">NIHing to the max</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://www.youtube.com/watch?v=c2ExwOAjLNw">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        September 24, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://primitivetechnology.wordpress.com/">https://primitivetechnology.wordpress.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        NIH, DIY
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Somewhere in the bottom hemisphere, among koalas and wombats, a guy once thought: “this civilization sucks”. But instead of whining on the internet, he went into a forest, methodologically and silently building everything from scratch (i.e., without modern tools) out of mud and sticks. And videotaping it.</p>
+<p>Or maybe he liked the civilization so much that he wanted to learn how to rebuild it if something will go wrong. Or to role-play like those Amish people do, or as a religious thing, as Tolkien fans practice. Or to explore living independently from society, as Ted Kaczynski tried before exploring living in a prison. As a hobby or as a way to make some money, as an art project, as a bet, to show off, or whatever: there is a lot of perfectly valid reasons to go alone into a forest and start building everything out of mud, but we don’t know which one it was, because he doesn’t blabber in the videos. Okay, actually he writes that <a href="https://primitivetechnology.wordpress.com/about/">it’s a hobby</a>, but could have been about anything.</p>
+<p>It’s not just some dull stuff like stone tools, huts, and dress (though that too), but he also harnesses the fire, making pots, charcoal, chimneys, kilns, furnaces. No metal (not even copper) tools yet, but there is a bit of smelting experimentation, so he’s somewhere at <a href="https://en.wikipedia.org/wiki/Neolithic">Neolithic Era</a> level of development (see <a href="https://en.wikipedia.org/wiki/Timeline_of_historic_inventions">timeline of historic inventions</a> for an outline). It’s probably a long way from that to fancy stuff like any usable electronics, radio, and computers, even with the modern knowledge (but without modern physical tools or prepared materials), but the guy is fairly young, and probably has enough time for that ahead of him.</p>
+<p>The videos are quite impressive and interesting to watch, and probably it’s fun to work on: even though sometimes it takes hours to make a single hole in a log, it still looks more fun than to waste hours/days/months/years doing nothing in particular. And then he gets a log with a hole in it!</p>
+<p>As was mentioned, the guy is silent in <a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA/videos">the videos</a> (what makes them similar to creepy videos where other silent people do other weird stuff; anonymously until recently, too, <a href="https://en.wikipedia.org/wiki/Primitive_Technology">as wikipedia says</a>), but there are subtitles that explain what’s going on, what are the immediate goals of his actions. They are pretty informative, so don’t forget to run <code>youtube-dl</code> with the <code>--write-sub</code> option in order to grab subtitles along with the videos. The blog contains additional information on the projects.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Internet radios</title>
+    <link href="http://theasocial.com/articles/internet/internet-radios.html" />
+    <id>http://theasocial.com/articles/internet/internet-radios.html</id>
+    <published>2017-09-11T00:00:00Z</published>
+    <updated>2017-09-11T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/shoutcast.png" alt=""/>
+  
+  
+  
+  <p class="abstract">And music discovery</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        September 11, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Music discovery is one of those activities with which a huge network with tons of information may be helpful. Unfortunately, the one we’ve got here mostly sucks, and about the best we get is the same radios as before, just using new technologies. “But wait!” you may object. “We have youtube, and last.fm, and myspace”. Well, yeah, but they are inefficient, with no way to improve them, and belong to the world of ads and misery. We’re not heading there.</p>
+<p>Then there are <a href="https://en.wikipedia.org/wiki/Compilation_album">compilation albums</a>, which may work for discovery, but the concept of an album is an artifact from the previous century, and particularly from the pre-internet part of it – when they just had to store a collection of songs using a single physical object, and to transfer the songs with it. They had radios and phones even then, but the quality of transmitted sound was far from that of original records.</p>
+<p>Actually there is a variety of ways to discover music, but listening to internet radios is one of them, so let’s finally get to that.</p>
+<h2 id="finding-radios">Finding radios</h2>
+<p>A naive internet user may try to find a decent radio by typing “internet radio” into a web search engine, but they are bound to discover loads of unusable—and often paywalled—crap that way. Individual stations are made invisible by huge services, and the huge services require monetization of their own.</p>
+<p>The solution is similar to that with software: one has to dive into the geekier depths of internet to find some enthusiasts who are trying to provide bullshit-free services. Those tend to hang around relevant technologies, mostly software in this case. Let’s see: FSF’s <a href="https://www.fsf.org/campaigns/playogg/en/">PlayOgg!</a> leads us to <a href="https://xiph.org/">xiph.org</a>, which provides a <a href="http://dir.xiph.org/">streaming directory</a>: a list of active streams with basic search and direct links to both playlists and the stations’ websites. Done.</p>
+<h2 id="how-it-works">How it works</h2>
+<p>The streams we saw announce themselves using “<a href="http://www.icecast.org/docs/icecast-2.4.1/yp.html">Yellow Pages</a>”. In case if you have ever wondered how media streaming works, it is as disappointing as most of the other human-made stuff. In most cases, it uses the same protocol that is used (and intended) to serve web pages, to serve data in the same formats as used for locally stored files. There’s just a bit of math involved in sound compression, but no magic around it otherwise. There is some patents-related mess when it comes to codecs though, and inconsistencies in software support, of course. For those interested in technical bits, <a href="https://xiph.org/">xiph.org</a> provides nice entry-level explanations and documentation.</p>
+<p>Regarding the overall operation, one can go through “about” sections of the listed radio stations. Some are regular radio stations with in-air ads, some accept donations and/or stick to indie bands that are happy to get promoted for free, and some are not exactly law-abiding. What leads us to the legal aspect of their working: <a href="https://en.wikipedia.org/wiki/Music_licensing">music licensing</a> is <a href="https://www.boutell.com/newfaq/creating/musicrights.html">a pain, and an expensive one</a> (the linked page is composed by the guy who <a href="https://boutell.com/newfaq/browser/needjavaandjavascript.html">claims</a> that JavaScript makes web browsing <em>less</em> painful, but probably he is not always wrong) – even when it is for non-commercial playback.</p>
+<p>Basically, people keep succeeding in complicating essentially simple things.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Naev</title>
+    <link href="http://theasocial.com/articles/games/naev.html" />
+    <id>http://theasocial.com/articles/games/naev.html</id>
+    <published>2017-09-10T00:00:00Z</published>
+    <updated>2017-09-10T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/naev.png" alt=""/>
+  
+  
+  
+  <p class="abstract">Another space game</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="http://naev.org/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        September 10, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://blog.naev.org/">https://blog.naev.org/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        space
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="https://blog.naev.org/">Naev</a> is a space-themed adventure/RPG kind of game, akin to <a href="https://endless-sky.github.io/">endless sky</a> (2D top-down graphics, too) and somewhat similar to <a href="/articles/games/oolite.html">oolite</a>.</p>
+<p>The game features trading, combat, flights, and missions that are about trading, combat, and flights. The game also features lots of stars and planets, space ships, equipment, factions. All those things are made quite well, as is the overall game, comparing to other similar libre games.</p>
+<p>It is not particularly original, or fun, or anything, yet a fine game to kill some time with. The build process is nice and painless, it neither crashes nor hogs resources, the graphics and controls are fine: looks like the authors either knew what they are doing, or at least weren’t lazy to learn along the way (which is at least 10 years of development, with more than 13 thousand commits).</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>SuperTuxKart</title>
+    <link href="http://theasocial.com/articles/games/supertuxkart.html" />
+    <id>http://theasocial.com/articles/games/supertuxkart.html</id>
+    <published>2017-09-03T00:00:00Z</published>
+    <updated>2017-09-03T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/supertuxkart.png" alt=""/>
+  
+  
+  
+  <p class="abstract">A racing game</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://supertuxkart.net/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        September  3, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://supertuxkart.net">https://supertuxkart.net</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>If you like speed, challenge, and pretending to be a penguin—all at the same time—then <a href="https://openttd.org/">SuperTuxKart</a> is a game for you.</p>
+<p>It’s a cartoonish, bright and colourful game, with minor in-race fighting, boosts, story mode, achievements, and other fun stuff. Apart from <a href="https://en.wikipedia.org/wiki/Tux">Tux</a>, multiple other software mascots are available as playable characters, coming with their own carts that have different characteristics.</p>
+<p>It’s a nice game to have around: even after passing the story mode and collecting all the achievements, it is fun to take a race or two once in a while.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>BBS: The Documentary</title>
     <link href="http://theasocial.com/articles/video/bbs-documentary.html" />
     <id>http://theasocial.com/articles/video/bbs-documentary.html</id>
@@ -867,288 +1168,6 @@
 </table>
 <p><a href="https://sourceforge.net/">Sourceforget</a> (268) and <a href="https://gizmodo.com/">Gizmodo</a> (488) weren’t included because they are meh. A few torrent trackers got KAT visitors after its <a href="/articles/internet/the-kat-founder-got-arrested.html">takedown</a>.</p>
 <p>The Asocial is not in the top yet, and not actually in the ranking at all, but <a href="/articles/comics/search-keywords.html">getting</a> <a href="/articles/comics/went-mainstream.html">there</a>.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Went mainstream</title>
-    <link href="http://theasocial.com/articles/comics/went-mainstream.html" />
-    <id>http://theasocial.com/articles/comics/went-mainstream.html</id>
-    <published>2016-10-23T00:00:00Z</published>
-    <updated>2016-10-23T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info comics">
-  
-  <img src="/images/comics/went-mainstream.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">Come and see the censorship inherent in the system!</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        October 23, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/comics.html">comics</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Deep Web in a Nutshell</title>
-    <link href="http://theasocial.com/articles/internet/deep-web-in-a-nutshell.html" />
-    <id>http://theasocial.com/articles/internet/deep-web-in-a-nutshell.html</id>
-    <published>2016-10-20T00:00:00Z</published>
-    <updated>2016-10-20T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/onions.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">A quick way to explore Onionland</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Mixed_onions.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        October 20, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        places
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>As <a href="/articles/internet/a-dark-web-survivor.html">a dark web survivor</a> described <a href="https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29#Hidden_services">Onionland</a> about a year ago, it was a mix of the old web, the modern web, and scam. But it evolves, and as it was with clearnet web, <a href="https://en.wikipedia.org/wiki/Web_portal">portals</a> appear that combine all the commonly used services in a single place.</p>
-<p>One of such portals is <a href="http://dtt6tdtgroj63iud.onion/">dtt6tdtgroj63iud.onion</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, “Deep Web in a Nutshell”, which indeed provides a great outline of deep web: “the dodgy marketplace”, “bitcoin multiplier”, “the abandoned forum”, “the spammy wiki”, “the anonymous uploader to nowhere”, and dozens of its other elaborate up to design details sections are barely distinguishable from the ones you would find on dedicated hidden services, and many of those are nice on their own. Perhaps “<a href="http://dtt6tdtgroj63iud.onion/webdesign/index.html">the rogue web designer</a>” section deserves a highlight, but only as primus inter pares. In addition to that, it includes an illustration of clearnet websites as those can be seen via Tor, and a puzzle. Basically, it is awesome.</p>
-<p>Its description sums it up nicely as well:</p>
-<blockquote>
-<p>Why visit lots of dodgy onion sites on the “dark” web, when you can enjoy being bored out of your wits here on this site in perfect safety? Authentic feelings of disappointment guaranteed, or your money back!</p>
-</blockquote>
-<p>“Deep Web in a Nutshell” is certainly worthwhile to check out if you would like to explore deep web, but don’t have much time for that.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Or use <a href="https://www.onion.to/">Tor2web</a> if you are too lazy to install <a href="https://torproject.org/">Tor</a> – just append “.to” to the domain name: <a href="http://dtt6tdtgroj63iud.onion.to/">dtt6tdtgroj63iud.onion.to</a>.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Human sleep modes</title>
-    <link href="http://theasocial.com/articles/life/human-sleep-modes.html" />
-    <id>http://theasocial.com/articles/life/human-sleep-modes.html</id>
-    <published>2016-10-12T00:00:00Z</published>
-    <updated>2016-10-12T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  
-  
-  <p class="abstract">The ways to mess up your sleep</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        October 12, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <h2 id="introduction">Introduction</h2>
-<p>Sleep is essential to human health and functioning. The need to <a href="https://en.wikipedia.org/wiki/Sleep">sleep</a> is probably one of the most unpleasant things one has to deal with when they have stuff to do, yet the ability to sleep may be one of the most pleasant ones when they don’t. That’s why we take a look at the ways people manage (or mess up) their sleep.</p>
-<p>A <a href="https://en.wikipedia.org/wiki/Circadian_rhythm">circadian rhythm</a> is what entangles people into the sleep-wake cycle, the duration of which is usually roughly equal to the time it takes for Earth to complete a full rotation about its axis on average.</p>
-<p>Before <a href="https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans">control of fire</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>, those cycles were all hyped: all the important stuff should have been done during daytime, and it was dark at night before that. Fire was — as they were calling it back then — rad, though people were still into hunting and gathering: <a href="https://en.wikipedia.org/wiki/Neolithic_Revolution">agricultural revolution</a> happened only around 12,500 years ago, and they didn’t have computers before that. Anyway, now one may have stuff to do all day long, but the rhythms are still there.</p>
-<p>Whether naturally or by choice, many people do follow those rhythms, even despite <a href="https://en.wikipedia.org/wiki/Insomnia">insomnia</a> and hard time waking up. But some opt for <a href="https://en.wikipedia.org/wiki/Non-24-hour_sleep%E2%80%93wake_disorder">non-24-hour sleep-wake</a>, <a href="https://en.wikipedia.org/wiki/Irregular_sleep%E2%80%93wake_rhythm">irregular sleep-wake</a>, <a href="https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep">biphasic/polyphasic sleep</a>, or a combination of those.</p>
-<p>In this article, we are going to investigate how various sleep modes affect human lives.</p>
-<h2 id="non-24-hour-sleep-wake">Non-24-hour sleep-wake</h2>
-<p>That’s a rare disorder that happens when you stop fighting insomnia and using an alarm. Well, at least that’s how it may work if you have <a href="https://en.wikipedia.org/wiki/Delayed_sleep_phase_syndrome">DSPD</a> (there’s a rumor that some people don’t have it, so apparently they just go to bed and wake up early, without an alarm or anything). If the cycles are still regular, you still can plan things, just not for any daytime. It only screws regular fixed-time activities, such as an office job.</p>
-<p>But let’s be realistic: such a regularity is not exactly what happens if your days are at least slightly different. Usually one day you may get tired more than usual and fall asleep earlier. The next day you may get excited or worried about something, having trouble to sleep, or simply stay longer to finish the stuff you were working on, and the day after that – have an event to attend at a fixed time, setting an alarm, and screwing even that regime. What brings us to the next mode.</p>
-<h2 id="irregular-sleep-wake">Irregular sleep-wake</h2>
-<p>Wikipedia says that it’s an <a href="https://en.wikipedia.org/wiki/Invisible_disability">invisible disability</a>, and that “[i]t can create social, familial, and work problems, making it hard for a person to maintain relationships and responsibilities, and may make a person home-bound and isolated”. Though it may be a problem, it’s not a big deal if you are already asocial, except for possible work problems that were already mentioned above.</p>
-<p>Although it brings a bunch of other minor inconveniences. Let’s see what happens when you want to visit a regular store: it seems that you have 16 hours of wakefulness, and if the store works for 12 hours per day, there is at least a 4-hour overlap every day. Yet you may sleep up to 12 hours, being sleepy for the last few hours, and taking time to get past <a href="https://en.wikipedia.org/wiki/Sleep_inertia">sleep inertia</a> when you wake up, as well as to have a breakfast, take a shower, etc – what shrinks the convenient working time. A store may also not be that close to you, so one may add a hour to dress up and get there. All that combined may leave no overlap at all on an arbitrary picked day. Add other things you may want or have to do, and it gets inconvenient rather often: even if you get an overlap, it may not be the time you’d pick if there was a choice. While if you are awake during daytime, most of the time you are awake would work to visit that store.</p>
-<p>It’s probably even worse if you order a delivery: since the most responsible people rarely end up being couriers, and delivery companies usually schedule delivery for a range of a few hours, you have to plan being awake for a few hours, possibly a few days ahead. That means that you should maintain at least some kind of a regime during those few days, or adjust the time on the day of delivery.</p>
-<p>When you’re trying to adjust your regime to fit the plans, it may involve staying awake longer than you would like to, or trying to sleep when you don’t want to. Both are a waste of time, since you’re neither sleeping nor productive during that, and the latter is the same as one of the downsides of having a regime.</p>
-<h2 id="biphasic-and-polyphasic-sleep">Biphasic and polyphasic sleep</h2>
-<p>Those are fancy names for daily napping. Napping is generally nice: you may observe that cats do that rather often, and they know what’s good. Napping is common among other animals, too.</p>
-<p>But biphasic/polyphasic sleep is more than just occasional napping: it is also called “segmented sleep” and “divided sleep”, implying that it’s about dividing your sleep into a few periods during a cycle.</p>
-<p>A bunch of organizations, including NASA and U.S. military, researched the topic, since it’s a nice topic to research. Now there are napping guides, napping tips, napping experts, and napping professionals out there, according to a quick web search. It seems that it is even good for your <a href="https://en.wikipedia.org/wiki/Working_memory">working memory</a>, though it’s not clear how it affects you in a longer term.</p>
-<p>Yet it may be quite practical when combined with irregular and non-24-hour sleep: it may be more easily adjustable than a 8-10-hour sleep, since you don’t normally have 16-20 hours without sleep behind you with it, yet the body should still be able to stay awake for those 16-20 hours rather easily. And let’s consider the store situation again: with two equidistant 4-5-hour naps every 24 hours, you get a guaranteed overlap of 7-8 hours, without any adjustment.</p>
-<p>Without irregular and non-24-hour sleep, it may even be compatible with a daytime job: working, sleeping, doing other stuff, sleeping again, in a loop.</p>
-<p>It may require some effort to get into this mode and to stay in it, since it’s rather easy to stay “late” for a whole day if you’re busy, then fall asleep for a long time, and then get trouble getting a nap after a few hours of being awake. But if you’re willing to put effort into its maintenance, it might be easier to just put that into maintaining a regular 24-hour regime.</p>
-<h2 id="hypnotics-and-stimulants">Hypnotics and stimulants</h2>
-<p><a href="https://en.wikipedia.org/wiki/Hypnotic">Hypnotics</a> (sleeping pills) and <a href="https://en.wikipedia.org/wiki/Stimulant">stimulants</a> (caffeine, amphetamine, cocaine, etc) may help to manage your sleep, though the most efficient ones are usually illegal, and even the legal ones have unpleasant side effects when abused.</p>
-<h2 id="sleep-deprivation">Sleep deprivation</h2>
-<p>According to Wikipedia, <a href="https://en.wikipedia.org/wiki/Sleep_deprivation">sleep deprivation</a> has unpleasant consequences, so it’s not a nice way to get more of free time. Among other things, it may lead to a somewhat interesting condition of <a href="https://en.wikipedia.org/wiki/Microsleep">microsleep</a>.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>It would be awesome to sleep when it’s convenient, and be awake when you have stuff to do. Alas, it’s not exactly how a human body works.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>About 400,000 years ago, when people looked a bit <a href="https://en.wikipedia.org/wiki/Homo_erectus">more like monkeys</a> than they do now.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Or maybe even 2.3 million years ago – they’ve only got writing around 5,000 years ago, and started writing lies around that time as well, so it’s hard to know those things for sure.<a href="#fnref2">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Peer review</title>
-    <link href="http://theasocial.com/articles/comics/peer-review.html" />
-    <id>http://theasocial.com/articles/comics/peer-review.html</id>
-    <published>2016-10-08T18:00:00Z</published>
-    <updated>2016-10-08T18:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info comics">
-  
-  <img src="/images/comics/peer-review.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">Reviews are hard</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        October  8, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/comics.html">comics</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  
 </div>
 ]]></summary>
 </entry>
