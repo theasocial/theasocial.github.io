@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meltdown and Spectre – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bloat.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+  
+  <h1 id="title">Meltdown and Spectre</h1>
+  
+  <div class="info computing">
+  
+  <img src="../../images/articles/spectre.min.svg" alt />
+  
+  
+  
+  <p class="abstract">A prominent couple of screw-ups</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://spectreattack.com/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        CC0
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        January 25, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://spectreattack.com/">https://spectreattack.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        breaking news
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>A couple of serious hardware vulnerabilities got disclosed recently, following <a href="https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/">rumors regarding them coming up</a>, with fancy names that the vulnerabilities get these days. With logos, too. Less fancy names are <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5715">CVE-2017-5715</a> and <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5753">CVE-2017-5753</a> (for Spectre), and <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5754">CVE-2017-5754</a> (for Meltdown).</p>
+<p>The vulnerabilities were known for a while, but weren’t disclosed publically, though were reported to Intel, AMD, and ARM on 2017-06-01, as stated in <a href="https://googleprojectzero.blogspot.de/2018/01/reading-privileged-memory-with-side.html">the Project Zero blog post</a>. And <a href="https://www.fool.com/investing/2017/12/19/intels-ceo-just-sold-a-lot-of-stock.aspx">Intel’s CEO has sold his stock</a> just before the publication. That would be a good laugh if it didn’t mean that most of the computers are screwed by more than just the backdoors Intel puts into their CPUs, or the occasional vulnerabilities in those backdoors.</p>
+<p>The modern processors are pretty sophisticated, incorporating plenty of optimizations such as <a href="https://en.wikipedia.org/wiki/Speculative_execution">speculative execution</a>. The attacks are also interesting, so you may want to read the papers (<a href="https://meltdownattack.com/meltdown.pdf">meltdown.pdf</a>, <a href="https://spectreattack.com/spectre.pdf">spectre.pdf</a>), but briefly – both allow any process on any system and on a lot of the used (i.e., modern, from the current millennium) hardware to read all the data from memory. Commonly used kinds of virtualization don’t help, and even JavaScript in a web browser was successfully used to exploit it, as the Spectre paper claims. Meltdown—which can be mitigated with a kernel patch and only works on Intel and newer ARM processors—allows to read memory at a decent speed, while Spectre seems to be considerably slower, yet harder to mitigate. There’s a <a href="https://gist.github.com/ErikAugust/724d4a969fb2c6ae1bbd7b2a9e3d4bb6">PoC</a> (apparently just copied from the paper though), too.</p>
+<p>In order to partially mitigate it, one could update all their systems and disable JavaScript execution (e.g., with <a href="https://noscript.net/">noscript</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/umatrix/">uMatrix</a>, which are useful even without vulnerabilities like these). But with Spectre around, processes may still be able to see all the memory contents, even across virtual machines (“VPS”, “cloud”, or whatever they are called today). Consequently, the data on services that use such virtual machines got compromised – likely leading to a wave of data breaches.</p>
+<p>There’s not much else to do about it now, short of moving everything private to dedicated machines (like RPis or low-end servers if you don’t need a lot of performance) and actually reviewing the software you use. On the bright side, there is a logo to use as a sticker for your vulnerable machines. We could also wait for fixes in newer CPUs; the Intel CEO would probably buy their cheap shares back once that will be about to get announced.</p>
+<p>ARM actually published “<a href="https://github.com/ARM-software/speculation-barrier">Speculative Barrier</a>” in an hour after the papers were compiled (see also: <a href="https://developer.arm.com/support/security-update">Arm Processor Security Update</a>); a somewhat similar (and similarly hard-to-apply-to-everything) mitigation technique, <a href="https://support.google.com/faqs/answer/7625886">Retpoline</a>, was presented by Google, not dated; <a href="https://lwn.net/Articles/743019/">IBRS patch series</a> were presented by Intel on the following day. Kernel developers were also busy patching things since, but it’s somewhat puzzling why the patches were delayed, and why OS vendors weren’t given a chance to prepare patches before the public disclosure (though a word on the streets is that distribution maintainers were given a couple of months, but for some reason didn’t manage to incorporate patched kernels in that time). Although strange and somewhat related (yet not all that helpful) <a href="HTTP://news.ycombinator.com/item?id=16046636">LPTI patching</a> was going on since before the disclosure, and there’s a bit more of the story: “<a href="https://www.theverge.com/2018/1/11/16878670/meltdown-spectre-disclosure-embargo-google-microsoft-linux">How an industry-breaking bug stayed secret for seven months — and then leaked out</a>”.</p>
+<p>Just a few days after the disclosure, <a href="https://github.com/npm/registry/issues/255">some npm packages disappeared from repositories</a>, providing a good opportunity to infiltrate systems and exploit the newly known vulnerabilities. To make things even more fun, with the hurried patches <a href="https://hothardware.com/news/microsoft-pulls-meltdown-and-spectre-security-patches-that-bricked-pcs-blames-amd">Microsoft has bricked some CPUs</a>, and <a href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1742323">Ubuntu has followed it</a>. Another word on the street is that Intel patches also turned out to be buggy, and now they advice the customers to hold off with the updates, though intel.com suggests that “<a href="https://newsroom.intel.com/news/intel-security-issue-update-addressing-reboot-issues/">[e]nd-users should continue to apply updates</a>”. And unlike Linux, MS, and Canonical developers, they knew about it since June – though apparently not the whole story, and didn’t share it with those departments that were able to work on it.</p>
+<p>Weeks after the disclosure, not all the common CPUs got microcode updates, and not all the major GNU/Linux distributions have incorporated all the available kernel patches. Linus shouts at Intel folks who try to provide mitigation patches, calling those “<a href="http://lkml.iu.edu/hypermail/linux/kernel/1801.2/04628.html">COMPLETE AND UTTER GARBAGE</a>”.</p>
+<p>FreeBSD.org maintains <a href="https://wiki.freebsd.org/SpeculativeExecutionVulnerabilities">a table of architectures by vulnerability</a>.</p>
+<p>See also:</p>
+<ul>
+<li><a href="https://www.reuters.com/article/us-cyber-intel-researcher/how-a-researcher-hacked-his-own-computer-and-found-worst-chip-flaw-idUSKBN1ET1ZR">How a researcher hacked his own computer and found ‘worst’ chip flaw</a></li>
+<li><a href="http://kroah.com/log/blog/2018/01/06/meltdown-status/">Meltdown and Spectre Linux Kernel Status</a></li>
+<li><a href="https://lwn.net/Articles/742999/">A collection of Meltdown/Spectre postings</a></li>
+<li><a href="https://github.com/speed47/spectre-meltdown-checker">Spectre &amp; Meltdown Checker</a></li>
+</ul>
+</div>
+
+</div>
+
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

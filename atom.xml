@@ -8,8 +8,763 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2017-09-24T00:00:00Z</updated>
+    <updated>2018-02-19T00:00:00Z</updated>
     <entry>
+    <title>0 A.D.</title>
+    <link href="http://theasocial.com/articles/games/0ad.html" />
+    <id>http://theasocial.com/articles/games/0ad.html</id>
+    <published>2018-02-19T00:00:00Z</published>
+    <updated>2018-02-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info games">
+  
+  <img src="/images/articles/0ad.png" alt=""/>
+  
+  
+  
+  <p class="abstract">A 3D RTS</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://play0ad.com/about/official-logos/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        February 19, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://play0ad.com/">https://play0ad.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/games.html">games</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>0 A.D. is an unusually fancy RTS game featuring 3D graphics. Well, “unusually” for libre games.</p>
+<p>It’s in development since 2000, still not considered “finished” as of 2018, and warns about bugs and such, but it is pretty usable nevertheless: probably more so than some of the “finished” ones.</p>
+<p>The game features 12 ancient civilizations, a few resources, a variety of units and buildings, plenty of maps, single-player and multiplayer modes, different difficulty levels, but no campaigns yet. As with other real-time strategies, the gameplay boils down to learning how to expand fast, but without getting too vulnerable to attacks meantime. It may not sound exciting, probably because it isn’t, but if you’re into RTS, it’s a fine one.</p>
+<p>Despite nice graphics and warnings about high resource consumption with larger armies, the resource consumption with the default settings seems to be moderate, apart from quite high disk space requirements (about 1.6 GB of data files).</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>The other Web of Trust</title>
+    <link href="http://theasocial.com/articles/internet/the-other-web-of-trust.html" />
+    <id>http://theasocial.com/articles/internet/the-other-web-of-trust.html</id>
+    <published>2018-02-16T00:00:00Z</published>
+    <updated>2018-02-16T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/the-other-web-of-trust.png" alt=""/>
+  
+  
+  
+  <p class="abstract">Yet another web scam</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Wot_logo_slogan_medium.png">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        registered trademark
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        February 16, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://www.mywot.com/">https://www.mywot.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        scam
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Once upon a time, in the early 90s, Phil Zimmermann (the creator of PGP) proposed for people to sign one another’s keys, forming a “web” (a then-hyped term for a graph, cf. World Wide Web), so that a distributed, fault-tolerant, and verifiable key distribution would become possible. It didn’t get adopted widely enough to be useful, because most people don’t know what that is and/or don’t care, and it’s not great for privacy, since the mode of operation usually involves in-person meetings and IDs, but <a href="https://en.wikipedia.org/wiki/Key_signing_party">key signing parties</a> provided at least some socialization for PGP users, so it wasn’t a complete failure in the matter of gaining popularity. That is called “<a href="https://en.wikipedia.org/wiki/Web_of_trust">Web of Trust</a>”, by the way. Its “strong set” (<a href="https://en.wikipedia.org/wiki/Strongly_connected">strongly connected</a> PGP keys) has a little over 60 thousand keys now, according to <a href="https://pgp.cs.uu.nl/plot/">analysis of the strong set in the PGP web of trust</a>.</p>
+<p>In 2007, <a href="https://en.wikipedia.org/wiki/WOT_Services">WOT Services</a> (aka MyWOT, aka Web of Trust, too) appeared: with no connection to the actual WOT, of course, and doing something stupid like being an “online reputation system” (like “safe browsing” kind of nonsense that some web browsers provide on their own now). It provided a web browser plugin and had over 100 million downloads by the end of 2013, 140 million currently.</p>
+<p>As many other web scams, and following the common theme of marketed “security” software actually being malware, it was involved into <a href="/articles/internet/human-web-trafficking.html">human web trafficking</a>, but nobody cared until the following event:</p>
+<blockquote>
+<p>In November 2016, a German state media investigation found that WOT had secretly collected personal user details and sold or licensed this information to unidentified third-party businesses and entities for data monetization purposes.</p>
+</blockquote>
+<p>Promptly it got thrown out of web browser add-on stores, but added there again in a couple of months, promising that they wouldn’t secretly sell private information to unidentified third parties anymore. They must be trustworthy because there’s “trust” in the name, right?</p>
+<p>As Wikipedia also mentions, it has partnerships with other dodgy web enterprises: Mail.ru, Facebook, hpHosts, LegitScript, Panda Security, Phishtank, GlobalSign and TRUSTe. Oh, look, “<a href="https://www.theguardian.com/technology/2018/feb/16/facebook-ordered-stop-collecting-user-data-fines-belgian-court">[Facebook] instructed to delete illegally collected data or face €100m in fines after it loses case over consent and tracking</a>”, as found right after writing the rest of this very article, and they keep spewing marketing crap in response. Be careful with that gang!</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Slack</title>
+    <link href="http://theasocial.com/articles/computing/slack.html" />
+    <id>http://theasocial.com/articles/computing/slack.html</id>
+    <published>2018-02-16T00:00:00Z</published>
+    <updated>2018-02-16T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  <img src="/images/articles/slack.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">Instant messaging for the computer-illiterate</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Slack_Technologies_Logo.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        public domain
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        February 16, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://slack.com/">https://slack.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Probably everyone knows a person who still refuses to learn those computer things, or a person who already gave up on getting the computer things to work properly, or at least reads news aggregators where those dwell – so the myriad of incompatible and centralized instant messaging protocols controlled by individual companies that milk their users and keep them firmly restrained from escaping shouldn’t be the news<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Some of our readers probably got even pressured into using those; in such a case, contact your local computer user protection services immediately.</p>
+<p>As can often be observed, when you take a thing and prefix it with “enterprise”, it gets so much worse: enterprise software companies don’t even try to fool the users, but only focus on those who buy their junk. Some have speculated that if you take an idea that is stupid in the first place, and prefix it with “enterprise”, it will just explode, or implode, or otherwise take care of itself by being too bad to exist. Some curious experimenters decided to find it out, and to everyone’s surprise a stable turd arose out of the Big Junk Collider: meet Slack, an enterprise centralized and incompatible IM! Enhanced vendor lock-in, revolutionized incompatibility, enterprise-grade bullshit, just for $8 per user per month<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>!</p>
+<h2 id="features">Features</h2>
+<p>Let’s take a look at the <a href="https://slack.com/features">features</a>:</p>
+<ul>
+<li>“It simplifies communication” (provides chatrooms, to translate it from bullshit-speak): it may seem stupid to list those as a feature, since even IRC provides them, and even video conferencing is not unique to Slack, but they do it.</li>
+<li>“It helps everyone find the answers they need” (has a search through the logs): sounds dumb again, but “made more useful with machine learning” hints that they, like, use computers for that. Maybe full-text search, maybe something else – no technical details, of course.</li>
+<li>“It streamlines your workflows” (provides a limited extensions API to partially make up for proprietary license): pretty dull still, nothing new there.</li>
+</ul>
+<p>That’s all the reasons they’ve made up to sell Slack. An explanation may be that it is still less broken than the regular client-side software, so let’s look into that.</p>
+<h2 id="trying-it-out">Trying it out</h2>
+<p>One can <a href="https://slack.com/create#">create a workspace</a> for free, so we’ll do that. The registration is clunky, and it’s hard to pick a name that isn’t taken, but works with JS on, over Tor, and with <a href="https://temp-mail.org/en/">a disposable email</a>. ToS and privacy policy are almost readable, though it’s not far from the usual “your ass belongs to us from now on”.</p>
+<p>After the registration, it asks you to spam your friends, so one can just fill some email honeypot addresses there. “Let other people sign up with their verified <span class="citation">@endrix.org</span> email address” is on by default, so there likely to be a lot of “workspaces” into which one can sign up with a public email service.</p>
+<p>There are built-in animated tutorials on how to use it, and it’s very laggy (especially if you’re used to real software). Of course using a customized web browser would ruin it, but the default colors are such that they burn your eyes out by making use of a bright white background, and apparently with no way to alter it. Though it features ugly graphical smileys, so it may be useful to burn your eyes out before using it.</p>
+<p>Certain buttons just don’t work: some of those say that the feature requires a payment, but others seem to be simply broken, though some of them work after you reload the page. Opening new tabs with middle mouse button doesn’t work; neither does scroll with arrow keys; selection is disabled for some of the elements; generally you are stuck with a few predefined mouse-driven actions they’ve made just for you. Even for those, focus tends to jump to wrong elements.</p>
+<p>Slack has extensions and they’re called “apps”. You “install” them into your server-side slack workspace. There are “essential apps”, with Giphy sitting right next to Google Drive. Regular message editing doesn’t extend to attached files, not to mention that in-line images are simply lame.</p>
+<p>Ugly as it is, the word on the street is that Slack used to provide at least some occasionally working IRC and XMPP gateways (no federation, but at least a bit of choice and real client software), but <a href="https://get.slack.help/hc/en-us/articles/201727913-Connect-to-Slack-over-IRC-and-XMPP">gateways are going away</a> in about a month, Google-style.</p>
+<p>Basically it is your old <a href="https://en.wikipedia.org/wiki/Web_chat">web chat</a>, but a rather poor one.</p>
+<h2 id="history">History</h2>
+<p>Slack, along with Flickr (that broken photo sharing website), was founded by Stewart Butterfield. In both cases he was writing a game, that didn’t work out, but somehow spawned those projects. We wish him luck in the next game project, for it to turn into an actual game without additional spawns.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>See “<a href="https://sameroom.io/chat-timeline.pdf">A Brief History of Chat Services</a>”. Not many of them die, but the rate at which they appear only accelerates so far.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Stop paying and both your data and your infrastructure are gone.<a href="#fnref2">↩</a></p></li>
+</ol>
+</div>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Meltdown and Spectre</title>
+    <link href="http://theasocial.com/articles/computing/meltdown-and-spectre.html" />
+    <id>http://theasocial.com/articles/computing/meltdown-and-spectre.html</id>
+    <published>2018-01-25T00:00:00Z</published>
+    <updated>2018-01-25T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  <img src="/images/articles/spectre.min.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">A prominent couple of screw-ups</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://spectreattack.com/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        CC0
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        January 25, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://spectreattack.com/">https://spectreattack.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        breaking news
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>A couple of serious hardware vulnerabilities got disclosed recently, following <a href="https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/">rumors regarding them coming up</a>, with fancy names that the vulnerabilities get these days. With logos, too. Less fancy names are <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5715">CVE-2017-5715</a> and <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5753">CVE-2017-5753</a> (for Spectre), and <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5754">CVE-2017-5754</a> (for Meltdown).</p>
+<p>The vulnerabilities were known for a while, but weren’t disclosed publically, though were reported to Intel, AMD, and ARM on 2017-06-01, as stated in <a href="https://googleprojectzero.blogspot.de/2018/01/reading-privileged-memory-with-side.html">the Project Zero blog post</a>. And <a href="https://www.fool.com/investing/2017/12/19/intels-ceo-just-sold-a-lot-of-stock.aspx">Intel’s CEO has sold his stock</a> just before the publication. That would be a good laugh if it didn’t mean that most of the computers are screwed by more than just the backdoors Intel puts into their CPUs, or the occasional vulnerabilities in those backdoors.</p>
+<p>The modern processors are pretty sophisticated, incorporating plenty of optimizations such as <a href="https://en.wikipedia.org/wiki/Speculative_execution">speculative execution</a>. The attacks are also interesting, so you may want to read the papers (<a href="https://meltdownattack.com/meltdown.pdf">meltdown.pdf</a>, <a href="https://spectreattack.com/spectre.pdf">spectre.pdf</a>), but briefly – both allow any process on any system and on a lot of the used (i.e., modern, from the current millennium) hardware to read all the data from memory. Commonly used kinds of virtualization don’t help, and even JavaScript in a web browser was successfully used to exploit it, as the Spectre paper claims. Meltdown—which can be mitigated with a kernel patch and only works on Intel and newer ARM processors—allows to read memory at a decent speed, while Spectre seems to be considerably slower, yet harder to mitigate. There’s a <a href="https://gist.github.com/ErikAugust/724d4a969fb2c6ae1bbd7b2a9e3d4bb6">PoC</a> (apparently just copied from the paper though), too.</p>
+<p>In order to partially mitigate it, one could update all their systems and disable JavaScript execution (e.g., with <a href="https://noscript.net/">noscript</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/umatrix/">uMatrix</a>, which are useful even without vulnerabilities like these). But with Spectre around, processes may still be able to see all the memory contents, even across virtual machines (“VPS”, “cloud”, or whatever they are called today). Consequently, the data on services that use such virtual machines got compromised – likely leading to a wave of data breaches.</p>
+<p>There’s not much else to do about it now, short of moving everything private to dedicated machines (like RPis or low-end servers if you don’t need a lot of performance) and actually reviewing the software you use. On the bright side, there is a logo to use as a sticker for your vulnerable machines. We could also wait for fixes in newer CPUs; the Intel CEO would probably buy their cheap shares back once that will be about to get announced.</p>
+<p>ARM actually published “<a href="https://github.com/ARM-software/speculation-barrier">Speculative Barrier</a>” in an hour after the papers were compiled (see also: <a href="https://developer.arm.com/support/security-update">Arm Processor Security Update</a>); a somewhat similar (and similarly hard-to-apply-to-everything) mitigation technique, <a href="https://support.google.com/faqs/answer/7625886">Retpoline</a>, was presented by Google, not dated; <a href="https://lwn.net/Articles/743019/">IBRS patch series</a> were presented by Intel on the following day. Kernel developers were also busy patching things since, but it’s somewhat puzzling why the patches were delayed, and why OS vendors weren’t given a chance to prepare patches before the public disclosure (though a word on the streets is that distribution maintainers were given a couple of months, but for some reason didn’t manage to incorporate patched kernels in that time). Although strange and somewhat related (yet not all that helpful) <a href="HTTP://news.ycombinator.com/item?id=16046636">LPTI patching</a> was going on since before the disclosure, and there’s a bit more of the story: “<a href="https://www.theverge.com/2018/1/11/16878670/meltdown-spectre-disclosure-embargo-google-microsoft-linux">How an industry-breaking bug stayed secret for seven months — and then leaked out</a>”.</p>
+<p>Just a few days after the disclosure, <a href="https://github.com/npm/registry/issues/255">some npm packages disappeared from repositories</a>, providing a good opportunity to infiltrate systems and exploit the newly known vulnerabilities. To make things even more fun, with the hurried patches <a href="https://hothardware.com/news/microsoft-pulls-meltdown-and-spectre-security-patches-that-bricked-pcs-blames-amd">Microsoft has bricked some CPUs</a>, and <a href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1742323">Ubuntu has followed it</a>. Another word on the street is that Intel patches also turned out to be buggy, and now they advice the customers to hold off with the updates, though intel.com suggests that “<a href="https://newsroom.intel.com/news/intel-security-issue-update-addressing-reboot-issues/">[e]nd-users should continue to apply updates</a>”. And unlike Linux, MS, and Canonical developers, they knew about it since June – though apparently not the whole story, and didn’t share it with those departments that were able to work on it.</p>
+<p>Weeks after the disclosure, not all the common CPUs got microcode updates, and not all the major GNU/Linux distributions have incorporated all the available kernel patches. Linus shouts at Intel folks who try to provide mitigation patches, calling those “<a href="http://lkml.iu.edu/hypermail/linux/kernel/1801.2/04628.html">COMPLETE AND UTTER GARBAGE</a>”.</p>
+<p>FreeBSD.org maintains <a href="https://wiki.freebsd.org/SpeculativeExecutionVulnerabilities">a table of architectures by vulnerability</a>.</p>
+<p>See also:</p>
+<ul>
+<li><a href="https://www.reuters.com/article/us-cyber-intel-researcher/how-a-researcher-hacked-his-own-computer-and-found-worst-chip-flaw-idUSKBN1ET1ZR">How a researcher hacked his own computer and found ‘worst’ chip flaw</a></li>
+<li><a href="http://kroah.com/log/blog/2018/01/06/meltdown-status/">Meltdown and Spectre Linux Kernel Status</a></li>
+<li><a href="https://lwn.net/Articles/742999/">A collection of Meltdown/Spectre postings</a></li>
+<li><a href="https://github.com/speed47/spectre-meltdown-checker">Spectre &amp; Meltdown Checker</a></li>
+</ul>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Train Driver's View</title>
+    <link href="http://theasocial.com/articles/video/train-dirvers-view.html" />
+    <id>http://theasocial.com/articles/video/train-dirvers-view.html</id>
+    <published>2017-12-26T00:00:00Z</published>
+    <updated>2017-12-26T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info video">
+  
+  <img src="/images/articles/train-drivers-view.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">🚂🚃🚃🚃🚃🚃🚃</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://www.youtube.com/channel/UCUPn5IEQugMf_JeNJOV9p2A">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        December 26, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://www.youtube.com/channel/UCUPn5IEQugMf_JeNJOV9p2A">https://www.youtube.com/channel/UCUPn5IEQugMf_JeNJOV9p2A</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/video.html">video</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>As was <a href="/articles/games/openttd.html">stated previously</a>, trains are awesome and everybody loves them. Some of us want to be more like them, too; others just prefer their company to that of meatbags. And some are just in it to watch landscapes, but everyone can enjoy live <a href="https://www.youtube.com/channel/UCUPn5IEQugMf_JeNJOV9p2A">train driver’s view</a> these days, from multiple trains! No more cut-outs when a meatbag gets in a train’s way, just raw train experience.</p>
+<p>There are snowy mountains, lakes, forests, tunnels, bridges, sky, clouds, mist, snow, rain, fellow trains, a whole set of railroad equipment – all at a nice speed, with accelerations, decelerations, and sound. Pretty much everything one needs to effortlessly imagine being a train all day long, every day – without even getting through train driver school (and everyone can’t be a train driver anyway: there are all the dull jobs that have to be done, too; though probably in a fair society it could have been arranged so that everyone had their shift or few as a train driver).</p>
+<p>Awesome as it is, there are some technical issues here: for some reason these streams are hosted on youtube, and <code>youtube-dl</code> doesn’t handle live streams, so one has to use a crappy web interface complete with a live chat full of retards (one can try to hide it, but it’ll still blink with parts of messages because of the crappy web UI; <a href="/articles/internet/top-4-websites.html">Google keeps screwing it up</a>) to watch the videos. But that’s a bit less of an issue if you watch those in full screen, as one should for uninterrupted train experience.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Pocket hazing</title>
+    <link href="http://theasocial.com/articles/computing/pocket-hazing.html" />
+    <id>http://theasocial.com/articles/computing/pocket-hazing.html</id>
+    <published>2017-12-05T00:00:00Z</published>
+    <updated>2017-12-05T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  
+  
+  <p class="abstract">Self-abuse with pocket-sized devices</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        December  5, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p><a href="/articles/internet/data-breaches.html">Data breaches</a> keep happening as always, and another one has surfaced today: personal data of more than 31 million users <a href="https://mackeepersecurity.com/post/virtual-keyboard-developer-leaked-31-million-of-client-records">got accidently leaked</a> by some smartphone virtual keyboard program (with once again trendy “AI” in its name) developers. It’s not like common desktop systems are great when it comes to security (just a few days ago there was <a href="https://forums.developer.apple.com/thread/79235#277225">another major Apple screwup</a>, which gave root access on Macs to anyone, including remote users via RDP), but pocket-sized devices and applications take it to the next level: with those, it is common to barely ask a user before making large chunks of their private data not-so-private – even as intended behaviour.</p>
+<p><del>Web-based services</del>applications for mobile devices (or just “apps” – cool, trendy, short) usually promise to only sell the data to anybody who pays for it, so that must be fine. Occasionally they leak it, of course, but that happens.</p>
+<p>As if it wasn’t bad enough, mobile software tends to require permissions to access much more of personal data than one may expect that software to ever need: usually it doesn’t make sense for the problem a program solves, but apparently users got used to it anyway. It was the case here as well, so among the leaked data there are locations, contact books, emails, some social networks data, and other stuff like that. Basically, it was malware even before the leak, but so is every other smartphone (or tablet) program. Well, not literally “every other”: most of them are.</p>
+<p>One may think that it’s some sort of informational exhibitionism, but people in general are not as cunning or subtle to do it that way.</p>
+<p>It only leaves about one rational explanation: <a href="https://en.wikipedia.org/wiki/Hazing">hazing</a>. Apparently the easiest way to socialize these days is to use a pocket-sized computer device with a touchscreen and “apps” on it, so those get used for instant initiation in the form of “activities involving harassment, abuse, or humiliation”. Easy, automated, and builds solidarity.</p>
+<p>One may miss the good old days when a poor bastard sitting in a pile of human excrements for initiation at least didn’t compromise bits of others’ private data by leaking their contact book, but the progress is inevitable.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Top 50 websites, filtered</title>
+    <link href="http://theasocial.com/articles/internet/alexa-top-50-filtered.html" />
+    <id>http://theasocial.com/articles/internet/alexa-top-50-filtered.html</id>
+    <published>2017-11-24T00:00:00Z</published>
+    <updated>2017-11-24T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/alexa.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">50, not 500</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/Alexa_Internet">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        November 24, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Following our traditional November filtered collections of the most popular websites (“<a href="/articles/internet/alexa-top-500-filtered.html">Top 500 websites, filtered</a>”, “<a href="/articles/internet/alexa-top-500-filtered-again.html">Top 500 websites, filtered again</a>”), this is one more list – though this time we’ve got only 50 websites, because Alexa doesn’t show more anymore. Times are tough, information is expensive.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">#</th>
+<th>link</th>
+<th>changes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5</td>
+<td><a href="https://www.wikipedia.org/">wikipedia.org</a></td>
+<td>same</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td><a href="https://www.reddit.com/">reddit.com</a></td>
+<td>↑ 16</td>
+</tr>
+<tr class="odd">
+<td align="right">46</td>
+<td><a href="https://imgur.com/">imgur.com</a></td>
+<td>↑ 6</td>
+</tr>
+<tr class="even">
+<td align="right">50</td>
+<td><a href="https://wordpress.com/">wordpress.com</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The previously filtered out Wordpress was added, because we have plenty of space left anyway – and perhaps it’s not more trashy than reddit and imgur.</p>
+<p>Maybe we should switch to filtering <a href="https://github.com/search?q=stars:%3E1&amp;s=stars&amp;type=Repositories">most starred github repositories</a>, since those are also full of junk, but still open.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Trisquel</title>
+    <link href="http://theasocial.com/articles/computing/trisquel.html" />
+    <id>http://theasocial.com/articles/computing/trisquel.html</id>
+    <published>2017-11-24T00:00:00Z</published>
+    <updated>2017-11-24T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  <img src="/images/articles/trisquel.png" alt=""/>
+  
+  
+  
+  <p class="abstract">An offspring of bickering</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://trisquel.info/en/wiki/logo">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        Rubén Rodríguez Pérez's trademark or something
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        November 24, 2017
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://trisquel.info/">https://trisquel.info/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Laptops usually are pre-assembled, since it is tricky to build one yourself out of generic components available in a hardware store; there currently are projects that try to change it, but this article is not about them. Since the laptops usually are pre-assembled, it almost makes sense to sell them with pre-installed operating systems, what became a tradition. After all, it’s easy, makes the laptop operational at once, and there’s a whole Minix complete with <a href="https://en.wikipedia.org/wiki/Intel_Active_Management_Technology#Known_vulnerabilities_and_exploits">backdoors and vulnerabilities</a> right inside CPUs – why not to add a user-usable system on top of that? Though it adds extra cost to install MS Windows, and some users want other systems anyway, so some manufacturers went as far as to install systems such as DOS (in this millenium, that is): not actually usable, but just to install something there.</p>
+<p>And so it goes: FSF’s “<a href="https://www.fsf.org/resources/hw/endorsement/respects-your-freedom">Respects Your Freedom</a>” computer hardware certification program is generally fine with those Intel backdoors, as long as there’s no way to get rid of them, but demands the rest to be free (libre) software. Well, fine, still making the best out of the situation, but the funny part is ahead. Debian is a rather old, popular, large, and notably libre (no blobs in the kernel, no proprietary software or firmware in the default repositories) GNU/Linux distribution – an obvious default choice, one may think. Not for FSF! Debian wiki <em>mentions</em> how to enable non-free repositories (as if newbie users actually read through the docs: the naive bastards still hope that software would work out of the box), which are even hosted on the same servers as the default ones – apparently contaminating the free software or something. That’s the reason enough for FSF to <a href="https://www.gnu.org/distros/common-distros.en.html#Debian">count Debian as non-free</a>. Meantime, Debian puts GNU documentation into non-free repositories, since, well, <a href="https://www.debian.org/vote/2006/vote_001">they</a> <a href="https://people.debian.org/~srivasta/Position_Statement.xhtml">see</a> it as non-free. That’s how largest free software projects do collaborate, without even bringing Linux into the picture.</p>
+<p>This way, <a href="https://www.gnu.org/distros/free-distros.html">GNU’s endorsed distributions</a> get restricted mostly to awkward and uncommon ones, and FSF requires those to be installed on computers that want to get a RYF badge and promotion. If the FLOSS-friendly computer manufacturers were a single large entity, we’d probably have them boycotting both FSF and Debian as non-free by now, and using FreeBSD or something – judging by how well these projects get together when they have a reasonable choice.</p>
+<p>And finally, Trisquel is one of the things that grew out of it.</p>
+<p>It is derived from Ubuntu (which is derived from Debian, as you may know already, and as many other now-abandoned distributions were), sponsored by <a href="https://www.thinkpenguin.com/">ThinkPenguin</a>, its <a href="https://trisquel.info/en/download">most recent release</a> is from 2014-03-11, its <a href="https://listas.trisquel.info/pipermail/trisquel-security/">security announcements mailing list</a> is silent since 2014, while Trisquel-devel seems to be filled with rather strange messages – although Trisquel-users is active, so apparently it’s still alive, at least in the hearts of its users.</p>
+<p>Apart from being a filler system, akin to DOS in that, Trisquel actually tries to follow the FSF spirit and to be nice: apparently it provides some accessibility features, possibly going further than those of Debian and Ubuntu (why would it mention them otherwise?). So the blind kids could get traumatized by the Python backtraces from its <a href="https://en.wikipedia.org/wiki/Sugar_(software)">Sugar</a> edition just as any others do, using screen readers. Well, probably – I haven’t tried either.</p>
+<p>It’s rather ironic how those smaller accessibility-oriented user-friendly distributions can easily require more experience and effort than the more common ones, because you’re mostly on your own if something goes wrong, and the issue is hidden under layers and layers of poorly documented GUI and wrappers, or quite often just lays inside those layers. And it’s rarely debugging-oriented, on top of that. But FSF still prefers to expose new users to that, rather than to a distribution that doesn’t make it hard enough for users to install non-free packages.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Transmetropolitan</title>
+    <link href="http://theasocial.com/articles/books/Transmetropolitan.html" />
+    <id>http://theasocial.com/articles/books/Transmetropolitan.html</id>
+    <published>2017-10-01T00:00:00Z</published>
+    <updated>2017-10-01T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info books">
+  
+  <img src="/images/articles/transmetropolitan.jpg" alt=""/>
+  
+  
+  
+  <p class="abstract">Cyberpunk transhumanist comics</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Transmetropolitan_2.jpg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        October  1, 2017
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/books.html">books</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Our new “books” category begins with something that isn’t exactly a book, but a comic book. Or series of those, depending on what you count as a <a href="https://en.wikipedia.org/wiki/Comic_book">comic book</a>. Anyway, that’s a collection of pictures with little text.</p>
+<p><a href="https://en.wikipedia.org/wiki/Transmetropolitan">Transmetropolitan</a> (the plot of which wikipedia spoils, as it always does) story is set in the future, and follows a <a href="https://en.wikipedia.org/wiki/Gonzo_journalism">gonzo journalist</a> in his adventures. It is themed with <a href="https://en.wikipedia.org/wiki/Cyberpunk">cyberpunk</a> and <a href="https://en.wikipedia.org/wiki/Transhumanism">transhumanism</a>, what makes it rather fun.</p>
+<p>The plot is not particularly original: it’s mostly about a government messing with common people; one of those old and typical plots, and something you can regularly see in the news if you care to follow those. Well, perhaps a journalist successfully fighting it is an original idea, or at least unrealistic enough to make the works of that kind unpopular, making it hard to come by those. Though there were superhero comics with superheroes also being journalists; let’s say it is an unusual combination of the things you may find elsewhere. The concept of a messiah (a popular story theme from the time when even the books were rare, still utilized by popular religions) can be seen there, too, what looks rather unnecessary.</p>
+<p>Despite the plot’s naive bits, including the antagonists being absolute evil, the details are still nice and entertaining. Should be particularly nice for kids, but the atmosphere makes it readable and enjoyable by adults as well.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>Primitive Technology</title>
     <link href="http://theasocial.com/articles/video/primitive-technology.html" />
     <id>http://theasocial.com/articles/video/primitive-technology.html</id>
@@ -234,940 +989,6 @@
   <p><a href="https://blog.naev.org/">Naev</a> is a space-themed adventure/RPG kind of game, akin to <a href="https://endless-sky.github.io/">endless sky</a> (2D top-down graphics, too) and somewhat similar to <a href="/articles/games/oolite.html">oolite</a>.</p>
 <p>The game features trading, combat, flights, and missions that are about trading, combat, and flights. The game also features lots of stars and planets, space ships, equipment, factions. All those things are made quite well, as is the overall game, comparing to other similar libre games.</p>
 <p>It is not particularly original, or fun, or anything, yet a fine game to kill some time with. The build process is nice and painless, it neither crashes nor hogs resources, the graphics and controls are fine: looks like the authors either knew what they are doing, or at least weren’t lazy to learn along the way (which is at least 10 years of development, with more than 13 thousand commits).</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>SuperTuxKart</title>
-    <link href="http://theasocial.com/articles/games/supertuxkart.html" />
-    <id>http://theasocial.com/articles/games/supertuxkart.html</id>
-    <published>2017-09-03T00:00:00Z</published>
-    <updated>2017-09-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info games">
-  
-  <img src="/images/articles/supertuxkart.png" alt=""/>
-  
-  
-  
-  <p class="abstract">A racing game</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://supertuxkart.net/">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        September  3, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://supertuxkart.net">https://supertuxkart.net</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/games.html">games</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>If you like speed, challenge, and pretending to be a penguin—all at the same time—then <a href="https://openttd.org/">SuperTuxKart</a> is a game for you.</p>
-<p>It’s a cartoonish, bright and colourful game, with minor in-race fighting, boosts, story mode, achievements, and other fun stuff. Apart from <a href="https://en.wikipedia.org/wiki/Tux">Tux</a>, multiple other software mascots are available as playable characters, coming with their own carts that have different characteristics.</p>
-<p>It’s a nice game to have around: even after passing the story mode and collecting all the achievements, it is fun to take a race or two once in a while.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>BBS: The Documentary</title>
-    <link href="http://theasocial.com/articles/video/bbs-documentary.html" />
-    <id>http://theasocial.com/articles/video/bbs-documentary.html</id>
-    <published>2017-05-25T00:00:00Z</published>
-    <updated>2017-05-25T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/bbs-documentary.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">A documentary about bulletin board systems</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://www.bbsdocumentary.com/">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        May 25, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="http://www.bbsdocumentary.com/">http://www.bbsdocumentary.com/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Remember our journey into the world of <a href="/articles/internet/telnet-bbs.html">telnet BBS</a>? While they are somewhat fun on their own, they only provide glimpses of what it was like to use them when they were popular. But <a href="https://en.wikipedia.org/wiki/BBS:_The_Documentary">BBS: The Documentary</a> provides a more comprehensive overview of various aspects surrounding BBS, focusing on the people who were using and running them.</p>
-<p>Through numerous interviews, it covers early BBS communities and stories, the birth of <a href="https://en.wikipedia.org/wiki/FidoNet">FidoNet</a>, <a href="https://en.wikipedia.org/wiki/MUD">MUD</a> games, <a href="https://en.wikipedia.org/wiki/ANSI_art">ANSI art</a> scene, the transformation of some of the BBS into <a href="https://en.wikipedia.org/wiki/Internet_service_provider">ISPs</a>, some hardware and software of the time, and other related topics.</p>
-<p>While it seems to be rather low-budget, with low audio and video quality, it is genuinely interesting and informative. The film is directed by <a href="https://en.wikipedia.org/wiki/Jason_Scott_Sadofsky">Jason Scott</a>.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Cloudflare</title>
-    <link href="http://theasocial.com/articles/internet/cloudflare.html" />
-    <id>http://theasocial.com/articles/internet/cloudflare.html</id>
-    <published>2017-05-23T00:00:00Z</published>
-    <updated>2017-05-23T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/cloudflare.svg" alt=""/>
-  
-  
-  
-  <p class="abstract">A self-inflicted MitM attack service</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Cloudflare_logo.svg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        copyrighted logo
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        May 23, 2017
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><em>You may have noticed that we didn’t write much in the past few months. That’s because we’ve been saving our quarterly profanity quota to write about Cloudflare.</em></p>
-<p>“Synergy” is a word famous for being abused by useless people, yet it would serve well to describe what combination of Cloudflare with everything connected to it is: a few pieces of shit, the combination of which is a greater piece of shit than the sum of each separately. Or, to put in a more straightforward way, Cloudflare is a shit amplifier.</p>
-<p>Consider Google: it milks its users for private information, sells them to spammers (aka advertisers), tries to track others and do the same to them, but fails because JavaScript is disabled and Google hosts are blocked, so everyone’s sort of happy. But combined with Cloudflare by the use of Google’s captcha service, it gives users an ultimatum if one wants to visit a Cloudflare-encumbered website: either get tracked and sold to spammers, or become an image-clustering monkey working for free for Google. Supposedly Google doesn’t even pay Cloudflare for that: CF are just happy to screw their users in one more way.</p>
-<p>Security with Cloudflare is a circus: just look at “<a href="https://www.cloudflare.com/ssl/">Cloudflare One-Click SSL</a>”. Of course they call both X.509 and TLS “SSL”, but there’s much more. The use of non-vulnerable TLS versions is just optional, as the page claims. The “Flexible SSL” mode means “pretend that there is encryption”, making it to look like the connection is safe, while it is plaintext between Cloudflare and an actual server. The “Full SSL” mode is a MitM attack performed by Cloudflare itself. Oh, <a href="https://www.wordfence.com/blog/2017/02/cloudflare-data-leak/">look</a>, “Cloudflare has experienced a data leak over a 5 month period that mixed sensitive data between websites and visitors” – who would have thought! Actively broken security combined with evidently half-assed job turns out to lead to actual leaks. They keep going with a patch and no substantial changes after that, of course.</p>
-<p>The <a href="https://en.wikipedia.org/wiki/Cloudflare#Criticism_and_controversies">criticism listed in Wikipedia</a> doesn’t even cover those, but mentions <a href="https://en.wikipedia.org/wiki/Pink_contract">pink contracts</a> and such; indeed, spammers seem to like Cloudflare, as do other scammers.</p>
-<p>The only good thing about Cloudflare is that it lists the largest companies that are foolish enough to trust them, so one can use that to find out what to avoid. They tend to list the numbers of clients (“internet properties”, as they call them) as well, in an attempt to exploit at least two common fallacies: appeals <a href="https://en.wikipedia.org/wiki/Argument_from_authority">to authority</a> and <a href="https://en.wikipedia.org/wiki/Argumentum_ad_populum">to the people</a>.</p>
-<p>The Wikipedia article mentions that they’ve got some dumb award from TechCrunch. Why don’t we assign awards though? Cloudflare is hereby awarded with our new “fraud of the year” award.</p>
-<p>P.S. The public mail service we were using, vivaldi.net, has — in its infinite wisdom — effectively blocked our account as a response to the Cloudflare leak. If you’ve sent anything there in the past year or so, use our updated contacts to resend it.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>OpenTTD</title>
-    <link href="http://theasocial.com/articles/games/openttd.html" />
-    <id>http://theasocial.com/articles/games/openttd.html</id>
-    <published>2017-05-20T00:00:00Z</published>
-    <updated>2017-05-20T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info games">
-  
-  <img src="/images/articles/openttd.png" alt=""/>
-  
-  
-  
-  <p class="abstract">Trains galore</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://binaries.openttd.org/releases/1.7.0/openttd-1.7.0-source.tar.xz">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Image license
-      </th>
-      <td>
-        GPL 2+
-      </td>
-    </tr>
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        May 20, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://openttd.org/">https://openttd.org/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/games.html">games</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Trains are awesome. Everybody loves trains.</p>
-<p>With <a href="https://openttd.org/">OpenTTD</a>, one can enjoy train business simulation using a personal computer, with no need of actually getting into train business!</p>
-<p>That’s another libre clone<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> of an older game, with some additional development on top of that. One of the cutting-edge technologies that OpenTTD applies is an additional sensory output: not just you see and hear trains, but you can also smell the burning dirt – supposedly from a video card. Not like there are any fancy graphics, so it can’t be a mere side effect.</p>
-<p>Apart from trains, it includes some busses, ships, and aircraft. You build roads, airports, and other stuff, collect money, build more – in a loop. With no way of enjoying what you’ve earned, or any meaningful goal: that’s how good it is at simulating a train entrepreneur’s life.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>More of FOSS clones can be found on <a href="http://osgameclones.com/">osgameclones.com</a>. And <a href="https://libregamewiki.org">libregamewiki.org</a> lists some of those, as well as original games.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Widelands</title>
-    <link href="http://theasocial.com/articles/games/widelands.html" />
-    <id>http://theasocial.com/articles/games/widelands.html</id>
-    <published>2017-05-19T00:00:00Z</published>
-    <updated>2017-05-19T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info games">
-  
-  <img src="/images/articles/widelands.png" alt=""/>
-  
-  
-  
-  <p class="abstract">A real-time strategy game</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://wl.widelands.org">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        May 19, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://wl.widelands.org">https://wl.widelands.org</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/games.html">games</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://wl.widelands.org/">Widelands</a> is a libre remake — with further development — of an older RTS game Settlers II, focused mainly on building a sustainable and efficient economy, and a little on warfare. There is a variety of resources and buildings, and a player can apply different development strategies.</p>
-<p>The first stage of playing it boils down to figuring how it works, what resources and buildings are needed, in what order to build them, etc. Then it’s mostly about perfecting the same strategy. Well, not very different from what one does in most of the other games: acquiring a useless skill, and applying it then.</p>
-<p>There’s a lot of maps, some campaigns, and multiplayer is present over both direct connection and a game server.</p>
-<p>The game is implemented quite well: as in <a href="/articles/games/wesnoth.html">The Battle for Wesnoth</a>, the graphics here are dated, yet generally it is nice and polished. Though its build process relies on custom shell scripts, but at least they work – so building from sources should not be a problem.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>A fat guy got stuck in a bathtub</title>
-    <link href="http://theasocial.com/articles/life/a-fat-guy-got-stuck-in-a-bathtub.html" />
-    <id>http://theasocial.com/articles/life/a-fat-guy-got-stuck-in-a-bathtub.html</id>
-    <published>2017-02-04T00:00:00Z</published>
-    <updated>2017-02-04T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info life">
-  
-  <img src="/images/articles/yagrum-bagarn.png" alt=""/>
-  
-  
-  
-  <p class="abstract">As this interview did in its review process</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://elderscrolls.wikia.com/wiki/Yagrum_Bagarn">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        February  4, 2017
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/life.html">life</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        breaking news, interview
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>More and more often overweight people are getting stuck in bathtubs<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, sometimes <a href="https://imgur.com/gallery/3mD4u">requiring assistance</a> to get released. Surprisingly, both the causes and the mechanisms differ from case to case.</p>
-<p>Following the rumors of another overweight guy being stuck in a bathtub, The Asocial interviews the poor fatty himself:</p>
-<p><strong>The Asocial (TA)</strong>: Hello, fatty. May I call you that?</p>
-<p><strong>Fat Guy (FA)</strong>: I wouldn’t call a person who weights 125 kilograms “fatty”. But I do deem those of a lower weight underweight.</p>
-<p><strong>TA</strong>: Interesting world view. How long have you been stuck in the bathtub?</p>
-<p><strong>FA</strong>: To be honest, just a few seconds total, but more than once. The whole time I’ve been in control of being stuck, though the second to last didn’t go exactly as planned. Besides, it was rather a suction, I wasn’t literally “stuck”.</p>
-<p><strong>TA</strong>: Oh, that is not so bad. But I heard you’ve performed some physical experiments during that time, is that correct?</p>
-<p><strong>FA</strong>: More like the other way around: sometimes I’d get stuck while performing physical experiments.</p>
-<p><strong>TA</strong>: Could you elaborate on the nature of those experiments?</p>
-<p><strong>FA</strong>: Well, I was about to take a bath. Once I’ve sat in the middle of the bathtub, I managed to block the water flow from one half to the other.</p>
-<p><strong>TA</strong>: So you could pretend that you’re a human dam while playing with rubber ducks?</p>
-<p><strong>FA</strong>: Yes. And I did!</p>
-<p><strong>TA</strong>: But how did you manage to eventually get stuck in there?</p>
-<p><strong>FA</strong>: One of my favourite scenarios that I’m playing while pretending to be a dam is an earthquake. So I’ve started to wiggle to emulate it, but that has created a vacuum under my back, and that’s how I got stuck. Then I began researching this effect, and found a position that maximized the vacuum. It even was painful to get unstuck at that point. So I had to get rid of the vacuum, but don’t ask me how.</p>
-<p><strong>TA</strong>: Okay, how did you first discover that you can block water flow with your body?</p>
-<p><strong>FA</strong>: Once upon a time I’ve sat in the middle of a bathtub, turned the tap on, and behind me there was little water. It was cold, and the water was hot. Then I’ve noticed that the water behind me doesn’t go up, while it does in front of me, and quite fast. Then I figured that I was a dam, and moved forward, what sped up the water level increase rate. Quite an interesting observation that was.</p>
-<p><strong>TA</strong>: And what is the purpose of those experiments?</p>
-<p><strong>FA</strong>: The question of purpose is rather complex to me, I don’t know the purpose of my actions in general. Except for the basic ones – such as sleeping, eating, getting the food. So I guess it could be best described as plain curiosity. But isn’t it the curiosity that leads us to the most interesting of discoveries? Particularly with one’s own body.</p>
-<p><strong>TA</strong>: Probably it is. Is it why you became, hrm, non-underweight?</p>
-<p><strong>FA</strong>: No, I’ve chosen to be this way because I’ve got a full-time programming job and a car. A programmer’s salary is high, so I was able to try various foods out of curiosity. I could be doing that virtually all day long.</p>
-<p><strong>TA</strong>: I see. By the way, while I’m here, a colleague of mine asked me to find out whether fat shaming really works. What’s your take on that?</p>
-<p><strong>FA</strong>: Nope, actually it’s the other way around: I’m proud of my fat and quite happy about it. Particularly while running or camping. By the time when underweight weaklings get exhausted, falling on the ground and freezing, I’m still full of energy; my fat provides that for me.</p>
-<p><strong>TA</strong>: Are you eating those weaklings then?</p>
-<p><strong>FA</strong>: Also when I’m running a quarter marathon or a half marathon, it’s the same. I’m barely preparing, while they are running a few times per week. For them it’s an offence and humiliation when the fat guy runs on par with them. The last time I’ve got the third place among girls.</p>
-<p><strong>TA</strong>: So, contrary to the stereotypes, fatness basically gives you superhuman powers.</p>
-<p><strong>FA</strong>: It just so happened that I didn’t register for the marathon, but my girlfriend did. I decided to support her and ran along with her. But at some point she got tired and gave me her tracker. I’ve managed to get the third place in the women’s marathon, so my girlfriend got a medal, a flask, two 17-litre bottles of water, and 25 hamburgers</p>
-<p><strong>TA</strong>: That’s interesting, and our readers may be curious: how did you get a girlfriend while being fat?</p>
-<p><strong>FA</strong>: Well, I was her boss. Or, rather, a team leader.</p>
-<p><strong>TA</strong>: And ordered to become your girlfriend?</p>
-<p><strong>FA</strong>: Not exactly, though one could say so. We were walking a lot during work hours, and…</p>
-<p><strong>TA</strong>: Okay, stop right there, that gets boring. Have you been stuck in any other places before?</p>
-<p><strong>FA</strong>: Yes, I have. Once my girlfriend and I went to a mountain trip. She wanted to see the mountains, but I’ve got stuck on a beach in a cafe. I’ve ordered a large portion of a local dish there, but wasn’t able to eat it all – it was intended to be shared among a company, weighting 1200 grams. But by the end of our vacation I was able to eat it in one go.</p>
-<p><strong>TA</strong>: You’ve got stuck there just figuratively speaking, right?</p>
-<p><strong>FA</strong>: No, I’d say “mentally”. It’s hard to say “no” to food.</p>
-<p><strong>TA</strong>: But what about being stuck physically?</p>
-<p><strong>FA</strong>: No, not recalling.</p>
-<p><strong>TA</strong>: So that was a new experience for you this time. Are you planning on repeating it in the future?</p>
-<p><strong>FA</strong>: Not likely: I’ll have to move out tomorrow, and such bathtubs are uncommon around here.</p>
-<p><strong>TA</strong>: Do you know any other non-underweight people who are getting stuck in bathtubs on purpose? Is it like a subculture thing?</p>
-<p><strong>FA</strong>: No, but I think they can be forced to.</p>
-<p><strong>TA</strong>: “Forced”? Why would you even consider that?</p>
-<p><strong>FA</strong>: Technically they are able to, but they are not curious enough about their bodies. So if they were given a purpose, they could definitely do it.</p>
-<p><strong>TA</strong>: Any words of encouragement to our readers?</p>
-<p><strong>FA</strong>: I don’t think that body fat is any special. Everyone has got enough fat. And if one treats it with care and love, a splendid belly may grow out of it. Or an ass.</p>
-<p><strong>TA</strong>: Exciting.</p>
-<p>A historical note: fat people predate bathtubs, but they were not taken into account when bathtubs were designed. Some speculate that it’s simply because they’ve required more materials than needed for an average person, but there is a conspiracy theory or two providing alternative explanations.</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Comparing to the time when people on average were less obese, or at least to the time when bathtubs did not exist yet.<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Top 4 websites</title>
-    <link href="http://theasocial.com/articles/internet/top-4-websites.html" />
-    <id>http://theasocial.com/articles/internet/top-4-websites.html</id>
-    <published>2016-12-21T00:00:00Z</published>
-    <updated>2016-12-21T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/google.png" alt=""/>
-  
-  
-  
-  <p class="abstract">The ones that are more popular than Wikipedia</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://www.google.com/images/errors/robot.png">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        December 21, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Currently there is just 4 websites between Wikipedia and world domination, and we are reviewing those four. Each section begins with a quote from <a href="/articles/internet/alexa-top-500-filtered-again.html">alexa top 500</a>, followed by a list of observations, possibly a comment, and concludes with a more honest description.</p>
-<h3 id="google">Google</h3>
-<blockquote>
-<p>Enables users to search the world’s information, including webpages, images, and videos. Offers unique features and search technology.</p>
-</blockquote>
-<ul>
-<li>Fails w3 validation (i.e., invalid trash).</li>
-<li>Sometimes the website welcomes us with a captcha.</li>
-<li>Half of the pages (i.e., one page) is in French, despite web browser locale being English.</li>
-</ul>
-<p>When attempting to switch to English, or to type anything in the text input field on its main page, an amusing error message appears (the URL is shortened here):</p>
-<blockquote>
-<p>Your client does not have permission to get URL /sorry/index?continue=https://www.google.fr/… from this server. That’s all we know.</p>
-</blockquote>
-<p>Well, at least it’s in English. Note that there is no permission to get a resource that is an error page according to its URL, not the one we were looking for. As if it wasn’t bad enough, the message also claims that there is no permission to get <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">URL</a>, not the resource it refers to.</p>
-<blockquote>
-<p>Two pages behind a captcha: one is weird, and the other one is to broken as what a supernova is to a confetti cannon.</p>
-</blockquote>
-<h3 id="youtube">Youtube</h3>
-<blockquote>
-<p>User-submitted videos with rating, comments, and contests.</p>
-</blockquote>
-<ul>
-<li>Fails validation.</li>
-<li>Lists trashy videos.</li>
-<li>Claims to have about 17,000,000 cat videos.</li>
-<li>Downloading is not trivial.</li>
-<li>Uploading requires to sign in; the login page is slightly broken, but has a link to an account creation page.</li>
-<li>The account creation page is also slightly broken, in a different way. Also says that the “qw11112222” password is strong.</li>
-<li>Its privacy policy and terms of service describe many different ways in which one would be screwed.</li>
-</ul>
-<blockquote>
-<p>A file archive limited to videos, with complicated download and no reasonable upload functionality. And with some junk around it.</p>
-</blockquote>
-<h3 id="facebook">Facebook</h3>
-<blockquote>
-<p>A social utility that connects people, to keep up with friends, upload photos, share links and videos.</p>
-</blockquote>
-<ul>
-<li>Fails validation.</li>
-<li>Clicking or navigating the website implies agreement with being screwed, so we are not doing that.</li>
-<li>Apparently it is useless anyway.</li>
-</ul>
-<blockquote>
-<p>A closed image gallery or something.</p>
-</blockquote>
-<h3 id="baidu">Baidu</h3>
-<blockquote>
-<p>The leading Chinese language search engine, provides “simple and reliable” search experience, strong in Chinese language and multi-media content including MP3 music and movies, the first to offer WAP and PDA-based mobile search in China.</p>
-</blockquote>
-<ul>
-<li>Won’t load.</li>
-</ul>
-<p>Well, it explains why “simple and reliable” is quoted.</p>
-<blockquote>
-<p>Plain nothing.</p>
-</blockquote>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Blackadder</title>
-    <link href="http://theasocial.com/articles/video/blackadder.html" />
-    <id>http://theasocial.com/articles/video/blackadder.html</id>
-    <published>2016-11-27T00:00:00Z</published>
-    <updated>2016-11-27T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/blackadder.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Guess what? A British sitcom!</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://www.imdb.com/title/tt0084988/mediaviewer/rm1930467584">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        November 27, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        tv series, history
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://en.wikipedia.org/wiki/Blackadder">Blackadder</a> is a four-season-and-a-few-extras historical series, with each season being set in a different (yet recent) century. Some historians believe that it contains real footage, but the mainstream opinion is that it’s just old, yet not old enough to contain that.</p>
-<p>It follows the adventures of Edmund Blackadder and his loyal servant Baldrick, along with a few recurring secondary characters. From season to season, the intelligence appears to drift from Baldrick to Blackadder somehow, while Edmund’s social status declines, yet some of the character traits always stay there.</p>
-<p><em>As a side note, there is a strange appeal in writing vague nonsense while reviewing something: probably that’s how all those movie summaries come into existence, and not because their authors don’t even care to watch the movies they are writing about.</em></p>
-<p>The characters are quite fun, and the cast includes <a href="https://en.wikipedia.org/wiki/Rowan_Atkinson">Mr. Bean</a>, <a href="https://en.wikipedia.org/wiki/Hugh_Laurie">Dr. House</a>, <a href="https://www.gnu.org/fry/">the gNewSense guy</a> who <a href="https://en.wikipedia.org/wiki/Stephen_Fry#Computing_and_software_freedom">secretly uses</a> <a href="https://www.gnu.org/philosophy/ubuntu-spyware.en.html">Ubuntu</a>, <a href="https://en.wikipedia.org/wiki/Baldrick">Baldrick</a> (cameo appearance), and some less famous folks.</p>
-<p>One of its prominent features is the depiction of the most cunning plans throughout the history: “as cunning as a fox what used to be Professor of Cunning at Oxford University but has moved on and is now working for the U.N. at the High Commission of International Cunning Planning”, for instance. Not all of them have worked out though.</p>
-<p>Another nice thing to note about Blackadder is its realism: nobody develops an unlikely friendship there.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Top 500 websites, filtered again</title>
-    <link href="http://theasocial.com/articles/internet/alexa-top-500-filtered-again.html" />
-    <id>http://theasocial.com/articles/internet/alexa-top-500-filtered-again.html</id>
-    <published>2016-11-06T00:00:00Z</published>
-    <updated>2016-11-06T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/alexa.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Checking the dynamics</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/Alexa_Internet">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        November  6, 2016
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>About a year ago we have <a href="/articles/internet/alexa-top-500-filtered.html">filtered top 500 websites</a> in order to get the trash out of the list, and observe what’s there on the internet. Now we are doing it again, and observing how it changes.</p>
-<p>The filter criteria are roughly the same as before: no fraud, social networks, politics, pornography, country-specific and company websites, trading, heavy surveillance, and other kinds of crap. It is not guaranteed to be consistent with the last year’s list, since websites change, perception changes, and we could have missed some of those previously. This time we’ve got 31 website again – 6.2% that are tolerable:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="right">#</th>
-<th>link</th>
-<th>changes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">5</td>
-<td><a href="https://www.wikipedia.org/">wikipedia.org</a></td>
-<td>↑ 2</td>
-</tr>
-<tr class="even">
-<td align="right">24</td>
-<td><a href="https://www.reddit.com/">reddit.com</a></td>
-<td>↑ 8</td>
-</tr>
-<tr class="odd">
-<td align="right">40</td>
-<td><a href="https://stackoverflow.com/">stackoverflow.com</a></td>
-<td>↑ 18</td>
-</tr>
-<tr class="even">
-<td align="right">52</td>
-<td><a href="https://imgur.com/">imgur.com</a></td>
-<td>↓ 6</td>
-</tr>
-<tr class="odd">
-<td align="right">53</td>
-<td><a href="https://github.com/">github.com</a></td>
-<td>↑ 22</td>
-</tr>
-<tr class="even">
-<td align="right">55</td>
-<td><a href="http://www.imdb.com/">imdb.com</a></td>
-<td>↓ 6</td>
-</tr>
-<tr class="odd">
-<td align="right">88</td>
-<td><a href="http://www.wikia.com/Wikia">wikia.com</a></td>
-<td>↑ 16</td>
-</tr>
-<tr class="even">
-<td align="right">133</td>
-<td><a href="https://thepiratebay.org/">thepiratebay.org</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="right">136</td>
-<td><a href="https://stackexchange.com/">stackexchange.com</a></td>
-<td>↑ 14</td>
-</tr>
-<tr class="even">
-<td align="right">138</td>
-<td><a href="http://www.w3schools.com/">w3schools.com</a></td>
-<td>↑ 66</td>
-</tr>
-<tr class="odd">
-<td align="right">151</td>
-<td><a href="http://www.deviantart.com/">deviantart.com</a></td>
-<td>↑ 47</td>
-</tr>
-<tr class="even">
-<td align="right">170</td>
-<td><a href="https://pages.github.com/">github.io</a></td>
-<td>↑ 89</td>
-</tr>
-<tr class="odd">
-<td align="right">195</td>
-<td><a href="http://www.wikihow.com/Main-Page">wikihow.com</a></td>
-<td>↑ 10</td>
-</tr>
-<tr class="even">
-<td align="right">216</td>
-<td><a href="http://www.weather.com/">weather.com</a></td>
-<td>↓ 61</td>
-</tr>
-<tr class="odd">
-<td align="right">219</td>
-<td><a href="http://extratorrent.cc/">extratorrent.cc</a></td>
-<td>↑ 95</td>
-</tr>
-<tr class="even">
-<td align="right">228</td>
-<td><a href="http://www.wordreference.com/">wordreference.com</a></td>
-<td>↑ 59</td>
-</tr>
-<tr class="odd">
-<td align="right">231</td>
-<td><a href="http://www.nih.gov/">nih.gov</a></td>
-<td>↓ 37</td>
-</tr>
-<tr class="even">
-<td align="right">238</td>
-<td><a href="https://www.wikimedia.org/">wikimedia.org</a></td>
-<td>same</td>
-</tr>
-<tr class="odd">
-<td align="right">246</td>
-<td><a href="https://archive.org/">archive.org</a></td>
-<td>↓ 14</td>
-</tr>
-<tr class="even">
-<td align="right">276</td>
-<td><a href="http://www.thesaurus.com/">thesaurus.com</a></td>
-<td>↑ 32</td>
-</tr>
-<tr class="odd">
-<td align="right">301</td>
-<td><a href="https://rarbg.to/">rarbg.to</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td align="right">332</td>
-<td><a href="https://www.goodreads.com/">goodreads.com</a></td>
-<td>↓ 33</td>
-</tr>
-<tr class="odd">
-<td align="right">387</td>
-<td><a href="http://dictionary.com/">dictionary.com</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td align="right">395</td>
-<td><a href="https://yts.ag/">yts.ag</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="right">408</td>
-<td><a href="https://www.sciencedirect.com/">sciencedirect.com</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td align="right">422</td>
-<td><a href="https://www.kickstarter.com/">kickstarter.com</a></td>
-<td>↓ 44</td>
-</tr>
-<tr class="odd">
-<td align="right">424</td>
-<td><a href="http://techcrunch.com/">techcrunch.com</a></td>
-<td>↑ 68</td>
-</tr>
-<tr class="even">
-<td align="right">440</td>
-<td><a href="https://subscene.com/">subscene.com</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="right">454</td>
-<td><a href="http://www.thefreedictionary.com/">thefreedictionary.com</a></td>
-<td>↓ 44</td>
-</tr>
-<tr class="even">
-<td align="right">470</td>
-<td><a href="http://azlyrics.com/">azlyrics.com</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="right">479</td>
-<td><a href="http://www.webmd.com/">webmd.com</a></td>
-<td>↓ 195</td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://sourceforge.net/">Sourceforget</a> (268) and <a href="https://gizmodo.com/">Gizmodo</a> (488) weren’t included because they are meh. A few torrent trackers got KAT visitors after its <a href="/articles/internet/the-kat-founder-got-arrested.html">takedown</a>.</p>
-<p>The Asocial is not in the top yet, and not actually in the ranking at all, but <a href="/articles/comics/search-keywords.html">getting</a> <a href="/articles/comics/went-mainstream.html">there</a>.</p>
 </div>
 ]]></summary>
 </entry>

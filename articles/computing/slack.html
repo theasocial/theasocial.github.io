@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Slack – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bloat.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+  
+  <h1 id="title">Slack</h1>
+  
+  <div class="info computing">
+  
+  <img src="../../images/articles/slack.svg" alt />
+  
+  
+  
+  <p class="abstract">Instant messaging for the computer-illiterate</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://en.wikipedia.org/wiki/File:Slack_Technologies_Logo.svg">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Image license
+      </th>
+      <td>
+        public domain
+      </td>
+    </tr>
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        February 16, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://slack.com/">https://slack.com/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Probably everyone knows a person who still refuses to learn those computer things, or a person who already gave up on getting the computer things to work properly, or at least reads news aggregators where those dwell – so the myriad of incompatible and centralized instant messaging protocols controlled by individual companies that milk their users and keep them firmly restrained from escaping shouldn’t be the news<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Some of our readers probably got even pressured into using those; in such a case, contact your local computer user protection services immediately.</p>
+<p>As can often be observed, when you take a thing and prefix it with “enterprise”, it gets so much worse: enterprise software companies don’t even try to fool the users, but only focus on those who buy their junk. Some have speculated that if you take an idea that is stupid in the first place, and prefix it with “enterprise”, it will just explode, or implode, or otherwise take care of itself by being too bad to exist. Some curious experimenters decided to find it out, and to everyone’s surprise a stable turd arose out of the Big Junk Collider: meet Slack, an enterprise centralized and incompatible IM! Enhanced vendor lock-in, revolutionized incompatibility, enterprise-grade bullshit, just for $8 per user per month<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>!</p>
+<h2 id="features">Features</h2>
+<p>Let’s take a look at the <a href="https://slack.com/features">features</a>:</p>
+<ul>
+<li>“It simplifies communication” (provides chatrooms, to translate it from bullshit-speak): it may seem stupid to list those as a feature, since even IRC provides them, and even video conferencing is not unique to Slack, but they do it.</li>
+<li>“It helps everyone find the answers they need” (has a search through the logs): sounds dumb again, but “made more useful with machine learning” hints that they, like, use computers for that. Maybe full-text search, maybe something else – no technical details, of course.</li>
+<li>“It streamlines your workflows” (provides a limited extensions API to partially make up for proprietary license): pretty dull still, nothing new there.</li>
+</ul>
+<p>That’s all the reasons they’ve made up to sell Slack. An explanation may be that it is still less broken than the regular client-side software, so let’s look into that.</p>
+<h2 id="trying-it-out">Trying it out</h2>
+<p>One can <a href="https://slack.com/create#">create a workspace</a> for free, so we’ll do that. The registration is clunky, and it’s hard to pick a name that isn’t taken, but works with JS on, over Tor, and with <a href="https://temp-mail.org/en/">a disposable email</a>. ToS and privacy policy are almost readable, though it’s not far from the usual “your ass belongs to us from now on”.</p>
+<p>After the registration, it asks you to spam your friends, so one can just fill some email honeypot addresses there. “Let other people sign up with their verified <span class="citation">@endrix.org</span> email address” is on by default, so there likely to be a lot of “workspaces” into which one can sign up with a public email service.</p>
+<p>There are built-in animated tutorials on how to use it, and it’s very laggy (especially if you’re used to real software). Of course using a customized web browser would ruin it, but the default colors are such that they burn your eyes out by making use of a bright white background, and apparently with no way to alter it. Though it features ugly graphical smileys, so it may be useful to burn your eyes out before using it.</p>
+<p>Certain buttons just don’t work: some of those say that the feature requires a payment, but others seem to be simply broken, though some of them work after you reload the page. Opening new tabs with middle mouse button doesn’t work; neither does scroll with arrow keys; selection is disabled for some of the elements; generally you are stuck with a few predefined mouse-driven actions they’ve made just for you. Even for those, focus tends to jump to wrong elements.</p>
+<p>Slack has extensions and they’re called “apps”. You “install” them into your server-side slack workspace. There are “essential apps”, with Giphy sitting right next to Google Drive. Regular message editing doesn’t extend to attached files, not to mention that in-line images are simply lame.</p>
+<p>Ugly as it is, the word on the street is that Slack used to provide at least some occasionally working IRC and XMPP gateways (no federation, but at least a bit of choice and real client software), but <a href="https://get.slack.help/hc/en-us/articles/201727913-Connect-to-Slack-over-IRC-and-XMPP">gateways are going away</a> in about a month, Google-style.</p>
+<p>Basically it is your old <a href="https://en.wikipedia.org/wiki/Web_chat">web chat</a>, but a rather poor one.</p>
+<h2 id="history">History</h2>
+<p>Slack, along with Flickr (that broken photo sharing website), was founded by Stewart Butterfield. In both cases he was writing a game, that didn’t work out, but somehow spawned those projects. We wish him luck in the next game project, for it to turn into an actual game without additional spawns.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>See “<a href="https://sameroom.io/chat-timeline.pdf">A Brief History of Chat Services</a>”. Not many of them die, but the rate at which they appear only accelerates so far.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Stop paying and both your data and your infrastructure are gone.<a href="#fnref2">↩</a></p></li>
+</ol>
+</div>
+</div>
+
+</div>
+
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
