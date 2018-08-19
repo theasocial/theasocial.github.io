@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Trustico clusterfuck – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bloat.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+  
+  <h1 id="title">The Trustico clusterfuck</h1>
+  
+  <div class="info internet">
+  
+  <img src="../../images/articles/trustico.png" alt />
+  
+  
+  
+  <p class="abstract">Yet another X.509 PKI failure</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://www.trustico.co.nz/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        March  2, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://www.trustico.co.nz/">https://www.trustico.co.nz/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        racket
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>As a part of our emerging series of reviews on <a href="the-other-web-of-trust.html">junk with “trust” in its name</a>, as well as those on <a href="startssl-and-friends.html">large-scale X.509 screw-ups</a>, here are the news: Trustico compromised 23 thousand of private keys for X.509 certificates; then compromised them again, and a few more times, until it went public; then blamed DigiCert; then removed that statement.</p>
+<p>X.509 PKI is a mess that relies on <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authorities</a>, which encourages shady schemes and doesn’t work well, yet it’s the best we’ve got so far with a wide adoption. Many CAs take payments for the minuscule calculations they have to perform in order to issue a certificate, sometimes adding an “insurance” that doesn’t quite mean what one may think it means (see also: <a href="../../articles/computing/using-tor-hidden-services.html">Using Tor hidden services</a>). It’s pretty bad as it is, but some go further and resell those certificates: they still have to get issued by a CA, of course, but a middleman finds its place even there somehow. It may look ridiculous, but so does every tiny bit of their website, so at least it matches.</p>
+<p>Now, what they did is approximately the following, as summed up <a href="https://arstechnica.com/information-technology/2018/03/23000-https-certificates-axed-after-ceo-e-mails-private-keys/">by Dan Goodin on Ars Technica</a>, <a href="https://mobile.twitter.com/geofft/status/968937773691539458">by Geoffrey Thomas on Twitter</a>, and throwing in <a href="https://www.reddit.com/r/sysadmin/comments/816t5f/trustico_website_passing_user_input_directly_to/">a reddit thread</a>:</p>
+<ul>
+<li>Made a system featuring, among other things, shell command execution as root on their servers, a lot of marketing crap, and calling X.509 “SSL”.</li>
+<li>Have set high prices and added more of marketing bullshit, because it’s not possible to write all that at once without taking a laughing break, and probably consulting a lawyer. The main page alone is hard to read in one go: if you’re used to ditching bullshit, it’s very tempting to close it after every sentence.</li>
+<li>Lured the clients (“suckers”, as they are called in the industry) in.</li>
+<li>Collected user private keys, which they shouldn’t even have ever accessed. Granted, the users had to be unfamiliar with how it all works in order to hand their keys to Trustico (or generate them with it), but that’s also a prerequirement for choosing something like Trustico, so the coverage was high. That’s basically MitMing the users, as <a href="cloudflare.html">some companies</a> like to do.</li>
+<li>Sent those keys by email, apparently intentionally compromising them in an attempt to revoke, and to switch to a different CA (from Symantec to Comodo).</li>
+<li>Saw a <a href="https://www.digicert.com/blog/digicert-statement-trustico-certificate-revocation/">DigiCert statement</a>, wrote <a href="https://archive.fo/cpy9b">their own statement</a>, claiming that DigiCert asked them to send the private keys (there’s even something that looks like a quotation).</li>
+<li>Removed their own statement, serving an <a href="(https://www.trustico.co.nz/news/2018/symantec-revocation/certificate-replacement.php)">“error page” with prices</a> instead.</li>
+</ul>
+<p>Apparently switching from Symantec is caused by <a href="https://groups.google.com/a/chromium.org/forum/?_escaped_fragment_=topic/blink-dev/eUAKwjihhBs#!topic/blink-dev/eUAKwjihhBs">Google accusing Symantec of continuous certificate misissuance</a>. Google shouldn’t be in charge of trusted CA certificate distribution, but web browsers can choose where they read trusted CA certificates from, so they can also choose to ship those, and to take control over a large chunk of the infrastructure, but it’s out of scope of this article. Comodo also has a history of screw-ups (and does extensive marketing, of course), but they aren’t getting distrusted yet.</p>
+<p>While this system is awkward and broken on virtually every level, they manage to squeeze new levels, and both defraud the users and compromise their keys inside those. Pretty creative, but too bad that most of secure data transfer depends on something so stunningly moronic.</p>
+<p>It actually gets tiresome to cover even large-scale screw-ups of (and/or user data abuse by) security-themed companies, since they happen so often: apparently the responsibility, including that for security, is most easily taken either by the entities that are irresponsible and/or clueless, or simply as a scam.</p>
+</div>
+
+</div>
+
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>

@@ -8,8 +8,292 @@
         <name>The Asocial</name>
         <email>info@theasocial.com</email>
     </author>
-    <updated>2018-02-19T00:00:00Z</updated>
+    <updated>2018-08-19T19:10:00Z</updated>
     <entry>
+    <title>Domain expiry</title>
+    <link href="http://theasocial.com/articles/comics/domain-expiry.html" />
+    <id>http://theasocial.com/articles/comics/domain-expiry.html</id>
+    <published>2018-08-19T19:10:00Z</published>
+    <updated>2018-08-19T19:10:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info comics">
+  
+  <img src="/images/comics/domain-expiry.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">We're at theasocial.github.io now</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        August 19, 2018
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/comics.html">comics</a>
+      </td>
+    </tr>
+    
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>Ad unblocking</title>
+    <link href="http://theasocial.com/articles/internet/ad-unblocking.html" />
+    <id>http://theasocial.com/articles/internet/ad-unblocking.html</id>
+    <published>2018-05-05T00:00:00Z</published>
+    <updated>2018-05-05T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/abp.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">Rage against the users</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        May  5, 2018
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        ads
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>It seems that there’s no end to security-related issues, even if you get tired of and begin to ignore X.509 PKI-related ones, privacy violations by both commercial companies and governments, malware of all kinds, both software and hardware vulnerabilities, data breaches, and all the other common stuff.</p>
+<p><a href="https://en.wikipedia.org/wiki/Ghostery">Ghostery</a> used to block trackers while tracking users on its own: a somewhat elegant scam. Recently <a href="https://en.wikipedia.org/wiki/Adblock_Plus">Adblock Plus</a> applied a similar approach, but in a bolder form: while blocking the ads, it <a href="https://medium.com/@trybravery/please-stop-using-adblock-but-not-why-you-think-13280e76c8e7">whitelists some ads</a> for a payment, including those of Google.</p>
+<p>Fortunately for us, ABP was crap for a while now, so it’s not a great loss: all the cool kids use <a href="https://en.wikipedia.org/wiki/UBlock_Origin">uBlock Origin</a> now. Well, except for those from <a href="/articles/internet/internet-in-north-korea.html">North Korea</a>, where most can’t even dream of seeing internet ads. Or from <a href="https://en.wikipedia.org/wiki/Internet_in_China">China</a> and—<a href="https://www.article19.org/resources/russia-telegram-block-leads-widespread-assault-freedom-expression-online/">as</a> <a href="https://www.theverge.com/2018/4/17/17246150/telegram-russia-ban">of</a> <a href="https://www.theguardian.com/world/2018/apr/17/russia-blocks-millions-of-ip-addresses-in-battle-against-telegram-app">recently</a>—<a href="https://en.wikipedia.org/wiki/Internet_in_Russia">Russia</a>, where it is challenging to access international ads and/or ad blockers.</p>
+<p>Among other recent IT news, which were hard to not notice: <a href="https://arstechnica.com/tech-policy/2018/03/facebooks-cambridge-analytica-scandal-explained/">Facebook leaks user data to Cambridge Analytica</a>, as well as <a href="https://freedom-to-tinker.com/2018/04/18/no-boundaries-for-facebook-data-third-party-trackers-abuse-facebook-login/">to third-party trackers</a>; <a href="https://doublepulsar.com/hijack-of-amazons-internet-domain-service-used-to-reroute-web-traffic-for-two-hours-unnoticed-3a6f0dda6a6f">Amazon DNS got hijacked for a couple of hours</a>; banks screw up with transfers and lose client accounts; Spectre mitigation patches are still getting issued; all kinds of technologies still get reinvented and reimplemented poorly.</p>
+<p>Probably we should limit the infosec news in The Asocial, since it’s basically the same all the time, and people are not likely to cease screwing each other or themselves. It’s an ongoing collective informational self-mutilation: rather shocking, but it’s hard to observe the poor bastards for long, since it’s disgusting if you have enough empathy, or just gets boring otherwise.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>DNS-over-HTTPS</title>
+    <link href="http://theasocial.com/articles/computing/dns-over-https.html" />
+    <id>http://theasocial.com/articles/computing/dns-over-https.html</id>
+    <published>2018-03-23T00:00:00Z</published>
+    <updated>2018-03-23T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info computing">
+  
+  <img src="/images/articles/google.svg" alt=""/>
+  
+  
+  
+  <p class="abstract">Another Google spawn</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        March 23, 2018
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        breaking news, disaster
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Google has spawned another monster, <a href="https://developers.google.com/speed/public-dns/docs/dns-over-https">DNS over HTTPS</a>. <a href="https://utcc.utoronto.ca/~cks/space/blog/web/FirefoxNoNightly">Mozilla already experiments on Firefox Nightly users</a> with sending their private data to <a href="/articles/cloudflare.html">Cloudflare</a>, which is another one of early adopters. It’s probably time to start panicking, since that may be the future of DNS.</p>
+<h2 id="brief-dns-history">Brief DNS history</h2>
+<p><a href="https://en.wikipedia.org/wiki/DNS">DNS</a> usually works on top of UDP, though TCP is used for more important requests, and is defined even in <a href="https://tools.ietf.org/html/rfc1034">RFC 1034</a> from 1987, as well as in <a href="https://tools.ietf.org/html/rfc883">RFC 883</a> from 1983. It’s pretty simple and minimal, but lacks any means for verification and encryption, allowing a variety of attacks – as early network protocols did in general. Many of those are now used on top of <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> instead of TCP, which is a relatively easy transition.</p>
+<p>But not DNS.</p>
+<p><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> is an ongoing (since 1990s) effort to get DNS records signed by their authors without piggybacking on X.509 PKI (which <a href="/internet/the-trustico-clusterfuck.html">has</a> its own <a href="/internet/letsencrypt-public-beta.html">issues</a>) or anything else. Turns out it’s not such an easy task in the world where we can barely type, transmit, <em>or</em> display text messages, but after a few attempts they’ve got it more or less working on limited deployments. And it still doesn’t provide encryption.</p>
+<h2 id="a-new-proposal">A new proposal</h2>
+<p>Apparently <a href="systemd.html">Poettering</a> was busy, so Google decided to step in: get the poor thing, and add the needed features, but in the worst way imaginable – if you have a good imagination, that is.</p>
+<p>Just adding TLS would be a no-brainer, but Google had to come up with a way to make it more awkward and ads-friendly at once. So they’ve wrapped it in HTTP and in JSON, apparently targeting in-browser JS: no more simple system-wide hosts-based blocking of ads and trackers.</p>
+<p>Then they’ve decided to have some fun with the corpse of <a href="https://en.wikipedia.org/wiki/OSI_model">the OSI model</a>, by engaging into the popular activity of turning the layers inside out, and duplicating their functionality: meet <code>random_padding</code> inside JSON, on top of HTTP, on top of TLS, which by itself can (and should) handle it!</p>
+<p>Our <a href="/articles/internet/pimp-my-code-issue-3.html">Pimp My Code</a> team still has a thing or two to learn from those guys.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>The Trustico clusterfuck</title>
+    <link href="http://theasocial.com/articles/internet/the-trustico-clusterfuck.html" />
+    <id>http://theasocial.com/articles/internet/the-trustico-clusterfuck.html</id>
+    <published>2018-03-02T00:00:00Z</published>
+    <updated>2018-03-02T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info internet">
+  
+  <img src="/images/articles/trustico.png" alt=""/>
+  
+  
+  
+  <p class="abstract">Yet another X.509 PKI failure</p>
+  
+
+  <table>
+    
+    <tr>
+      <th>
+        Image source
+      </th>
+      <td>
+        <a href="https://www.trustico.co.nz/">Image source</a>
+      </td>
+    </tr>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        March  2, 2018
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        URI
+      </th>
+      <td>
+        <a href="https://www.trustico.co.nz/">https://www.trustico.co.nz/</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="/categories/internet.html">internet</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        racket
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>As a part of our emerging series of reviews on <a href="the-other-web-of-trust.html">junk with “trust” in its name</a>, as well as those on <a href="startssl-and-friends.html">large-scale X.509 screw-ups</a>, here are the news: Trustico compromised 23 thousand of private keys for X.509 certificates; then compromised them again, and a few more times, until it went public; then blamed DigiCert; then removed that statement.</p>
+<p>X.509 PKI is a mess that relies on <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authorities</a>, which encourages shady schemes and doesn’t work well, yet it’s the best we’ve got so far with a wide adoption. Many CAs take payments for the minuscule calculations they have to perform in order to issue a certificate, sometimes adding an “insurance” that doesn’t quite mean what one may think it means (see also: <a href="/articles/computing/using-tor-hidden-services.html">Using Tor hidden services</a>). It’s pretty bad as it is, but some go further and resell those certificates: they still have to get issued by a CA, of course, but a middleman finds its place even there somehow. It may look ridiculous, but so does every tiny bit of their website, so at least it matches.</p>
+<p>Now, what they did is approximately the following, as summed up <a href="https://arstechnica.com/information-technology/2018/03/23000-https-certificates-axed-after-ceo-e-mails-private-keys/">by Dan Goodin on Ars Technica</a>, <a href="https://mobile.twitter.com/geofft/status/968937773691539458">by Geoffrey Thomas on Twitter</a>, and throwing in <a href="https://www.reddit.com/r/sysadmin/comments/816t5f/trustico_website_passing_user_input_directly_to/">a reddit thread</a>:</p>
+<ul>
+<li>Made a system featuring, among other things, shell command execution as root on their servers, a lot of marketing crap, and calling X.509 “SSL”.</li>
+<li>Have set high prices and added more of marketing bullshit, because it’s not possible to write all that at once without taking a laughing break, and probably consulting a lawyer. The main page alone is hard to read in one go: if you’re used to ditching bullshit, it’s very tempting to close it after every sentence.</li>
+<li>Lured the clients (“suckers”, as they are called in the industry) in.</li>
+<li>Collected user private keys, which they shouldn’t even have ever accessed. Granted, the users had to be unfamiliar with how it all works in order to hand their keys to Trustico (or generate them with it), but that’s also a prerequirement for choosing something like Trustico, so the coverage was high. That’s basically MitMing the users, as <a href="cloudflare.html">some companies</a> like to do.</li>
+<li>Sent those keys by email, apparently intentionally compromising them in an attempt to revoke, and to switch to a different CA (from Symantec to Comodo).</li>
+<li>Saw a <a href="https://www.digicert.com/blog/digicert-statement-trustico-certificate-revocation/">DigiCert statement</a>, wrote <a href="https://archive.fo/cpy9b">their own statement</a>, claiming that DigiCert asked them to send the private keys (there’s even something that looks like a quotation).</li>
+<li>Removed their own statement, serving an <a href="(https://www.trustico.co.nz/news/2018/symantec-revocation/certificate-replacement.php)">“error page” with prices</a> instead.</li>
+</ul>
+<p>Apparently switching from Symantec is caused by <a href="https://groups.google.com/a/chromium.org/forum/?_escaped_fragment_=topic/blink-dev/eUAKwjihhBs#!topic/blink-dev/eUAKwjihhBs">Google accusing Symantec of continuous certificate misissuance</a>. Google shouldn’t be in charge of trusted CA certificate distribution, but web browsers can choose where they read trusted CA certificates from, so they can also choose to ship those, and to take control over a large chunk of the infrastructure, but it’s out of scope of this article. Comodo also has a history of screw-ups (and does extensive marketing, of course), but they aren’t getting distrusted yet.</p>
+<p>While this system is awkward and broken on virtually every level, they manage to squeeze new levels, and both defraud the users and compromise their keys inside those. Pretty creative, but too bad that most of secure data transfer depends on something so stunningly moronic.</p>
+<p>It actually gets tiresome to cover even large-scale screw-ups of (and/or user data abuse by) security-themed companies, since they happen so often: apparently the responsibility, including that for security, is most easily taken either by the entities that are irresponsible and/or clueless, or simply as a scam.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
     <title>0 A.D.</title>
     <link href="http://theasocial.com/articles/games/0ad.html" />
     <id>http://theasocial.com/articles/games/0ad.html</id>
@@ -391,8 +675,8 @@
 </entry>
 <entry>
     <title>Train Driver's View</title>
-    <link href="http://theasocial.com/articles/video/train-dirvers-view.html" />
-    <id>http://theasocial.com/articles/video/train-dirvers-view.html</id>
+    <link href="http://theasocial.com/articles/video/train-drivers-view.html" />
+    <id>http://theasocial.com/articles/video/train-drivers-view.html</id>
     <published>2017-12-26T00:00:00Z</published>
     <updated>2017-12-26T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="info video">
@@ -696,299 +980,6 @@
 <p>It is derived from Ubuntu (which is derived from Debian, as you may know already, and as many other now-abandoned distributions were), sponsored by <a href="https://www.thinkpenguin.com/">ThinkPenguin</a>, its <a href="https://trisquel.info/en/download">most recent release</a> is from 2014-03-11, its <a href="https://listas.trisquel.info/pipermail/trisquel-security/">security announcements mailing list</a> is silent since 2014, while Trisquel-devel seems to be filled with rather strange messages – although Trisquel-users is active, so apparently it’s still alive, at least in the hearts of its users.</p>
 <p>Apart from being a filler system, akin to DOS in that, Trisquel actually tries to follow the FSF spirit and to be nice: apparently it provides some accessibility features, possibly going further than those of Debian and Ubuntu (why would it mention them otherwise?). So the blind kids could get traumatized by the Python backtraces from its <a href="https://en.wikipedia.org/wiki/Sugar_(software)">Sugar</a> edition just as any others do, using screen readers. Well, probably – I haven’t tried either.</p>
 <p>It’s rather ironic how those smaller accessibility-oriented user-friendly distributions can easily require more experience and effort than the more common ones, because you’re mostly on your own if something goes wrong, and the issue is hidden under layers and layers of poorly documented GUI and wrappers, or quite often just lays inside those layers. And it’s rarely debugging-oriented, on top of that. But FSF still prefers to expose new users to that, rather than to a distribution that doesn’t make it hard enough for users to install non-free packages.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Transmetropolitan</title>
-    <link href="http://theasocial.com/articles/books/Transmetropolitan.html" />
-    <id>http://theasocial.com/articles/books/Transmetropolitan.html</id>
-    <published>2017-10-01T00:00:00Z</published>
-    <updated>2017-10-01T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info books">
-  
-  <img src="/images/articles/transmetropolitan.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">Cyberpunk transhumanist comics</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://en.wikipedia.org/wiki/File:Transmetropolitan_2.jpg">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        October  1, 2017
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/books.html">books</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Our new “books” category begins with something that isn’t exactly a book, but a comic book. Or series of those, depending on what you count as a <a href="https://en.wikipedia.org/wiki/Comic_book">comic book</a>. Anyway, that’s a collection of pictures with little text.</p>
-<p><a href="https://en.wikipedia.org/wiki/Transmetropolitan">Transmetropolitan</a> (the plot of which wikipedia spoils, as it always does) story is set in the future, and follows a <a href="https://en.wikipedia.org/wiki/Gonzo_journalism">gonzo journalist</a> in his adventures. It is themed with <a href="https://en.wikipedia.org/wiki/Cyberpunk">cyberpunk</a> and <a href="https://en.wikipedia.org/wiki/Transhumanism">transhumanism</a>, what makes it rather fun.</p>
-<p>The plot is not particularly original: it’s mostly about a government messing with common people; one of those old and typical plots, and something you can regularly see in the news if you care to follow those. Well, perhaps a journalist successfully fighting it is an original idea, or at least unrealistic enough to make the works of that kind unpopular, making it hard to come by those. Though there were superhero comics with superheroes also being journalists; let’s say it is an unusual combination of the things you may find elsewhere. The concept of a messiah (a popular story theme from the time when even the books were rare, still utilized by popular religions) can be seen there, too, what looks rather unnecessary.</p>
-<p>Despite the plot’s naive bits, including the antagonists being absolute evil, the details are still nice and entertaining. Should be particularly nice for kids, but the atmosphere makes it readable and enjoyable by adults as well.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Primitive Technology</title>
-    <link href="http://theasocial.com/articles/video/primitive-technology.html" />
-    <id>http://theasocial.com/articles/video/primitive-technology.html</id>
-    <published>2017-09-24T00:00:00Z</published>
-    <updated>2017-09-24T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info video">
-  
-  <img src="/images/articles/primitive-technology.jpg" alt=""/>
-  
-  
-  
-  <p class="abstract">NIHing to the max</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="https://www.youtube.com/watch?v=c2ExwOAjLNw">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        September 24, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://primitivetechnology.wordpress.com/">https://primitivetechnology.wordpress.com/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/video.html">video</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        NIH, DIY
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Somewhere in the bottom hemisphere, among koalas and wombats, a guy once thought: “this civilization sucks”. But instead of whining on the internet, he went into a forest, methodologically and silently building everything from scratch (i.e., without modern tools) out of mud and sticks. And videotaping it.</p>
-<p>Or maybe he liked the civilization so much that he wanted to learn how to rebuild it if something will go wrong. Or to role-play like those Amish people do, or as a religious thing, as Tolkien fans practice. Or to explore living independently from society, as Ted Kaczynski tried before exploring living in a prison. As a hobby or as a way to make some money, as an art project, as a bet, to show off, or whatever: there is a lot of perfectly valid reasons to go alone into a forest and start building everything out of mud, but we don’t know which one it was, because he doesn’t blabber in the videos. Okay, actually he writes that <a href="https://primitivetechnology.wordpress.com/about/">it’s a hobby</a>, but could have been about anything.</p>
-<p>It’s not just some dull stuff like stone tools, huts, and dress (though that too), but he also harnesses the fire, making pots, charcoal, chimneys, kilns, furnaces. No metal (not even copper) tools yet, but there is a bit of smelting experimentation, so he’s somewhere at <a href="https://en.wikipedia.org/wiki/Neolithic">Neolithic Era</a> level of development (see <a href="https://en.wikipedia.org/wiki/Timeline_of_historic_inventions">timeline of historic inventions</a> for an outline). It’s probably a long way from that to fancy stuff like any usable electronics, radio, and computers, even with the modern knowledge (but without modern physical tools or prepared materials), but the guy is fairly young, and probably has enough time for that ahead of him.</p>
-<p>The videos are quite impressive and interesting to watch, and probably it’s fun to work on: even though sometimes it takes hours to make a single hole in a log, it still looks more fun than to waste hours/days/months/years doing nothing in particular. And then he gets a log with a hole in it!</p>
-<p>As was mentioned, the guy is silent in <a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA/videos">the videos</a> (what makes them similar to creepy videos where other silent people do other weird stuff; anonymously until recently, too, <a href="https://en.wikipedia.org/wiki/Primitive_Technology">as wikipedia says</a>), but there are subtitles that explain what’s going on, what are the immediate goals of his actions. They are pretty informative, so don’t forget to run <code>youtube-dl</code> with the <code>--write-sub</code> option in order to grab subtitles along with the videos. The blog contains additional information on the projects.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Internet radios</title>
-    <link href="http://theasocial.com/articles/internet/internet-radios.html" />
-    <id>http://theasocial.com/articles/internet/internet-radios.html</id>
-    <published>2017-09-11T00:00:00Z</published>
-    <updated>2017-09-11T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info internet">
-  
-  <img src="/images/articles/shoutcast.png" alt=""/>
-  
-  
-  
-  <p class="abstract">And music discovery</p>
-  
-
-  <table>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        September 11, 2017
-      </td>
-    </tr>
-    
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/internet.html">internet</a>
-      </td>
-    </tr>
-    
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p>Music discovery is one of those activities with which a huge network with tons of information may be helpful. Unfortunately, the one we’ve got here mostly sucks, and about the best we get is the same radios as before, just using new technologies. “But wait!” you may object. “We have youtube, and last.fm, and myspace”. Well, yeah, but they are inefficient, with no way to improve them, and belong to the world of ads and misery. We’re not heading there.</p>
-<p>Then there are <a href="https://en.wikipedia.org/wiki/Compilation_album">compilation albums</a>, which may work for discovery, but the concept of an album is an artifact from the previous century, and particularly from the pre-internet part of it – when they just had to store a collection of songs using a single physical object, and to transfer the songs with it. They had radios and phones even then, but the quality of transmitted sound was far from that of original records.</p>
-<p>Actually there is a variety of ways to discover music, but listening to internet radios is one of them, so let’s finally get to that.</p>
-<h2 id="finding-radios">Finding radios</h2>
-<p>A naive internet user may try to find a decent radio by typing “internet radio” into a web search engine, but they are bound to discover loads of unusable—and often paywalled—crap that way. Individual stations are made invisible by huge services, and the huge services require monetization of their own.</p>
-<p>The solution is similar to that with software: one has to dive into the geekier depths of internet to find some enthusiasts who are trying to provide bullshit-free services. Those tend to hang around relevant technologies, mostly software in this case. Let’s see: FSF’s <a href="https://www.fsf.org/campaigns/playogg/en/">PlayOgg!</a> leads us to <a href="https://xiph.org/">xiph.org</a>, which provides a <a href="http://dir.xiph.org/">streaming directory</a>: a list of active streams with basic search and direct links to both playlists and the stations’ websites. Done.</p>
-<h2 id="how-it-works">How it works</h2>
-<p>The streams we saw announce themselves using “<a href="http://www.icecast.org/docs/icecast-2.4.1/yp.html">Yellow Pages</a>”. In case if you have ever wondered how media streaming works, it is as disappointing as most of the other human-made stuff. In most cases, it uses the same protocol that is used (and intended) to serve web pages, to serve data in the same formats as used for locally stored files. There’s just a bit of math involved in sound compression, but no magic around it otherwise. There is some patents-related mess when it comes to codecs though, and inconsistencies in software support, of course. For those interested in technical bits, <a href="https://xiph.org/">xiph.org</a> provides nice entry-level explanations and documentation.</p>
-<p>Regarding the overall operation, one can go through “about” sections of the listed radio stations. Some are regular radio stations with in-air ads, some accept donations and/or stick to indie bands that are happy to get promoted for free, and some are not exactly law-abiding. What leads us to the legal aspect of their working: <a href="https://en.wikipedia.org/wiki/Music_licensing">music licensing</a> is <a href="https://www.boutell.com/newfaq/creating/musicrights.html">a pain, and an expensive one</a> (the linked page is composed by the guy who <a href="https://boutell.com/newfaq/browser/needjavaandjavascript.html">claims</a> that JavaScript makes web browsing <em>less</em> painful, but probably he is not always wrong) – even when it is for non-commercial playback.</p>
-<p>Basically, people keep succeeding in complicating essentially simple things.</p>
-</div>
-]]></summary>
-</entry>
-<entry>
-    <title>Naev</title>
-    <link href="http://theasocial.com/articles/games/naev.html" />
-    <id>http://theasocial.com/articles/games/naev.html</id>
-    <published>2017-09-10T00:00:00Z</published>
-    <updated>2017-09-10T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info games">
-  
-  <img src="/images/articles/naev.png" alt=""/>
-  
-  
-  
-  <p class="abstract">Another space game</p>
-  
-
-  <table>
-    
-    <tr>
-      <th>
-        Image source
-      </th>
-      <td>
-        <a href="http://naev.org/">Image source</a>
-      </td>
-    </tr>
-    
-    
-    
-
-
-    
-    
-    <tr>
-      <th>
-        Article date
-      </th>
-      <td>
-        September 10, 2017
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        URI
-      </th>
-      <td>
-        <a href="https://blog.naev.org/">https://blog.naev.org/</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Category
-      </th>
-      <td>
-        <a class="cat" href="/categories/games.html">games</a>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      <th>
-        Tags
-      </th>
-      <td>
-        space
-      </td>
-    </tr>
-    
-    
-  </table>
-</div>
-
-<div id="article">
-  <p><a href="https://blog.naev.org/">Naev</a> is a space-themed adventure/RPG kind of game, akin to <a href="https://endless-sky.github.io/">endless sky</a> (2D top-down graphics, too) and somewhat similar to <a href="/articles/games/oolite.html">oolite</a>.</p>
-<p>The game features trading, combat, flights, and missions that are about trading, combat, and flights. The game also features lots of stars and planets, space ships, equipment, factions. All those things are made quite well, as is the overall game, comparing to other similar libre games.</p>
-<p>It is not particularly original, or fun, or anything, yet a fine game to kill some time with. The build process is nice and painless, it neither crashes nor hogs resources, the graphics and controls are fine: looks like the authors either knew what they are doing, or at least weren’t lazy to learn along the way (which is at least 10 years of development, with more than 13 thousand commits).</p>
 </div>
 ]]></summary>
 </entry>

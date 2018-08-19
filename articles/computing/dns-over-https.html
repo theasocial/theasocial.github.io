@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DNS-over-HTTPS – The Asocial</title>
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bloat.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+  </head>
+  <!--
+
+
+
+
+                                `-/+ssyhhhyyso+/.
+                            ./shddddddddddddddddddyo:`
+                         `+hddddddddhssodoosyhdddddddds:
+                       .sddddddy+:`    -d`     -/sddddddh+
+                     `odddddy/`        od/         -odddddh:
+                    -hddddy-           hdd           `+ddddds`
+                   /ddddd/            .ddd/            `yddddh`
+                  :ddddd.             +dmdd`             oddddh`
+                 `ddddd.              ddddd+              odddds
+                 odddd/              /dd:ydd.             `hdddm.
+                `ddddd              `hdd -mdy              /ddddo
+                .dddds              sdd/  ydd:             .mdddy
+                .mddds             /dds   -ddd`            `mdddh
+                `ddddh            :ddy`    odds            :dddds
+                 ydddm-          -ddmhdddyo:ddd/           ydddd:
+                 -mdddy`        :dddhsooshddmddd-         :ddddh
+                  odddds       :ddy-      .+ddddh.       -ddddd-
+                   sddddy.    +dds           /dddh`     /ddddd:
+                    oddddd+` oddh`            `oddy`  .yddddd-
+                     -hdddddyddd+               :ddh:sddddds`
+                      `+ddddddmm/                .dddddddy-
+                         /ydddddddys+/::::://os/  -dddds-
+                           .+ydddddddddddddddddd-  /s/`
+                               -/oshddddddddddys/
+                                      `...``
+
+
+
+    -->
+  <body>
+    <a href="../../" id="home">
+      <img src="../../images/logo.svg" alt="The Asocial" />
+    </a>
+    <div id="content">
+  
+  <h1 id="title">DNS-over-HTTPS</h1>
+  
+  <div class="info computing">
+  
+  <img src="../../images/articles/google.svg" alt />
+  
+  
+  
+  <p class="abstract">Another Google spawn</p>
+  
+
+  <table>
+    
+    
+    
+
+
+    
+    
+    <tr>
+      <th>
+        Article date
+      </th>
+      <td>
+        March 23, 2018
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <th>
+        Category
+      </th>
+      <td>
+        <a class="cat" href="../../categories/computing.html">computing</a>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+        Tags
+      </th>
+      <td>
+        breaking news, disaster
+      </td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+<div id="article">
+  <p>Google has spawned another monster, <a href="https://developers.google.com/speed/public-dns/docs/dns-over-https">DNS over HTTPS</a>. <a href="https://utcc.utoronto.ca/~cks/space/blog/web/FirefoxNoNightly">Mozilla already experiments on Firefox Nightly users</a> with sending their private data to <a href="../../articles/cloudflare.html">Cloudflare</a>, which is another one of early adopters. It’s probably time to start panicking, since that may be the future of DNS.</p>
+<h2 id="brief-dns-history">Brief DNS history</h2>
+<p><a href="https://en.wikipedia.org/wiki/DNS">DNS</a> usually works on top of UDP, though TCP is used for more important requests, and is defined even in <a href="https://tools.ietf.org/html/rfc1034">RFC 1034</a> from 1987, as well as in <a href="https://tools.ietf.org/html/rfc883">RFC 883</a> from 1983. It’s pretty simple and minimal, but lacks any means for verification and encryption, allowing a variety of attacks – as early network protocols did in general. Many of those are now used on top of <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> instead of TCP, which is a relatively easy transition.</p>
+<p>But not DNS.</p>
+<p><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> is an ongoing (since 1990s) effort to get DNS records signed by their authors without piggybacking on X.509 PKI (which <a href="../../internet/the-trustico-clusterfuck.html">has</a> its own <a href="../../internet/letsencrypt-public-beta.html">issues</a>) or anything else. Turns out it’s not such an easy task in the world where we can barely type, transmit, <em>or</em> display text messages, but after a few attempts they’ve got it more or less working on limited deployments. And it still doesn’t provide encryption.</p>
+<h2 id="a-new-proposal">A new proposal</h2>
+<p>Apparently <a href="systemd.html">Poettering</a> was busy, so Google decided to step in: get the poor thing, and add the needed features, but in the worst way imaginable – if you have a good imagination, that is.</p>
+<p>Just adding TLS would be a no-brainer, but Google had to come up with a way to make it more awkward and ads-friendly at once. So they’ve wrapped it in HTTP and in JSON, apparently targeting in-browser JS: no more simple system-wide hosts-based blocking of ads and trackers.</p>
+<p>Then they’ve decided to have some fun with the corpse of <a href="https://en.wikipedia.org/wiki/OSI_model">the OSI model</a>, by engaging into the popular activity of turning the layers inside out, and duplicating their functionality: meet <code>random_padding</code> inside JSON, on top of HTTP, on top of TLS, which by itself can (and should) handle it!</p>
+<p>Our <a href="../../articles/internet/pimp-my-code-issue-3.html">Pimp My Code</a> team still has a thing or two to learn from those guys.</p>
+</div>
+
+</div>
+
+    <div id="footer">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+      Commons Attribution 4.0 International License</a>.
+    </div>
+  </body>
+</html>
